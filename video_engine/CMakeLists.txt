@@ -7,33 +7,33 @@ include_directories(../ modules/remote_bitrate_estimator ./include ./)
 
 set (VIE_SRC 
 	vie_network_impl.cc
-	veruse_frame_detector.cc
+	overuse_frame_detector.cc
 	vie_encoder.cc
 	vie_input_manager.cc
-	call_stats_unittest.cc
+	#call_stats_unittest.cc
 	vie_sender.cc
 	stream_synchronization.cc
 	vie_render_manager.cc
 	vie_channel_group.cc
 	vie_sync_module.cc
 	vie_external_codec_impl.cc
-	overuse_frame_detector_unittest.cc
+	#overuse_frame_detector_unittest.cc
 	vie_capture_impl.cc
 	vie_base_impl.cc
 	vie_frame_provider_base.cc
-	stream_synchronization_unittest.cc
+	#stream_synchronization_unittest.cc
 	vie_capturer.cc
 	vie_rtp_rtcp_impl.cc
 	vie_impl.cc
 	vie_channel_manager.cc
-	encoder_state_feedback_unittest.cc
+	#encoder_state_feedback_unittest.cc
 	vie_remb.cc
 	call_stats.cc
-	vie_codec_unittest.cc
+	#vie_codec_unittest.cc
 	vie_ref_count.cc
 	encoder_state_feedback.cc
 	vie_codec_impl.cc
-	vie_remb_unittest.cc
+	#vie_remb_unittest.cc
 	vie_channel.cc
 	vie_render_impl.cc
 	vie_manager_base.cc
