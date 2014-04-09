@@ -13,13 +13,13 @@
 
 #include <string>
 
-#include "webrtc/common_types.h"
-#include "webrtc/frame_callback.h"
-#include "webrtc/modules/remote_bitrate_estimator/rate_statistics.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_receive_stream.h"
-#include "webrtc/video_renderer.h"
+#include "common_types.h"
+#include "frame_callback.h"
+#include "modules/remote_bitrate_estimator/rate_statistics.h"
+#include "video_engine/include/vie_codec.h"
+#include "video_engine/include/vie_rtp_rtcp.h"
+#include "video_receive_stream.h"
+#include "video_renderer.h"
 
 namespace webrtc {
 

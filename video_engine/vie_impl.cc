@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_impl.h"
+#include "vie_impl.h"
 
-#include "webrtc/common.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../common.h"
+#include "../system_wrappers/interface/trace.h"
 
 #ifdef WEBRTC_ANDROID
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
-#include "webrtc/modules/video_render/include/video_render.h"
+#include "../modules/video_capture/include/video_capture_factory.h"
+#include "../modules/video_render/include/video_render.h"
 #endif
 
 namespace webrtc {

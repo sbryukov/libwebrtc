@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_LINUX_VIDEO_RENDER_LINUX_IMPL_H_
 #define WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_LINUX_VIDEO_RENDER_LINUX_IMPL_H_
 
-#include "webrtc/modules/video_render/i_video_render.h"
+#include "modules/video_render/i_video_render.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

@@ -12,16 +12,16 @@
 // vie_autotest_render.cc
 //
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
+#include "../engine_configurations.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
 
-#include "webrtc/modules/video_render/include/video_render.h"
+#include "../modules/video_render/include/video_render.h"
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_capture_device.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_interfaces.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_video_channel.h"
+#include "../common_video/libyuv/include/webrtc_libyuv.h"
+#include "test/libvietest/include/tb_capture_device.h"
+#include "test/libvietest/include/tb_interfaces.h"
+#include "test/libvietest/include/tb_video_channel.h"
 
 #if defined(WIN32)
 #include <ddraw.h>

@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_AMR_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_AMR_H_
 
-#include "webrtc/modules/audio_coding/main/source/acm_generic_codec.h"
+#include "modules/audio_coding/main/source/acm_generic_codec.h"
 
 // forward declaration
 struct AMR_encinst_t_;

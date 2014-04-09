@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_DESKTOP_CAPTURE_MOUSE_CURSOR_H_
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_MOUSE_CURSOR_H_
 
-#include "webrtc/modules/desktop_capture/desktop_geometry.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_geometry.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

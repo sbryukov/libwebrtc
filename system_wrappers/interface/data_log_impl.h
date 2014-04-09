@@ -22,8 +22,8 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "scoped_ptr.h"
+#include "../../typedefs.h"
 
 namespace webrtc {
 

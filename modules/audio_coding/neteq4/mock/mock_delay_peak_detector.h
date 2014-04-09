@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_DELAY_PEAK_DETECTOR_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_DELAY_PEAK_DETECTOR_H_
 
-#include "webrtc/modules/audio_coding/neteq4/delay_peak_detector.h"
+#include "modules/audio_coding/neteq4/delay_peak_detector.h"
 
 #include "gmock/gmock.h"
 

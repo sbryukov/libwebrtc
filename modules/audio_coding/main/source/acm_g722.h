@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_G722_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_G722_H_
 
-#include "webrtc/modules/audio_coding/main/source/acm_generic_codec.h"
+#include "modules/audio_coding/main/source/acm_generic_codec.h"
 
 typedef struct WebRtcG722EncInst G722EncInst;
 typedef struct WebRtcG722DecInst G722DecInst;

@@ -11,8 +11,8 @@
 #include <string>
 #include <vector>
 #include "gtest/gtest.h"
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_framework.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_framework.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 

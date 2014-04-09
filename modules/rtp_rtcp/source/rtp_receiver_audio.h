@@ -13,12 +13,12 @@
 
 #include <set>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_receiver_strategy.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/source/rtp_receiver_strategy.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

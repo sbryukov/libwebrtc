@@ -13,7 +13,7 @@
 
 #import <UIKit/UIKit.h>
 
-#include "webrtc/modules/video_capture/ios/video_capture_ios.h"
+#include "modules/video_capture/ios/video_capture_ios.h"
 
 // The following class listens to a notification with name:
 // 'StatusBarOrientationDidChange'.

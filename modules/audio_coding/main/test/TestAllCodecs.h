@@ -11,12 +11,12 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_TEST_TESTALLCODECS_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_TEST_TESTALLCODECS_H_
 
-#include "webrtc/common.h"
-#include "webrtc/modules/audio_coding/main/test/ACMTest.h"
-#include "webrtc/modules/audio_coding/main/test/Channel.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "common.h"
+#include "modules/audio_coding/main/test/ACMTest.h"
+#include "modules/audio_coding/main/test/Channel.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

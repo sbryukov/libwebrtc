@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_CALL_STATISTICS_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_CALL_STATISTICS_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/interface/module_common_types.h"
+#include "common_types.h"
+#include "modules/interface/module_common_types.h"
 
 //
 // This class is for book keeping of calls to ACM. It is not useful to log API

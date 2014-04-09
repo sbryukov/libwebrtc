@@ -10,10 +10,10 @@
 #ifndef WEBRTC_VIDEO_ENGINE_TEST_COMMON_VCM_CAPTURER_H_
 #define WEBRTC_VIDEO_ENGINE_TEST_COMMON_VCM_CAPTURER_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_capture/include/video_capture.h"
-#include "webrtc/test/video_capturer.h"
+#include "common_types.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_capture/include/video_capture.h"
+#include "test/video_capturer.h"
 
 namespace webrtc {
 namespace test {

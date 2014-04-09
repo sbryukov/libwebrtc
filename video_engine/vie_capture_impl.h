@@ -11,10 +11,10 @@
 #ifndef WEBRTC_VIDEO_ENGINE_VIE_CAPTURE_IMPL_H_
 #define WEBRTC_VIDEO_ENGINE_VIE_CAPTURE_IMPL_H_
 
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_capture.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_ref_count.h"
+#include "../typedefs.h"
+#include "include/vie_capture.h"
+#include "vie_defines.h"
+#include "vie_ref_count.h"
 
 namespace webrtc {
 

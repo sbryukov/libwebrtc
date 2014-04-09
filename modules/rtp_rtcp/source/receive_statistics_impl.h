@@ -11,13 +11,13 @@
 #ifndef WEBRTC_MODULES_RTP_RTCP_SOURCE_RECEIVE_STATISTICS_IMPL_H_
 #define WEBRTC_MODULES_RTP_RTCP_SOURCE_RECEIVE_STATISTICS_IMPL_H_
 
-#include "webrtc/modules/rtp_rtcp/interface/receive_statistics.h"
+#include "modules/rtp_rtcp/interface/receive_statistics.h"
 
 #include <algorithm>
 
-#include "webrtc/modules/rtp_rtcp/source/bitrate.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/rtp_rtcp/source/bitrate.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

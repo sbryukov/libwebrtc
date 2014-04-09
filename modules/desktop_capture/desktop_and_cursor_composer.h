@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_AND_CURSOR_COMPOSER_H_
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_AND_CURSOR_COMPOSER_H_
 
-#include "webrtc/modules/desktop_capture/desktop_capturer.h"
-#include "webrtc/modules/desktop_capture/mouse_cursor_monitor.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_capturer.h"
+#include "modules/desktop_capture/mouse_cursor_monitor.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

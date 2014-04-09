@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/audio_processing/debug.pb.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "audio_processing/debug.pb.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -17,9 +17,9 @@
 #include <list>
 #include <string>
 
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/video_engine/include/vie_render.h"
+#include "../system_wrappers/interface/constructor_magic.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "include/vie_render.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

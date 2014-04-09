@@ -11,10 +11,10 @@
 #ifndef WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_CONTENT_ANALYSIS_H
 #define WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_CONTENT_ANALYSIS_H
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing_defines.h"
-#include "webrtc/typedefs.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_processing/main/interface/video_processing_defines.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

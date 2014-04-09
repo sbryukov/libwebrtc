@@ -8,21 +8,21 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_channel_group.h"
+#include "vie_channel_group.h"
 
-#include "webrtc/common.h"
-#include "webrtc/experiments.h"
-#include "webrtc/modules/bitrate_controller/include/bitrate_controller.h"
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/video_engine/call_stats.h"
-#include "webrtc/video_engine/encoder_state_feedback.h"
-#include "webrtc/video_engine/vie_channel.h"
-#include "webrtc/video_engine/vie_encoder.h"
-#include "webrtc/video_engine/vie_remb.h"
+#include "../common.h"
+#include "../experiments.h"
+#include "../modules/bitrate_controller/include/bitrate_controller.h"
+#include "../modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/trace.h"
+#include "call_stats.h"
+#include "encoder_state_feedback.h"
+#include "vie_channel.h"
+#include "vie_encoder.h"
+#include "vie_remb.h"
 
 namespace webrtc {
 namespace {

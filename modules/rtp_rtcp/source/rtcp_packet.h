@@ -14,9 +14,9 @@
 
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/source/rtcp_utility.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/source/rtcp_utility.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace rtcp {

@@ -13,10 +13,10 @@
 
 #include <queue>
 
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

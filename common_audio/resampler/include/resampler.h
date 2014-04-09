@@ -16,7 +16,7 @@
 #ifndef WEBRTC_RESAMPLER_RESAMPLER_H_
 #define WEBRTC_RESAMPLER_RESAMPLER_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc
 {

@@ -11,14 +11,14 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_TEST_APITEST_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_TEST_APITEST_H_
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_coding/main/test/ACMTest.h"
-#include "webrtc/modules/audio_coding/main/test/Channel.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
-#include "webrtc/modules/audio_coding/main/test/utility.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/test/ACMTest.h"
+#include "modules/audio_coding/main/test/Channel.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
+#include "modules/audio_coding/main/test/utility.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

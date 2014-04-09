@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_OPUS_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_OPUS_H_
 
-#include "webrtc/common_audio/resampler/include/resampler.h"
-#include "webrtc/modules/audio_coding/main/source/acm_generic_codec.h"
+#include "common_audio/resampler/include/resampler.h"
+#include "modules/audio_coding/main/source/acm_generic_codec.h"
 
 struct WebRtcOpusEncInst;
 struct WebRtcOpusDecInst;

@@ -11,8 +11,8 @@
 #ifndef WEBRTC_COMMON_AUDIO_RESAMPLER_INCLUDE_PUSH_RESAMPLER_H_
 #define WEBRTC_COMMON_AUDIO_RESAMPLER_INCLUDE_PUSH_RESAMPLER_H_
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

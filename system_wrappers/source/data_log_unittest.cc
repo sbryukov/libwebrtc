@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/data_log.h"
+#include "../interface/data_log.h"
 
 #include <map>
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/data_log_c.h"
-#include "webrtc/system_wrappers/source/data_log_c_helpers_unittest.h"
+#include "../interface/data_log_c.h"
+#include "data_log_c_helpers_unittest.h"
 
 using ::webrtc::DataLog;
 

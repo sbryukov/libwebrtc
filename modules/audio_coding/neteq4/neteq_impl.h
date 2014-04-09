@@ -13,17 +13,17 @@
 
 #include <vector>
 
-#include "webrtc/modules/audio_coding/neteq4/audio_multi_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/defines.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/packet.h"  // Declare PacketList.
-#include "webrtc/modules/audio_coding/neteq4/random_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/rtcp.h"
-#include "webrtc/modules/audio_coding/neteq4/statistics_calculator.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/thread_annotations.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/audio_multi_vector.h"
+#include "modules/audio_coding/neteq4/defines.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/packet.h"  // Declare PacketList.
+#include "modules/audio_coding/neteq4/random_vector.h"
+#include "modules/audio_coding/neteq4/rtcp.h"
+#include "modules/audio_coding/neteq4/statistics_calculator.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/thread_annotations.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

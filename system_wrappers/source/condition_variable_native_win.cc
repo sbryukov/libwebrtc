@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/source/condition_variable_native_win.h"
-#include "webrtc/system_wrappers/source/critical_section_win.h"
+#include "../interface/trace.h"
+#include "condition_variable_native_win.h"
+#include "critical_section_win.h"
 
 namespace webrtc {
 

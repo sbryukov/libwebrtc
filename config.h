@@ -16,8 +16,8 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

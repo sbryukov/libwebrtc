@@ -11,10 +11,10 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
-#include "webrtc/modules/video_coding/main/test/rtp_player.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/video_coding/main/interface/video_coding_defines.h"
+#include "modules/video_coding/main/test/rtp_player.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 class NullEventFactory;
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/source/file_impl.h"
+#include "file_impl.h"
 
 #include <assert.h>
 
@@ -19,7 +19,7 @@
 #include <string.h>
 #endif
 
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
+#include "../interface/rw_lock_wrapper.h"
 
 namespace webrtc {
 

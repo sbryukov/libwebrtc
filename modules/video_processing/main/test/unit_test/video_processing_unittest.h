@@ -12,9 +12,9 @@
 #define WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_TEST_UNIT_TEST_VIDEO_PROCESSING_UNITTEST_H
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/video_processing/main/interface/video_processing.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

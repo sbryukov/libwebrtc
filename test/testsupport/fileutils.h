@@ -28,15 +28,15 @@
 //
 // Then here's some example outputs for different platforms:
 // Linux:
-// * Source tree located in /home/user/webrtc/trunk
-// * Test project located in /home/user/webrtc/trunk/src/testproject
+// * Source tree located in /home/user/trunk
+// * Test project located in /home/user/trunk/src/testproject
 // * Test binary compiled as:
-//   /home/user/webrtc/trunk/out/Debug/testproject_unittests
-// Then ProjectRootPath() will return /home/user/webrtc/trunk/ no matter if
+//   /home/user/trunk/out/Debug/testproject_unittests
+// Then ProjectRootPath() will return /home/user/trunk/ no matter if
 // the test binary is executed from standing in either of:
-// /home/user/webrtc/trunk
+// /home/user/trunk
 // or
-// /home/user/webrtc/trunk/out/Debug
+// /home/user/trunk/out/Debug
 // (or any other directory below the trunk for that matter).
 //
 // Windows:
@@ -50,15 +50,15 @@
 // prompt standing in C:\Users\user\webrtc\trunk\src\testproject\Debug
 //
 // Mac:
-// * Source tree located in /Users/user/webrtc/trunk
-// * Test project located in /Users/user/webrtc/trunk/src/testproject
+// * Source tree located in /Users/user/trunk
+// * Test project located in /Users/user/trunk/src/testproject
 // * Test binary compiled as:
-//   /Users/user/webrtc/trunk/xcodebuild/Debug/testproject_unittests
-// Then ProjectRootPath() will return /Users/user/webrtc/trunk/ no matter if
+//   /Users/user/trunk/xcodebuild/Debug/testproject_unittests
+// Then ProjectRootPath() will return /Users/user/trunk/ no matter if
 // the test binary is executed from standing in either of:
-// /Users/user/webrtc/trunk
+// /Users/user/trunk
 // or
-// /Users/user/webrtc/trunk/out/Debug
+// /Users/user/trunk/out/Debug
 // (or any other directory below the trunk for that matter).
 
 #ifndef WEBRTC_TEST_TESTSUPPORT_FILEUTILS_H_

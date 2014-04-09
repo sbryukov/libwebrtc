@@ -11,9 +11,9 @@
 #ifndef WEBRTC_VOICE_ENGINE_MONITOR_MODULE_H
 #define WEBRTC_VOICE_ENGINE_MONITOR_MODULE_H
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "modules/interface/module.h"
+#include "typedefs.h"
+#include "voice_engine/voice_engine_defines.h"
 
 class MonitorObserver
 {

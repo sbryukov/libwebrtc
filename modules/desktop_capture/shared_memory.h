@@ -17,8 +17,8 @@
 #include <windows.h>
 #endif
 
-#include "webrtc/typedefs.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 

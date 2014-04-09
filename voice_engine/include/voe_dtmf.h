@@ -33,7 +33,7 @@
 #ifndef WEBRTC_VOICE_ENGINE_VOE_DTMF_H
 #define WEBRTC_VOICE_ENGINE_VOE_DTMF_H
 
-#include "webrtc/common_types.h"
+#include "common_types.h"
 
 namespace webrtc {
 

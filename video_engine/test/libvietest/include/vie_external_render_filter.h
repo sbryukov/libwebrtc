@@ -10,8 +10,8 @@
 #ifndef WEBRTC_VIDEO_ENGINE_TEST_LIBVIETEST_INCLUDE_VIE_EXTERNAL_RENDER_H_
 #define WEBRTC_VIDEO_ENGINE_TEST_LIBVIETEST_INCLUDE_VIE_EXTERNAL_RENDER_H_
 
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/video_engine/include/vie_render.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "include/vie_render.h"
 
 namespace webrtc {
 

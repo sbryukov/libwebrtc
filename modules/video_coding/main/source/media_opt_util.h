@@ -14,11 +14,11 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/modules/video_coding/main/source/qm_select.h"
-#include "webrtc/modules/video_coding/utility/include/exp_filter.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "modules/video_coding/main/source/qm_select.h"
+#include "modules/video_coding/utility/include/exp_filter.h"
+#include "system_wrappers/interface/trace.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace media_optimization {

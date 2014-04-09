@@ -13,10 +13,10 @@
 
 #include <list>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/source/packet.h"
-#include "webrtc/typedefs.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/source/packet.h"
+#include "typedefs.h"
 
 namespace webrtc {
 // Used to pass data from jitter buffer to session info.

@@ -13,11 +13,11 @@
 
 #include <string>
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/input_audio_file.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/rtp_generator.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/tools/input_audio_file.h"
+#include "modules/audio_coding/neteq4/tools/rtp_generator.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

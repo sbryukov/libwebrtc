@@ -11,11 +11,11 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_NETEQ_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_NETEQ_H_
 
-#include "webrtc/common_audio/vad/include/webrtc_vad.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/vad/include/webrtc_vad.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq.h"
+#include "modules/interface/module_common_types.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

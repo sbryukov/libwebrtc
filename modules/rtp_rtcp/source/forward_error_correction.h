@@ -14,10 +14,10 @@
 #include <list>
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/scoped_refptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

@@ -23,7 +23,7 @@
 #import <Foundation/Foundation.h>
 #import <QTKit/QTKit.h>
 
-#include "webrtc/modules/video_capture/mac/qtkit/video_capture_qtkit.h"
+#include "modules/video_capture/mac/qtkit/video_capture_qtkit.h"
 
 @interface VideoCaptureMacQTKitObjC : NSObject {
   bool _capturing;

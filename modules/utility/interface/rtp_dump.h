@@ -16,8 +16,8 @@
 #ifndef WEBRTC_MODULES_UTILITY_INTERFACE_RTP_DUMP_H_
 #define WEBRTC_MODULES_UTILITY_INTERFACE_RTP_DUMP_H_
 
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class RtpDump

@@ -12,14 +12,14 @@
 // vie_autotest_network.cc
 //
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
+#include "../engine_configurations.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
 
-#include "webrtc/video_engine/test/libvietest/include/tb_capture_device.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_external_transport.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_interfaces.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_video_channel.h"
+#include "test/libvietest/include/tb_capture_device.h"
+#include "test/libvietest/include/tb_external_transport.h"
+#include "test/libvietest/include/tb_interfaces.h"
+#include "test/libvietest/include/tb_video_channel.h"
 
 #if defined(_WIN32)
 #include <qos.h>
@@ -430,7 +430,7 @@ void ViEAutoTest::ViENetworkAPITest()
 #if defined(_WIN32)
         // These tests are disabled since they currently fail on Windows.
         // Exact reason is unkown.
-        // See https://code.google.com/p/webrtc/issues/detail?id=1266.
+        // See https://code.google.com/p/../issues/detail?id=1266.
         // TODO(mflodman): remove these APIs?
 
         //// No socket

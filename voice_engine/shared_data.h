@@ -11,13 +11,13 @@
 #ifndef WEBRTC_VOICE_ENGINE_SHARED_DATA_H
 #define WEBRTC_VOICE_ENGINE_SHARED_DATA_H
 
-#include "webrtc/modules/audio_device/include/audio_device.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/voice_engine/channel_manager.h"
-#include "webrtc/voice_engine/statistics.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "modules/audio_device/include/audio_device.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/utility/interface/process_thread.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "voice_engine/channel_manager.h"
+#include "voice_engine/statistics.h"
+#include "voice_engine/voice_engine_defines.h"
 
 class ProcessThread;
 

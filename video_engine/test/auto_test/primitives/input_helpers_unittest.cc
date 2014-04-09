@@ -9,8 +9,8 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/video_engine/test/auto_test/primitives/fake_stdin.h"
-#include "webrtc/video_engine/test/auto_test/primitives/input_helpers.h"
+#include "test/auto_test/primitives/fake_stdin.h"
+#include "test/auto_test/primitives/input_helpers.h"
 
 namespace webrtc {
 

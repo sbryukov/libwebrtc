@@ -11,12 +11,12 @@
 #ifndef WEBRTC_SYSTEM_WRAPPERS_SOURCE_TRACE_IMPL_H_
 #define WEBRTC_SYSTEM_WRAPPERS_SOURCE_TRACE_IMPL_H_
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/static_instance.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/critical_section_wrapper.h"
+#include "../interface/event_wrapper.h"
+#include "../interface/file_wrapper.h"
+#include "../interface/static_instance.h"
+#include "../interface/thread_wrapper.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 

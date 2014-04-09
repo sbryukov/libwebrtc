@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/data_log.h"
+#include "../interface/data_log.h"
 
 #include <assert.h>
 
 #include <algorithm>
 #include <list>
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "../interface/critical_section_wrapper.h"
+#include "../interface/event_wrapper.h"
+#include "../interface/file_wrapper.h"
+#include "../interface/rw_lock_wrapper.h"
+#include "../interface/thread_wrapper.h"
 
 namespace webrtc {
 

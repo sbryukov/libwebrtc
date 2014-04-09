@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_COLOR_ENHANCEMENT_PRIVATE_H_
 #define WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_COLOR_ENHANCEMENT_PRIVATE_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace VideoProcessing {

@@ -12,7 +12,7 @@
 #define WEBRTC_VOICE_ENGINE_INCLUDE_MOCK_MOCK_VOE_VOLUME_CONTROL_H_
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "voice_engine/include/voe_volume_control.h"
 
 namespace webrtc {
 

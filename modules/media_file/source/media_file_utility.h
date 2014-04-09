@@ -14,8 +14,8 @@
 
 #include <stdio.h>
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/media_file/interface/media_file_defines.h"
+#include "common_types.h"
+#include "modules/media_file/interface/media_file_defines.h"
 
 namespace webrtc {
 class AviFile;

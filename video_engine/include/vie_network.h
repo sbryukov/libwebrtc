@@ -19,7 +19,7 @@
 //  - Packet timeout notification.
 //  - Dead‐or‐Alive connection observations.
 
-#include "webrtc/common_types.h"
+#include "../../common_types.h"
 
 namespace webrtc {
 

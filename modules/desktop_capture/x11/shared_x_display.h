@@ -19,8 +19,8 @@
 
 #include <string>
 
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/scoped_refptr.h"
 
 namespace webrtc {
 

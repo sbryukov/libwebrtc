@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_DENOISING_H_
 #define WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_DENOISING_H_
 
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_processing/main/interface/video_processing.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

@@ -14,7 +14,7 @@
 // no equivalent to DCHECK_EQ in WebRTC code so this is the best we can do here.
 // TODO(henrike): add logging when pthread synchronization APIs are failing.
 
-#include "webrtc/system_wrappers/source/critical_section_posix.h"
+#include "critical_section_posix.h"
 
 namespace webrtc {
 

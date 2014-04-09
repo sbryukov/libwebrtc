@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_types.h"
+#include "../common_types.h"
 
 namespace webrtc {
 

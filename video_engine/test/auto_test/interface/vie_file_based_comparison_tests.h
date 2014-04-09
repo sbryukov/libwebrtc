@@ -13,7 +13,7 @@
 
 #include <string>
 
-#include "webrtc/video_engine/test/auto_test/primitives/general_primitives.h"
+#include "test/auto_test/primitives/general_primitives.h"
 
 class FrameDropDetector;
 struct NetworkParameters;

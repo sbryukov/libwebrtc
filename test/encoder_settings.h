@@ -10,7 +10,7 @@
 #ifndef WEBRTC_TEST_ENCODER_SETTINGS_H_
 #define WEBRTC_TEST_ENCODER_SETTINGS_H_
 
-#include "webrtc/video_send_stream.h"
+#include "video_send_stream.h"
 
 namespace webrtc {
 namespace test {

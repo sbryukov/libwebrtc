@@ -13,7 +13,7 @@
 
 #include <list>
 
-#include "webrtc/modules/video_render/include/video_render.h"
+#include "modules/video_render/include/video_render.h"
 
 namespace webrtc {
 

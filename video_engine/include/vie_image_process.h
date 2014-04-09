@@ -17,7 +17,7 @@
 #ifndef WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_IMAGE_PROCESS_H_
 #define WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_IMAGE_PROCESS_H_
 
-#include "webrtc/common_types.h"
+#include "../../common_types.h"
 
 namespace webrtc {
 

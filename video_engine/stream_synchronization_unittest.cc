@@ -12,7 +12,7 @@
 #include <math.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/video_engine/stream_synchronization.h"
+#include "stream_synchronization.h"
 
 namespace webrtc {
 

@@ -14,8 +14,8 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/video_coding/main/interface/video_coding_defines.h"
 
 namespace webrtc {
 class Clock;

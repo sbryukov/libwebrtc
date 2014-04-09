@@ -26,7 +26,7 @@
 #ifndef WEBRTC_SYSTEM_WRAPPERS_INTERFACE_EVENT_TRACER_H_
 #define WEBRTC_SYSTEM_WRAPPERS_INTERFACE_EVENT_TRACER_H_
 
-#include "webrtc/common_types.h"
+#include "../../common_types.h"
 
 namespace webrtc {
 

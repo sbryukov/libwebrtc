@@ -11,7 +11,7 @@
 #ifndef WEBRTC_TEST_TESTSUPPORT_PACKET_READER_H_
 #define WEBRTC_TEST_TESTSUPPORT_PACKET_READER_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

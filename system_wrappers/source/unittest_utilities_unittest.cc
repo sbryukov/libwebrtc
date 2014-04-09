@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/source/unittest_utilities.h"
+#include "unittest_utilities.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 

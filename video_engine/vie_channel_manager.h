@@ -14,14 +14,14 @@
 #include <list>
 #include <map>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_engine/vie_channel_group.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_manager_base.h"
-#include "webrtc/video_engine/vie_remb.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../typedefs.h"
+#include "include/vie_rtp_rtcp.h"
+#include "vie_channel_group.h"
+#include "vie_defines.h"
+#include "vie_manager_base.h"
+#include "vie_remb.h"
 
 namespace webrtc {
 

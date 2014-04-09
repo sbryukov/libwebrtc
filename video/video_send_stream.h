@@ -11,13 +11,13 @@
 #ifndef WEBRTC_VIDEO_VIDEO_SEND_STREAM_H_
 #define WEBRTC_VIDEO_VIDEO_SEND_STREAM_H_
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/video/encoded_frame_callback_adapter.h"
-#include "webrtc/video/send_statistics_proxy.h"
-#include "webrtc/video/transport_adapter.h"
-#include "webrtc/video_receive_stream.h"
-#include "webrtc/video_send_stream.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "video/encoded_frame_callback_adapter.h"
+#include "video/send_statistics_proxy.h"
+#include "video/transport_adapter.h"
+#include "video_receive_stream.h"
+#include "video_send_stream.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 

@@ -10,17 +10,17 @@
 
 #include <iostream>  // NOLINT
 
-#include "webrtc/common_types.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/video_engine/include/vie_capture.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_network.h"
-#include "webrtc/video_engine/include/vie_render.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_external_transport.h"
-#include "webrtc/voice_engine/include/voe_base.h"
+#include "../common_types.h"
+#include "include/vie_base.h"
+#include "include/vie_capture.h"
+#include "include/vie_codec.h"
+#include "include/vie_network.h"
+#include "include/vie_render.h"
+#include "include/vie_rtp_rtcp.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/libvietest/include/tb_external_transport.h"
+#include "../voice_engine/include/voe_base.h"
 
 enum RelayMode {
   kRelayOneStream = 1,

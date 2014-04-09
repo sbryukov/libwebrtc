@@ -14,7 +14,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-#include "webrtc/modules/video_render/ios/open_gles20.h"
+#include "modules/video_render/ios/open_gles20.h"
 
 @interface VideoRenderIosView : UIView {
  @private  // NOLINT

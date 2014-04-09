@@ -11,8 +11,8 @@
 #ifndef WEBRTC_VOICE_ENGINE_DTMF_INBAND_H_
 #define WEBRTC_VOICE_ENGINE_DTMF_INBAND_H_
 
-#include "webrtc/typedefs.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "typedefs.h"
+#include "voice_engine/voice_engine_defines.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

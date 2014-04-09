@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/test/auto_test/automated/two_windows_fixture.h"
+#include "test/auto_test/automated/two_windows_fixture.h"
 
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_window_manager_interface.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_window_creator.h"
+#include "test/auto_test/interface/vie_autotest_window_manager_interface.h"
+#include "test/auto_test/interface/vie_window_creator.h"
 
 void TwoWindowsFixture::SetUpTestCase() {
   window_creator_ = new ViEWindowCreator();

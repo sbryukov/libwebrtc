@@ -14,17 +14,17 @@
 #include <list>
 #include <map>
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/bitrate_controller/include/bitrate_controller.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/thread_annotations.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/frame_callback.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_frame_provider_base.h"
+#include "../common_types.h"
+#include "../modules/bitrate_controller/include/bitrate_controller.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "../modules/video_coding/main/interface/video_coding_defines.h"
+#include "../modules/video_processing/main/interface/video_processing.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../system_wrappers/interface/thread_annotations.h"
+#include "../typedefs.h"
+#include "../frame_callback.h"
+#include "vie_defines.h"
+#include "vie_frame_provider_base.h"
 
 namespace webrtc {
 

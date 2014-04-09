@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_RESAMPLER_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_RESAMPLER_H_
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

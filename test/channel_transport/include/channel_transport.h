@@ -11,7 +11,7 @@
 #ifndef WEBRTC_TEST_CHANNEL_TRANSPORT_INCLUDE_CHANNEL_TRANSPORT_H_
 #define WEBRTC_TEST_CHANNEL_TRANSPORT_INCLUDE_CHANNEL_TRANSPORT_H_
 
-#include "webrtc/test/channel_transport/udp_transport.h"
+#include "test/channel_transport/udp_transport.h"
 
 namespace webrtc {
 

@@ -11,12 +11,12 @@
 #ifndef WEBRTC_SYSTEM_WRAPPERS_SOURCE_THREAD_WIN_H_
 #define WEBRTC_SYSTEM_WRAPPERS_SOURCE_THREAD_WIN_H_
 
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "../interface/thread_wrapper.h"
 
 #include <windows.h>
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
+#include "../interface/critical_section_wrapper.h"
+#include "../interface/event_wrapper.h"
 
 namespace webrtc {
 

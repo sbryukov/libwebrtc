@@ -8,24 +8,24 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_capturer.h"
+#include "vie_capturer.h"
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
-#include "webrtc/video_engine/include/vie_image_process.h"
-#include "webrtc/video_engine/overuse_frame_detector.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_encoder.h"
+#include "../common_video/libyuv/include/webrtc_libyuv.h"
+#include "../modules/interface/module_common_types.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../modules/video_capture/include/video_capture_factory.h"
+#include "../modules/video_processing/main/interface/video_processing.h"
+#include "../modules/video_render/include/video_render_defines.h"
+#include "../system_wrappers/interface/clock.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/event_wrapper.h"
+#include "../system_wrappers/interface/thread_wrapper.h"
+#include "../system_wrappers/interface/trace.h"
+#include "../system_wrappers/interface/trace_event.h"
+#include "include/vie_image_process.h"
+#include "overuse_frame_detector.h"
+#include "vie_defines.h"
+#include "vie_encoder.h"
 
 namespace webrtc {
 

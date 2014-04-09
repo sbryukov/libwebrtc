@@ -11,11 +11,11 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_GENERIC_ENCODER_H_
 #define WEBRTC_MODULES_VIDEO_CODING_GENERIC_ENCODER_H_
 
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
 
 #include <stdio.h>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

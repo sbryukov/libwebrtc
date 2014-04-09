@@ -8,17 +8,17 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_remb.h"
+#include "vie_remb.h"
 
 #include <assert.h>
 
 #include <algorithm>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "../system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

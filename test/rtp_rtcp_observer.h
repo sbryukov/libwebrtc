@@ -15,9 +15,9 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_send_stream.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "typedefs.h"
+#include "video_send_stream.h"
 
 namespace webrtc {
 namespace test {

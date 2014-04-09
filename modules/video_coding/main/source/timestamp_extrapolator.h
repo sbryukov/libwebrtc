@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_TIMESTAMP_EXTRAPOLATOR_H_
 #define WEBRTC_MODULES_VIDEO_CODING_TIMESTAMP_EXTRAPOLATOR_H_
 
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "typedefs.h"
 
 namespace webrtc
 {

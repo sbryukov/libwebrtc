@@ -11,7 +11,7 @@
 #ifndef WEBRTC_VIDEO_ENGINE_TEST_AUTO_TEST_AUTOMATED_VIE_LEGACY_FIXTURE_H_
 #define WEBRTC_VIDEO_ENGINE_TEST_AUTO_TEST_AUTOMATED_VIE_LEGACY_FIXTURE_H_
 
-#include "webrtc/video_engine/test/auto_test/automated/two_windows_fixture.h"
+#include "test/auto_test/automated/two_windows_fixture.h"
 
 // Inherited by old-style standard integration tests based on ViEAutoTest.
 class LegacyFixture : public TwoWindowsFixture {

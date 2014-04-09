@@ -12,18 +12,18 @@
 // vie_autotest.cc
 //
 
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest.h"
 
 #include <stdio.h>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/video_render/include/video_render.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/auto_test/primitives/general_primitives.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_capture_device.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_interfaces.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_video_channel.h"
+#include "../engine_configurations.h"
+#include "../modules/video_render/include/video_render.h"
+#include "../test/testsupport/fileutils.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/auto_test/primitives/general_primitives.h"
+#include "test/libvietest/include/tb_capture_device.h"
+#include "test/libvietest/include/tb_interfaces.h"
+#include "test/libvietest/include/tb_video_channel.h"
 
 DEFINE_bool(include_timing_dependent_tests, true,
             "If true, we will include tests / parts of tests that are known "

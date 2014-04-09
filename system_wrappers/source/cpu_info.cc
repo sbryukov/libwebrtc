@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/cpu_info.h"
+#include "../interface/cpu_info.h"
 
 #if defined(_WIN32)
 #include <Windows.h>
@@ -19,7 +19,7 @@
 #include <unistd.h>
 #endif
 
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 

@@ -13,12 +13,12 @@
 
 #include <deque>
 
-#include "webrtc/common_types.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/voice_engine/test/auto_test/fixtures/before_initialization_fixture.h"
+#include "common_types.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "voice_engine/test/auto_test/fixtures/before_initialization_fixture.h"
 
 class TestErrorObserver;
 

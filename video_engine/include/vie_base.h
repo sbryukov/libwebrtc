@@ -19,7 +19,7 @@
 #ifndef WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_BASE_H_
 #define WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_BASE_H_
 
-#include "webrtc/common_types.h"
+#include "../../common_types.h"
 
 #if defined(ANDROID) && !defined(WEBRTC_CHROMIUM_BUILD)
 #include <jni.h>

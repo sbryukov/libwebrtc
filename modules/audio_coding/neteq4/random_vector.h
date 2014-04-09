@@ -13,8 +13,8 @@
 
 #include <string.h>  // size_t
 
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

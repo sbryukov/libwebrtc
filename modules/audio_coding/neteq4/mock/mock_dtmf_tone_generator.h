@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_DTMF_TONE_GENERATOR_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_DTMF_TONE_GENERATOR_H_
 
-#include "webrtc/modules/audio_coding/neteq4/dtmf_tone_generator.h"
+#include "modules/audio_coding/neteq4/dtmf_tone_generator.h"
 
 #include "gmock/gmock.h"
 

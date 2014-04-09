@@ -12,7 +12,7 @@
 #define COMMON_VIDEO_INTERFACE_VIDEO_IMAGE_H
 
 #include <stdlib.h>
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc
 {

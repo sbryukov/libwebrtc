@@ -77,7 +77,7 @@ static __inline int16_t WebRtcSpl_AddSatW16(int16_t a, int16_t b) {
 }
 
 /* TODO(kma): find the cause of unittest errors by the next two functions:
- * http://code.google.com/p/webrtc/issues/detail?id=740.
+ * http://code.google.com/p/issues/detail?id=740.
  */
 #if 0
 static __inline int32_t WebRtcSpl_AddSatW32(int32_t l_var1, int32_t l_var2) {

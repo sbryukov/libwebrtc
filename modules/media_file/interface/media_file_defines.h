@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_MEDIA_FILE_INTERFACE_MEDIA_FILE_DEFINES_H_
 #define WEBRTC_MODULES_MEDIA_FILE_INTERFACE_MEDIA_FILE_DEFINES_H_
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/typedefs.h"
+#include "engine_configurations.h"
+#include "modules/interface/module_common_types.h"
+#include "typedefs.h"
 
 namespace webrtc {
 // Callback class for the MediaFile class.

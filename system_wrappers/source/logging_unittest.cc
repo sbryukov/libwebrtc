@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "../interface/logging.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/condition_variable_wrapper.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/condition_variable_wrapper.h"
+#include "../interface/critical_section_wrapper.h"
+#include "../interface/scoped_ptr.h"
+#include "../interface/sleep.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 namespace {

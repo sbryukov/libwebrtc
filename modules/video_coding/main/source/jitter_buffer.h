@@ -16,16 +16,16 @@
 #include <set>
 #include <vector>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
-#include "webrtc/modules/video_coding/main/source/decoding_state.h"
-#include "webrtc/modules/video_coding/main/source/inter_frame_delay.h"
-#include "webrtc/modules/video_coding/main/source/jitter_buffer_common.h"
-#include "webrtc/modules/video_coding/main/source/jitter_estimator.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/interface/video_coding_defines.h"
+#include "modules/video_coding/main/source/decoding_state.h"
+#include "modules/video_coding/main/source/inter_frame_delay.h"
+#include "modules/video_coding/main/source/jitter_buffer_common.h"
+#include "modules/video_coding/main/source/jitter_estimator.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

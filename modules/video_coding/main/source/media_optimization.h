@@ -13,12 +13,12 @@
 
 #include <list>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/source/media_opt_util.h"
-#include "webrtc/modules/video_coding/main/source/qm_select.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/source/media_opt_util.h"
+#include "modules/video_coding/main/source/qm_select.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

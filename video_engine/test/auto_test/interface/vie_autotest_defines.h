@@ -23,8 +23,8 @@
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/sleep.h"
 
 #if defined(_WIN32)
 #include <windows.h>

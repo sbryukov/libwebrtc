@@ -12,9 +12,9 @@
 
 #include <string>
 
-#include "webrtc/modules/audio_device/include/fake_audio_device.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_device/include/fake_audio_device.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

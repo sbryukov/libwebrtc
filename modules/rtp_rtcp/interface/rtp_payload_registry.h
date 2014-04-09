@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_RTP_RTCP_INTERFACE_RTP_PAYLOAD_REGISTRY_H_
 #define WEBRTC_MODULES_RTP_RTCP_INTERFACE_RTP_PAYLOAD_REGISTRY_H_
 
-#include "webrtc/modules/rtp_rtcp/source/rtp_receiver_strategy.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/rtp_rtcp/source/rtp_receiver_strategy.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

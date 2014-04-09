@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 

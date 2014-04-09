@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/engine_configurations.h"
+#include "engine_configurations.h"
 
 #if defined(CARBON_RENDERING)
 
 #ifndef WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_MAC_VIDEO_RENDER_AGL_H_
 #define WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_MAC_VIDEO_RENDER_AGL_H_
 
-#include "webrtc/modules/video_render/include/video_render_defines.h"
+#include "modules/video_render/include/video_render_defines.h"
 
 #define NEW_HIVIEW_PARENT_EVENT_HANDLER 1
 #define NEW_HIVIEW_EVENT_HANDLER 1

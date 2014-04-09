@@ -12,7 +12,7 @@
 #define WEBRTC_TEST_MOCK_TRANSPORT_H_
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/transport.h"
+#include "transport.h"
 
 namespace webrtc {
 

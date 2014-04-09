@@ -9,18 +9,18 @@
  */
 
 // Placed first to get WEBRTC_VIDEO_ENGINE_FILE_API.
-#include "webrtc/engine_configurations.h"
+#include "../engine_configurations.h"
 
 #ifdef WEBRTC_VIDEO_ENGINE_FILE_API
 
-#include "webrtc/video_engine/vie_file_image.h"
+#include "vie_file_image.h"
 
 #include <stdio.h>  // NOLINT
 
-#include "webrtc/common_video/interface/video_image.h"
-#include "webrtc/common_video/jpeg/include/jpeg.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../common_video/interface/video_image.h"
+#include "../common_video/jpeg/include/jpeg.h"
+#include "../common_video/libyuv/include/webrtc_libyuv.h"
+#include "../system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

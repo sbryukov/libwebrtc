@@ -16,8 +16,8 @@
 #include <fstream>
 #include <string>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
 
 class CodecTest
 {

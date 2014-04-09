@@ -10,8 +10,8 @@
 #ifndef WEBRTC_COMMON_VIDEO_TEST_FRAME_GENERATOR_H_
 #define WEBRTC_COMMON_VIDEO_TEST_FRAME_GENERATOR_H_
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/typedefs.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

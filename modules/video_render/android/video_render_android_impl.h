@@ -15,7 +15,7 @@
 
 #include <map>
 
-#include "webrtc/modules/video_render/i_video_render.h"
+#include "modules/video_render/i_video_render.h"
 
 
 namespace webrtc {

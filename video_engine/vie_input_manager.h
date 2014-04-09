@@ -13,13 +13,13 @@
 
 #include <map>
 
-#include "webrtc/modules/video_capture/include/video_capture.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_capture.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_frame_provider_base.h"
-#include "webrtc/video_engine/vie_manager_base.h"
+#include "../modules/video_capture/include/video_capture.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../typedefs.h"
+#include "include/vie_capture.h"
+#include "vie_defines.h"
+#include "vie_frame_provider_base.h"
+#include "vie_manager_base.h"
 
 namespace webrtc {
 

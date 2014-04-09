@@ -13,9 +13,9 @@
 
 #include <list>
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "../modules/interface/module.h"
+#include "../system_wrappers/interface/constructor_magic.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -13,19 +13,19 @@
 
 #include <list>
 
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_network.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_frame_provider_base.h"
-#include "webrtc/video_engine/vie_receiver.h"
-#include "webrtc/video_engine/vie_sender.h"
-#include "webrtc/video_engine/vie_sync_module.h"
+#include "../modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "../modules/video_coding/main/interface/video_coding_defines.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "../typedefs.h"
+#include "include/vie_network.h"
+#include "include/vie_rtp_rtcp.h"
+#include "vie_defines.h"
+#include "vie_frame_provider_base.h"
+#include "vie_receiver.h"
+#include "vie_sender.h"
+#include "vie_sync_module.h"
 
 namespace webrtc {
 

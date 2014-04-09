@@ -10,9 +10,9 @@
 #ifndef WEBRTC_VIDEO_ENGINE_TEST_COMMON_FRAME_GENERATOR_CAPTURER_H_
 #define WEBRTC_VIDEO_ENGINE_TEST_COMMON_FRAME_GENERATOR_CAPTURER_H_
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/video_capturer.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/video_capturer.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

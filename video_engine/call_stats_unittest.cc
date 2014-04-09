@@ -11,10 +11,10 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/video_engine/call_stats.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "call_stats.h"
 
 using ::testing::_;
 using ::testing::AnyNumber;

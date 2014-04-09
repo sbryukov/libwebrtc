@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_TOOLS_NETEQ_PERFORMANCE_TEST_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_TOOLS_NETEQ_PERFORMANCE_TEST_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <list>
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

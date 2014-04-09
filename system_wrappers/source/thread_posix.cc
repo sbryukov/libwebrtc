@@ -42,7 +42,7 @@
 //            Run.start(false)
 //            Run.exit(true)
 
-#include "webrtc/system_wrappers/source/thread_posix.h"
+#include "thread_posix.h"
 
 #include <algorithm>
 
@@ -58,10 +58,10 @@
 #include <sys/types.h>
 #endif
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../interface/critical_section_wrapper.h"
+#include "../interface/event_wrapper.h"
+#include "../interface/sleep.h"
+#include "../interface/trace.h"
 
 namespace webrtc {
 

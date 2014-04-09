@@ -15,8 +15,8 @@
 
 #include <string>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 namespace testing {

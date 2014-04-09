@@ -11,10 +11,10 @@
 #ifndef WEBRTC_VIDEO_ENGINE_VIE_RENDER_IMPL_H_
 #define WEBRTC_VIDEO_ENGINE_VIE_RENDER_IMPL_H_
 
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_render.h"
-#include "webrtc/video_engine/vie_ref_count.h"
+#include "../modules/video_render/include/video_render_defines.h"
+#include "../typedefs.h"
+#include "include/vie_render.h"
+#include "vie_ref_count.h"
 
 namespace webrtc {
 

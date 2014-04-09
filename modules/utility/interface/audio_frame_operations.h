@@ -11,7 +11,7 @@
 #ifndef WEBRTC_VOICE_ENGINE_AUDIO_FRAME_OPERATIONS_H_
 #define WEBRTC_VOICE_ENGINE_AUDIO_FRAME_OPERATIONS_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

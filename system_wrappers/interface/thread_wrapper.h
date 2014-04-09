@@ -16,8 +16,8 @@
 #ifndef WEBRTC_SYSTEM_WRAPPERS_INTERFACE_THREAD_WRAPPER_H_
 #define WEBRTC_SYSTEM_WRAPPERS_INTERFACE_THREAD_WRAPPER_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/typedefs.h"
+#include "../../common_types.h"
+#include "../../typedefs.h"
 
 namespace webrtc {
 

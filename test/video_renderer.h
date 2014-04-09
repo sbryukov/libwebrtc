@@ -12,7 +12,7 @@
 
 #include <stddef.h>
 
-#include "webrtc/video_renderer.h"
+#include "video_renderer.h"
 
 namespace webrtc {
 namespace test {

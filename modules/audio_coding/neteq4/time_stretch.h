@@ -14,9 +14,9 @@
 #include <assert.h>
 #include <string.h>  // memset, size_t
 
-#include "webrtc/modules/audio_coding/neteq4/audio_multi_vector.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/audio_multi_vector.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

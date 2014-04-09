@@ -16,9 +16,9 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_ACM_CODEC_DATABASE_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_ACM_CODEC_DATABASE_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_generic_codec.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/acm2/acm_generic_codec.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
 
 namespace webrtc {
 

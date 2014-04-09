@@ -12,7 +12,7 @@
 #define WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_WINDOWS_VIDEO_RENDER_DIRECT3D9_H_
 
 // WebRtc includes
-#include "webrtc/modules/video_render/windows/i_video_render_win.h"
+#include "modules/video_render/windows/i_video_render_win.h"
 
 #include <d3d9.h>
 #include <d3dx9.h>
@@ -21,7 +21,7 @@
 #include <Map>
 
 // Added
-#include "webrtc/modules/video_render/include/video_render_defines.h"
+#include "modules/video_render/include/video_render_defines.h"
 
 #pragma comment(lib, "d3d9.lib")       // located in DirectX SDK
 

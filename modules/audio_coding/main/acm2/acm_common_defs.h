@@ -13,10 +13,10 @@
 
 #include <string.h>
 
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "typedefs.h"
 
 // Checks for enabled codecs, we prevent enabling codecs which are not
 // compatible.

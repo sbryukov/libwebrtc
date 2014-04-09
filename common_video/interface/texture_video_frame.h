@@ -15,10 +15,10 @@
 //
 // Storing and handling of video frames backed by textures.
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/common_video/interface/native_handle.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
-#include "webrtc/typedefs.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "common_video/interface/native_handle.h"
+#include "system_wrappers/interface/scoped_refptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

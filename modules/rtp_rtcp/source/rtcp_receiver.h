@@ -15,12 +15,12 @@
 #include <vector>
 #include <set>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/rtp_rtcp/source/rtcp_receiver_help.h"
-#include "webrtc/modules/rtp_rtcp/source/rtcp_utility.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/modules/rtp_rtcp/source/tmmbr_help.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/source/rtcp_receiver_help.h"
+#include "modules/rtp_rtcp/source/rtcp_utility.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "modules/rtp_rtcp/source/tmmbr_help.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class ModuleRtpRtcpImpl;

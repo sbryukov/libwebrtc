@@ -13,10 +13,10 @@
 
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/interface/module.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

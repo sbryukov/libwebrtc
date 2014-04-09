@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_VIDEO_CAPTURE_IOS_VIDEO_CAPTURE_IOS_H_
 #define WEBRTC_MODULES_VIDEO_CAPTURE_IOS_VIDEO_CAPTURE_IOS_H_
 
-#include "webrtc/modules/video_capture/video_capture_impl.h"
+#include "modules/video_capture/video_capture_impl.h"
 
 @class RTCVideoCaptureIosObjC;
 

@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/test/libvietest/include/tb_I420_codec.h"
+#include "test/libvietest/include/tb_I420_codec.h"
 
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
+#include "../common_video/libyuv/include/webrtc_libyuv.h"
 
 TbI420Encoder::TbI420Encoder() :
     _inited(false), _encodedImage(), _encodedCompleteCallback(NULL)

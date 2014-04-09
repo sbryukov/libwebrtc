@@ -15,8 +15,8 @@
 #include <map>
 #endif
 
-#include "webrtc/system_wrappers/interface/static_instance.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/static_instance.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

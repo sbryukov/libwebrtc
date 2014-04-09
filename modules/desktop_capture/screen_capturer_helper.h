@@ -11,10 +11,10 @@
 #ifndef WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURER_HELPER_H_
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURER_HELPER_H_
 
-#include "webrtc/modules/desktop_capture/desktop_geometry.h"
-#include "webrtc/modules/desktop_capture/desktop_region.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_geometry.h"
+#include "modules/desktop_capture/desktop_region.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

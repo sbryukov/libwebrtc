@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/clock.h"
+#include "../interface/clock.h"
 
 #if defined(_WIN32)
 // Windows needs to be included before mmsystem.h
@@ -20,7 +20,7 @@
 #include <time.h>
 #endif
 
-#include "webrtc/system_wrappers/interface/tick_util.h"
+#include "../interface/tick_util.h"
 
 namespace webrtc {
 

@@ -13,8 +13,8 @@
 #include <string>
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/modules/video_coding/utility/include/frame_dropper.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_coding/utility/include/frame_dropper.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

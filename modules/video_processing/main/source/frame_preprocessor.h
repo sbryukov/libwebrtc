@@ -14,11 +14,11 @@
 #ifndef WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_FRAME_PREPROCESSOR_H
 #define WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_FRAME_PREPROCESSOR_H
 
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/modules/video_processing/main/source/content_analysis.h"
-#include "webrtc/modules/video_processing/main/source/spatial_resampler.h"
-#include "webrtc/modules/video_processing/main/source/video_decimator.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_processing/main/interface/video_processing.h"
+#include "modules/video_processing/main/source/content_analysis.h"
+#include "modules/video_processing/main/source/spatial_resampler.h"
+#include "modules/video_processing/main/source/video_decimator.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

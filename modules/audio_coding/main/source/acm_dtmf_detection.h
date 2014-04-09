@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_DTMF_DETECTION_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_SOURCE_ACM_DTMF_DETECTION_H_
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/audio_coding/main/source/acm_resampler.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/audio_coding/main/source/acm_resampler.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

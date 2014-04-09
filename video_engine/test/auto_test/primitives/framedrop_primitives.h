@@ -14,10 +14,10 @@
 #include <map>
 #include <vector>
 
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_image_process.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
+#include "include/vie_codec.h"
+#include "include/vie_image_process.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
 
 class FrameDropDetector;
 struct NetworkParameters;

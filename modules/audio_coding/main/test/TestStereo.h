@@ -13,10 +13,10 @@
 
 #include <math.h>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/modules/audio_coding/main/test/ACMTest.h"
-#include "webrtc/modules/audio_coding/main/test/Channel.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "modules/audio_coding/main/test/ACMTest.h"
+#include "modules/audio_coding/main/test/Channel.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
 
 namespace webrtc {
 

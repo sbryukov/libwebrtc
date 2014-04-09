@@ -15,9 +15,9 @@
 //
 // Storing and handling of YUV (I420) video frames.
 
-#include "webrtc/common_video/plane.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
-#include "webrtc/typedefs.h"
+#include "common_video/plane.h"
+#include "system_wrappers/interface/scoped_refptr.h"
+#include "typedefs.h"
 
 /*
  *  I420VideoFrame includes support for a reference counted impl.

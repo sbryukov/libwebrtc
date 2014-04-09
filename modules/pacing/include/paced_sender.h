@@ -14,10 +14,10 @@
 #include <list>
 #include <set>
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/typedefs.h"
+#include "modules/interface/module.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

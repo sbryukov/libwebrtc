@@ -14,12 +14,12 @@
 
 #include <deque>
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/test/fake_network_pipe.h"
-#include "webrtc/transport.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "test/fake_network_pipe.h"
+#include "transport.h"
 
 namespace webrtc {
 

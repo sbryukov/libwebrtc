@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/overuse_frame_detector.h"
+#include "overuse_frame_detector.h"
 
 #include <assert.h>
 #include <math.h>
@@ -16,10 +16,10 @@
 #include <algorithm>
 #include <list>
 
-#include "webrtc/modules/video_coding/utility/include/exp_filter.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../modules/video_coding/utility/include/exp_filter.h"
+#include "../system_wrappers/interface/clock.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

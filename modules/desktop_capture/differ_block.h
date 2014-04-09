@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_DESKTOP_CAPTURE_DIFFER_BLOCK_H_
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_DIFFER_BLOCK_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

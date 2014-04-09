@@ -15,11 +15,11 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/config.h"
-#include "webrtc/frame_callback.h"
-#include "webrtc/transport.h"
-#include "webrtc/video_renderer.h"
+#include "common_types.h"
+#include "config.h"
+#include "frame_callback.h"
+#include "transport.h"
+#include "video_renderer.h"
 
 namespace webrtc {
 

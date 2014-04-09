@@ -12,8 +12,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_TEMPORAL_LAYERS_H_
 #define WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_TEMPORAL_LAYERS_H_
 
-#include "webrtc/common_video/interface/video_image.h"
-#include "webrtc/typedefs.h"
+#include "common_video/interface/video_image.h"
+#include "typedefs.h"
 
 // libvpx forward declaration.
 typedef struct vpx_codec_enc_cfg vpx_codec_enc_cfg_t;

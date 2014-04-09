@@ -11,14 +11,14 @@
 #ifndef WEBRTC_VOICE_ENGINE_OUTPUT_MIXER_H_
 #define WEBRTC_VOICE_ENGINE_OUTPUT_MIXER_H_
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_conference_mixer/interface/audio_conference_mixer.h"
-#include "webrtc/modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
-#include "webrtc/modules/utility/interface/file_recorder.h"
-#include "webrtc/voice_engine/dtmf_inband.h"
-#include "webrtc/voice_engine/level_indicator.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "common_types.h"
+#include "modules/audio_conference_mixer/interface/audio_conference_mixer.h"
+#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "modules/utility/interface/file_recorder.h"
+#include "voice_engine/dtmf_inband.h"
+#include "voice_engine/level_indicator.h"
+#include "voice_engine/voice_engine_defines.h"
 
 namespace webrtc {
 

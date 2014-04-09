@@ -11,20 +11,20 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_VIDEO_CODING_IMPL_H_
 #define WEBRTC_MODULES_VIDEO_CODING_VIDEO_CODING_IMPL_H_
 
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/interface/video_coding.h"
 
 #include <vector>
 
-#include "webrtc/modules/video_coding/main/source/codec_database.h"
-#include "webrtc/modules/video_coding/main/source/frame_buffer.h"
-#include "webrtc/modules/video_coding/main/source/generic_decoder.h"
-#include "webrtc/modules/video_coding/main/source/generic_encoder.h"
-#include "webrtc/modules/video_coding/main/source/jitter_buffer.h"
-#include "webrtc/modules/video_coding/main/source/media_optimization.h"
-#include "webrtc/modules/video_coding/main/source/receiver.h"
-#include "webrtc/modules/video_coding/main/source/timing.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "modules/video_coding/main/source/codec_database.h"
+#include "modules/video_coding/main/source/frame_buffer.h"
+#include "modules/video_coding/main/source/generic_decoder.h"
+#include "modules/video_coding/main/source/generic_encoder.h"
+#include "modules/video_coding/main/source/jitter_buffer.h"
+#include "modules/video_coding/main/source/media_optimization.h"
+#include "modules/video_coding/main/source/receiver.h"
+#include "modules/video_coding/main/source/timing.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 

@@ -14,9 +14,9 @@
 #include <list>
 #include <map>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/vie_manager_base.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../typedefs.h"
+#include "vie_manager_base.h"
 
 namespace webrtc {
 

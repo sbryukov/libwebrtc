@@ -16,10 +16,10 @@
 #ifndef WEBRTC_VOICE_ENGINE_VOICE_ENGINE_DEFINES_H
 #define WEBRTC_VOICE_ENGINE_VOICE_ENGINE_DEFINES_H
 
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "system_wrappers/interface/logging.h"
 
 // ----------------------------------------------------------------------------
 //  Enumerators

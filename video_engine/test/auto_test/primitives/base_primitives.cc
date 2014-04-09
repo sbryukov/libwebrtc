@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/test/auto_test/primitives/base_primitives.h"
+#include "test/auto_test/primitives/base_primitives.h"
 
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_external_transport.h"
+#include "../modules/video_capture/include/video_capture_factory.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/libvietest/include/tb_external_transport.h"
 
 static void ConfigureCodecsToI420(int video_channel,
                                   webrtc::VideoCodec video_codec,

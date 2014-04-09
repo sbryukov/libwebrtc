@@ -9,14 +9,14 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
-#include "webrtc/video_engine/test/auto_test/automated/legacy_fixture.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
+#include "../test/testsupport/gtest_disable.h"
+#include "test/auto_test/automated/legacy_fixture.h"
+#include "test/auto_test/interface/vie_autotest.h"
 
 namespace {
 
 // TODO(phoglund): These tests are generally broken on mac.
-// http://code.google.com/p/webrtc/issues/detail?id=1268
+// http://code.google.com/p/../issues/detail?id=1268
 class DISABLED_ON_MAC(ViEExtendedIntegrationTest) : public LegacyFixture {
 };
 
@@ -30,7 +30,7 @@ TEST_F(DISABLED_ON_MAC(ViEExtendedIntegrationTest),
   tests_->ViECaptureExtendedTest();
 }
 
-// Flaky on Windows: http://code.google.com/p/webrtc/issues/detail?id=1925
+// Flaky on Windows: http://code.google.com/p/../issues/detail?id=1925
 // (in addition to being disabled on Mac due to webrtc:1268).
 #if defined(_WIN32)
 #define MAYBE_RunsCodecTestWithoutErrors DISABLED_RunsCodecTestWithoutErrors

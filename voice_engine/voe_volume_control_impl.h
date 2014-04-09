@@ -11,9 +11,9 @@
 #ifndef WEBRTC_VOICE_ENGINE_VOE_VOLUME_CONTROL_IMPL_H
 #define WEBRTC_VOICE_ENGINE_VOE_VOLUME_CONTROL_IMPL_H
 
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "voice_engine/include/voe_volume_control.h"
 
-#include "webrtc/voice_engine/shared_data.h"
+#include "voice_engine/shared_data.h"
 
 namespace webrtc {
 

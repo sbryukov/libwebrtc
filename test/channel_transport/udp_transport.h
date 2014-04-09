@@ -11,13 +11,13 @@
 #ifndef WEBRTC_TEST_CHANNEL_TRANSPORT_UDP_TRANSPORT_H_
 #define WEBRTC_TEST_CHANNEL_TRANSPORT_UDP_TRANSPORT_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "typedefs.h"
 
 /*
  *  WARNING
  *  This code is not use in production/testing and might have security issues
- *  for example: http://code.google.com/p/webrtc/issues/detail?id=1028
+ *  for example: http://code.google.com/p/issues/detail?id=1028
  *
  */
 

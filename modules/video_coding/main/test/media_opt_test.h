@@ -15,12 +15,12 @@
 
 #include <string>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/test/receiver_tests.h"  // receive side callbacks
-#include "webrtc/modules/video_coding/main/test/test_callbacks.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/modules/video_coding/main/test/video_source.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/test/receiver_tests.h"  // receive side callbacks
+#include "modules/video_coding/main/test/test_callbacks.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "modules/video_coding/main/test/video_source.h"
 
 // media optimization test
 // This test simulates a complete encode-decode cycle via the RTP module.

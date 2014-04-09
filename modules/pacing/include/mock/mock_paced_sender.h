@@ -15,7 +15,7 @@
 
 #include <vector>
 
-#include "webrtc/modules/pacing/include/paced_sender.h"
+#include "modules/pacing/include/paced_sender.h"
 
 namespace webrtc {
 

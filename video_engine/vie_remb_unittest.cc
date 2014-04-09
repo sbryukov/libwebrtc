@@ -16,12 +16,12 @@
 
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/rtp_rtcp/mocks/mock_rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/video_engine/vie_remb.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/rtp_rtcp/mocks/mock_rtp_rtcp.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "vie_remb.h"
 
 using ::testing::_;
 using ::testing::AnyNumber;

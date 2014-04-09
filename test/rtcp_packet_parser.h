@@ -15,8 +15,8 @@
 #include <map>
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/source/rtcp_utility.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/source/rtcp_utility.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

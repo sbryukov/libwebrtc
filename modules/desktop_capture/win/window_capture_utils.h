@@ -10,7 +10,7 @@
 
 #include <windows.h>
 
-#include "webrtc/modules/desktop_capture/desktop_geometry.h"
+#include "modules/desktop_capture/desktop_geometry.h"
 
 namespace webrtc {
 

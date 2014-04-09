@@ -14,8 +14,8 @@
 #include <GL/glx.h>
 #include <X11/Xlib.h>
 
-#include "webrtc/test/gl/gl_renderer.h"
-#include "webrtc/typedefs.h"
+#include "test/gl/gl_renderer.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

@@ -13,8 +13,8 @@
 
 #include <map>
 #include <stdio.h>
-#include "webrtc/typedefs.h"
-#include "webrtc/modules/interface/module_common_types.h"
+#include "typedefs.h"
+#include "modules/interface/module_common_types.h"
 
 enum stereoModes {
     stereoModeMono,

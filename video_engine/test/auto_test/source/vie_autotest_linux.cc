@@ -11,15 +11,15 @@
 //
 // vie_autotest_linux.cc
 //
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_linux.h"
+#include "test/auto_test/interface/vie_autotest_linux.h"
 
 #include <string>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_main.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/thread_wrapper.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/auto_test/interface/vie_autotest_main.h"
 
 ViEAutoTestWindowManager::ViEAutoTestWindowManager()
     : _hdsp1(NULL),

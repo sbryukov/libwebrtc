@@ -13,9 +13,9 @@
 
 #include "testing/gmock/include/gmock/gmock.h"
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/interface/module.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
 
 namespace webrtc {
 

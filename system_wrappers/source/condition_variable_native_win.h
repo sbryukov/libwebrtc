@@ -13,7 +13,7 @@
 
 #include <windows.h>
 
-#include "webrtc/system_wrappers/interface/condition_variable_wrapper.h"
+#include "../interface/condition_variable_wrapper.h"
 
 namespace webrtc {
 

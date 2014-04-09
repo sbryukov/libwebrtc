@@ -14,9 +14,9 @@
 #include <vector>
 #include <map>
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/gtest_prod_util.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/gtest_prod_util.h"
 
 //
 // The Nack class keeps track of the lost packets, an estimate of time-to-play

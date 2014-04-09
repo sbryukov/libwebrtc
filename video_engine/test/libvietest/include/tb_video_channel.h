@@ -11,8 +11,8 @@
 #ifndef WEBRTC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_INTERFACE_TB_VIDEO_CHANNEL_H_
 #define WEBRTC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_INTERFACE_TB_VIDEO_CHANNEL_H_
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_interfaces.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "test/libvietest/include/tb_interfaces.h"
 
 namespace webrtc {
 namespace test {

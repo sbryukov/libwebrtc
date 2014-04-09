@@ -11,9 +11,9 @@
 #ifndef WEBRTC_TEST_FAKE_COMMON_H_
 #define WEBRTC_TEST_FAKE_COMMON_H_
 
-// Borrowed from libjingle's talk/media/webrtc/fakewebrtccommon.h.
+// Borrowed from libjingle's talk/media/fakewebrtccommon.h.
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 #define WEBRTC_STUB(method, args) \
   virtual int method args OVERRIDE { return 0; }

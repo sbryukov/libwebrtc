@@ -12,7 +12,7 @@
 #define WEBRTC_MODULES_REMOTE_BITRATE_ESTIMATOR_TEST_BWE_TEST_LOGGING_H_
 
 // To enable BWE logging, run this command from trunk/ :
-// build/gyp_chromium --depth=. webrtc/modules/modules.gyp
+// build/gyp_chromium --depth=. modules/modules.gyp
 //   -Denable_bwe_test_logging=1
 #ifndef BWE_TEST_LOGGING_COMPILE_TIME_ENABLE
 #define BWE_TEST_LOGGING_COMPILE_TIME_ENABLE 0
@@ -98,9 +98,9 @@
 #include <stack>
 #include <string>
 
-#include "webrtc/common_types.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "common_types.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 #define BWE_TEST_LOGGING_GLOBAL_CONTEXT(name) \
     do { \

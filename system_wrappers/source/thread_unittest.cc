@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "../interface/thread_wrapper.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "../interface/scoped_ptr.h"
 
 namespace webrtc {
 

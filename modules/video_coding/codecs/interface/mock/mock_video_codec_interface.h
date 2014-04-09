@@ -14,8 +14,8 @@
 #include <string>
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

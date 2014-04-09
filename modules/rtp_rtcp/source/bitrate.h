@@ -15,10 +15,10 @@
 
 #include <list>
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_rtcp_config.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "modules/rtp_rtcp/source/rtp_rtcp_config.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

@@ -13,8 +13,8 @@
 
 #include <vector>
 
-#include "webrtc/modules/desktop_capture/desktop_region.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_region.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

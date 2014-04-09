@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_TOOLS_RTP_GENERATOR_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_TOOLS_RTP_GENERATOR_H_
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/typedefs.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

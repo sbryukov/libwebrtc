@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
 
 #include <assert.h>
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/event_wrapper.h"
+#include "../system_wrappers/interface/thread_wrapper.h"
 
 namespace test {
 struct Frame {

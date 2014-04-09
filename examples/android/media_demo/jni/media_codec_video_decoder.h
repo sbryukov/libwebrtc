@@ -13,8 +13,8 @@
 
 #include <jni.h>
 
-#include "webrtc/examples/android/media_demo/jni/jni_helpers.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "examples/android/media_demo/jni/jni_helpers.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
 
 namespace webrtc {
 

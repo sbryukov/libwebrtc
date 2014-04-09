@@ -11,7 +11,7 @@
 #ifndef WEBRTC_ENGINE_CONFIGURATIONS_H_
 #define WEBRTC_ENGINE_CONFIGURATIONS_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 // ============================================================================
 //                              Voice and Video

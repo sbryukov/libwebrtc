@@ -11,7 +11,7 @@
 #ifndef WEBRTC_VIDEO_ENGINE_VIE_DEFINES_H_
 #define WEBRTC_VIDEO_ENGINE_VIE_DEFINES_H_
 
-#include "webrtc/engine_configurations.h"
+#include "../engine_configurations.h"
 
 // TODO(mflodman) Remove.
 #ifdef WEBRTC_ANDROID

@@ -8,21 +8,21 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_channel_manager.h"
+#include "vie_channel_manager.h"
 
-#include "webrtc/common.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/video_engine/call_stats.h"
-#include "webrtc/video_engine/encoder_state_feedback.h"
-#include "webrtc/video_engine/vie_channel.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_engine/vie_encoder.h"
-#include "webrtc/video_engine/vie_remb.h"
-#include "webrtc/voice_engine/include/voe_video_sync.h"
+#include "../common.h"
+#include "../engine_configurations.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/trace.h"
+#include "call_stats.h"
+#include "encoder_state_feedback.h"
+#include "vie_channel.h"
+#include "vie_defines.h"
+#include "vie_encoder.h"
+#include "vie_remb.h"
+#include "../voice_engine/include/voe_video_sync.h"
 
 namespace webrtc {
 

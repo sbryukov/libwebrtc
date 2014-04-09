@@ -16,7 +16,7 @@
 * This file includes parameters for content-aware media optimization
 ****************************************************************/
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 //

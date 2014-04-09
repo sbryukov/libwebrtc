@@ -15,7 +15,7 @@
 
 #include <list>
 
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 

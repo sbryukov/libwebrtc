@@ -12,7 +12,7 @@
 #define WEBRTC_EXAMPLES_ANDROID_MEDIA_DEMO_JNI_JNI_HELPERS_H_
 
 // TODO(henrike): this file contains duplication with regards to
-// talk/app/webrtc/java/jni/peerconnection_jni.cc. When/if code can be shared
+// talk/app/java/jni/peerconnection_jni.cc. When/if code can be shared
 // between trunk/talk and trunk/webrtc remove the duplication.
 
 #include <android/log.h>

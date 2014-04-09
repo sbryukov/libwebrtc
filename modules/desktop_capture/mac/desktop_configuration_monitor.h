@@ -15,9 +15,9 @@
 
 #include <set>
 
-#include "webrtc/modules/desktop_capture/mac/desktop_configuration.h"
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/mac/desktop_configuration.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -15,7 +15,7 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace {
 

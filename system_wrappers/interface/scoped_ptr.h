@@ -104,11 +104,11 @@
 
 #include <algorithm>  // For std::swap().
 
-#include "webrtc/system_wrappers/interface/compile_assert.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/template_util.h"
-#include "webrtc/system_wrappers/source/move.h"
-#include "webrtc/typedefs.h"
+#include "compile_assert.h"
+#include "constructor_magic.h"
+#include "template_util.h"
+#include "../source/move.h"
+#include "../../typedefs.h"
 
 namespace webrtc {
 

@@ -18,7 +18,7 @@
 #include <list>
 #include <map>
 
-#include "webrtc/common_types.h"
+#include "../common_types.h"
 
 namespace webrtc
 {

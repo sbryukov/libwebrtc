@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/interface/module_common_types.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

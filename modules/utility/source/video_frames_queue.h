@@ -15,9 +15,9 @@
 
 #include <list>
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/typedefs.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "engine_configurations.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

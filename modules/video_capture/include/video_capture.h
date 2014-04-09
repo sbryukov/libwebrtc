@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_CAPTURE_INCLUDE_VIDEO_CAPTURE_H_
 #define WEBRTC_MODULES_VIDEO_CAPTURE_INCLUDE_VIDEO_CAPTURE_H_
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/modules/video_capture/include/video_capture_defines.h"
+#include "modules/interface/module.h"
+#include "modules/video_capture/include/video_capture_defines.h"
 
 #ifdef ANDROID
 #include <jni.h>

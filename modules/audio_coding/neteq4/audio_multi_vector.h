@@ -15,9 +15,9 @@
 
 #include <vector>
 
-#include "webrtc/modules/audio_coding/neteq4/audio_vector.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/audio_vector.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

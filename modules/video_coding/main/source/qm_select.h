@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_QM_SELECT_H_
 #define WEBRTC_MODULES_VIDEO_CODING_QM_SELECT_H_
 
-#include "webrtc/common_types.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "typedefs.h"
 
 /******************************************************/
 /* Quality Modes: Resolution and Robustness settings  */

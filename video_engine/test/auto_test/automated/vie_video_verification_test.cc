@@ -13,14 +13,14 @@
 #include <vector>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
-#include "webrtc/test/testsupport/perf_test.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_file_based_comparison_tests.h"
-#include "webrtc/video_engine/test/auto_test/primitives/framedrop_primitives.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_external_transport.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
+#include "../test/testsupport/fileutils.h"
+#include "../test/testsupport/metrics/video_metrics.h"
+#include "../test/testsupport/perf_test.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_file_based_comparison_tests.h"
+#include "test/auto_test/primitives/framedrop_primitives.h"
+#include "test/libvietest/include/tb_external_transport.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
 
 namespace {
 

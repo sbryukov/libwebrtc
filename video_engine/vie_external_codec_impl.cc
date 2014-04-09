@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_external_codec_impl.h"
+#include "vie_external_codec_impl.h"
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/video_engine/include/vie_errors.h"
-#include "webrtc/video_engine/vie_channel.h"
-#include "webrtc/video_engine/vie_channel_manager.h"
-#include "webrtc/video_engine/vie_encoder.h"
-#include "webrtc/video_engine/vie_impl.h"
-#include "webrtc/video_engine/vie_shared_data.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/trace.h"
+#include "include/vie_errors.h"
+#include "vie_channel.h"
+#include "vie_channel_manager.h"
+#include "vie_encoder.h"
+#include "vie_impl.h"
+#include "vie_shared_data.h"
 
 namespace webrtc {
 

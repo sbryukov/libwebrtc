@@ -13,14 +13,14 @@
 
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_coding/main/source/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/source/acm_neteq.h"
-#include "webrtc/modules/audio_coding/main/source/acm_resampler.h"
-#include "webrtc/modules/audio_coding/main/acm2/call_statistics.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/source/acm_codec_database.h"
+#include "modules/audio_coding/main/source/acm_neteq.h"
+#include "modules/audio_coding/main/source/acm_resampler.h"
+#include "modules/audio_coding/main/acm2/call_statistics.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

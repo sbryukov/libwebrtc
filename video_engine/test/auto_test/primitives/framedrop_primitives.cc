@@ -14,20 +14,20 @@
 #include <sstream>
 #include <string>
 
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/frame_reader.h"
-#include "webrtc/test/testsupport/frame_writer.h"
-#include "webrtc/test/testsupport/perf_test.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/auto_test/primitives/framedrop_primitives.h"
-#include "webrtc/video_engine/test/auto_test/primitives/general_primitives.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_external_transport.h"
-#include "webrtc/video_engine/test/libvietest/include/tb_interfaces.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_external_render_filter.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
+#include "../modules/video_capture/include/video_capture_factory.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "../test/testsupport/fileutils.h"
+#include "../test/testsupport/frame_reader.h"
+#include "../test/testsupport/frame_writer.h"
+#include "../test/testsupport/perf_test.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/auto_test/primitives/framedrop_primitives.h"
+#include "test/auto_test/primitives/general_primitives.h"
+#include "test/libvietest/include/tb_external_transport.h"
+#include "test/libvietest/include/tb_interfaces.h"
+#include "test/libvietest/include/vie_external_render_filter.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
 
 enum { kWaitTimeForFinalDecodeMs = 100 };
 

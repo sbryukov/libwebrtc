@@ -40,7 +40,7 @@
 #define WEBRTC_VOICE_ENGINE_VOE_RTP_RTCP_H
 
 #include <vector>
-#include "webrtc/common_types.h"
+#include "common_types.h"
 
 namespace webrtc {
 

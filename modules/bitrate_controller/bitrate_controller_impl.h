@@ -15,15 +15,15 @@
 #ifndef WEBRTC_MODULES_BITRATE_CONTROLLER_BITRATE_CONTROLLER_IMPL_H_
 #define WEBRTC_MODULES_BITRATE_CONTROLLER_BITRATE_CONTROLLER_IMPL_H_
 
-#include "webrtc/modules/bitrate_controller/include/bitrate_controller.h"
+#include "modules/bitrate_controller/include/bitrate_controller.h"
 
 #include <list>
 #include <map>
 #include <utility>
 
-#include "webrtc/modules/bitrate_controller/send_side_bandwidth_estimation.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/bitrate_controller/send_side_bandwidth_estimation.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -13,8 +13,8 @@
 
 #include <stdint.h>
 
-#include "webrtc/modules/desktop_capture/desktop_geometry.h"
-#include "webrtc/typedefs.h"
+#include "modules/desktop_capture/desktop_geometry.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

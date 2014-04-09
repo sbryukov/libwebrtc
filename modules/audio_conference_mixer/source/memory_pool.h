@@ -13,12 +13,12 @@
 
 #include <assert.h>
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 #if _WIN32
-#include "webrtc/modules/audio_conference_mixer/source/memory_pool_win.h"
+#include "modules/audio_conference_mixer/source/memory_pool_win.h"
 #else
-#include "webrtc/modules/audio_conference_mixer/source/memory_pool_posix.h"
+#include "modules/audio_conference_mixer/source/memory_pool_posix.h"
 #endif
 
 namespace webrtc {

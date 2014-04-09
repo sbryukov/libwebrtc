@@ -15,34 +15,34 @@
 #include <string>
 
 #include "gflags/gflags.h"
-#include "webrtc/common.h"
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_dtmf.h"
-#include "webrtc/voice_engine/include/voe_errors.h"
-#include "webrtc/voice_engine/include/voe_file.h"
-#include "webrtc/voice_engine/include/voe_rtp_rtcp.h"
-#include "webrtc/voice_engine/test/auto_test/resource_manager.h"
-#include "webrtc/voice_engine/test/auto_test/voe_test_common.h"
-#include "webrtc/voice_engine/test/auto_test/voe_test_interface.h"
+#include "common.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_dtmf.h"
+#include "voice_engine/include/voe_errors.h"
+#include "voice_engine/include/voe_file.h"
+#include "voice_engine/include/voe_rtp_rtcp.h"
+#include "voice_engine/test/auto_test/resource_manager.h"
+#include "voice_engine/test/auto_test/voe_test_common.h"
+#include "voice_engine/test/auto_test/voe_test_interface.h"
 #ifdef WEBRTC_VOICE_ENGINE_CALL_REPORT_API
-#include "webrtc/voice_engine/include/voe_call_report.h"
+#include "voice_engine/include/voe_call_report.h"
 #endif
 #ifdef WEBRTC_VOICE_ENGINE_CODEC_API
-#include "webrtc/voice_engine/include/voe_codec.h"
+#include "voice_engine/include/voe_codec.h"
 #endif
 #ifdef WEBRTC_VOICE_ENGINE_EXTERNAL_MEDIA_API
-#include "webrtc/voice_engine/include/voe_external_media.h"
+#include "voice_engine/include/voe_external_media.h"
 #endif
 #ifdef WEBRTC_VOICE_ENGINE_HARDWARE_API
-#include "webrtc/voice_engine/include/voe_hardware.h"
+#include "voice_engine/include/voe_hardware.h"
 #endif
-#include "webrtc/voice_engine/include/voe_network.h"
+#include "voice_engine/include/voe_network.h"
 #ifdef WEBRTC_VOICE_ENGINE_VIDEO_SYNC_API
-#include "webrtc/voice_engine/include/voe_video_sync.h"
+#include "voice_engine/include/voe_video_sync.h"
 #endif
 #ifdef WEBRTC_VOICE_ENGINE_VOLUME_CONTROL_API
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "voice_engine/include/voe_volume_control.h"
 #endif
 
 #ifdef WEBRTC_VOICE_ENGINE_NETEQ_STATS_API

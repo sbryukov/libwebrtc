@@ -14,13 +14,13 @@
 #include <winsock2.h>
 #include <list>
 
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/test/channel_transport/udp_socket2_win.h"
-#include "webrtc/test/channel_transport/udp_socket_manager_wrapper.h"
-#include "webrtc/test/channel_transport/udp_transport.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "test/channel_transport/udp_socket2_win.h"
+#include "test/channel_transport/udp_socket_manager_wrapper.h"
+#include "test/channel_transport/udp_transport.h"
 
 #define MAX_IO_BUFF_SIZE 1600
 

@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_DESKTOP_CAPTURE_SHARED_DESKTOP_FRAME_H_
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_SHARED_DESKTOP_FRAME_H_
 
-#include "webrtc/modules/desktop_capture/desktop_frame.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
+#include "modules/desktop_capture/desktop_frame.h"
+#include "system_wrappers/interface/scoped_refptr.h"
 
 namespace webrtc {
 

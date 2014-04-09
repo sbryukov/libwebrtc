@@ -12,7 +12,7 @@
 #define WEBRTC_VOICE_ENGINE_MOCK_VOE_OBSERVER_H_
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_base.h"
 
 namespace webrtc {
 

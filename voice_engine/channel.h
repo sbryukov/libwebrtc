@@ -11,26 +11,26 @@
 #ifndef WEBRTC_VOICE_ENGINE_CHANNEL_H
 #define WEBRTC_VOICE_ENGINE_CHANNEL_H
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/file_player.h"
-#include "webrtc/modules/utility/interface/file_recorder.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/voice_engine/dtmf_inband.h"
-#include "webrtc/voice_engine/dtmf_inband_queue.h"
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_network.h"
-#include "webrtc/voice_engine/level_indicator.h"
-#include "webrtc/voice_engine/shared_data.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/utility/interface/file_player.h"
+#include "modules/utility/interface/file_recorder.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "voice_engine/dtmf_inband.h"
+#include "voice_engine/dtmf_inband_queue.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_network.h"
+#include "voice_engine/level_indicator.h"
+#include "voice_engine/shared_data.h"
+#include "voice_engine/voice_engine_defines.h"
 
 #ifdef WEBRTC_DTMF_DETECTION
 // TelephoneEventDetectionMethods, TelephoneEventObserver
-#include "webrtc/voice_engine/include/voe_dtmf.h"
+#include "voice_engine/include/voe_dtmf.h"
 #endif
 
 namespace webrtc {

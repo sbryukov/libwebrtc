@@ -19,8 +19,8 @@
 #import <Foundation/Foundation.h>
 #import <QTKit/QTKit.h>
 
-#include "webrtc/modules/video_capture/mac/qtkit/video_capture_qtkit_info.h"
-#include "webrtc/modules/video_capture/mac/qtkit/video_capture_qtkit_utility.h"
+#include "modules/video_capture/mac/qtkit/video_capture_qtkit_info.h"
+#include "modules/video_capture/mac/qtkit/video_capture_qtkit_utility.h"
 
 @interface VideoCaptureMacQTKitInfoObjC : NSObject{
     bool                                _OSSupportedInfo;

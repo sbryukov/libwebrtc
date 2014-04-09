@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_PACKET_BUFFER_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_MOCK_MOCK_PACKET_BUFFER_H_
 
-#include "webrtc/modules/audio_coding/neteq4/packet_buffer.h"
+#include "modules/audio_coding/neteq4/packet_buffer.h"
 
 #include "gmock/gmock.h"
 

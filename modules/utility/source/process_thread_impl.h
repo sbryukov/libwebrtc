@@ -13,11 +13,11 @@
 
 #include <list>
 
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "modules/utility/interface/process_thread.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "typedefs.h"
 
 namespace webrtc {
 class ProcessThreadImpl : public ProcessThread

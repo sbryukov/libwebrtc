@@ -15,9 +15,9 @@
 #include <stdio.h>
 #endif
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_processing/ns/nsx_defines.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_processing/ns/nsx_defines.h"
+#include "typedefs.h"
 
 typedef struct NsxInst_t_ {
   uint32_t                fs;

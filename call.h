@@ -13,9 +13,9 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/video_receive_stream.h"
-#include "webrtc/video_send_stream.h"
+#include "common_types.h"
+#include "video_receive_stream.h"
+#include "video_send_stream.h"
 
 namespace webrtc {
 

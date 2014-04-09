@@ -16,10 +16,10 @@
 #include <utility>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 namespace testing {

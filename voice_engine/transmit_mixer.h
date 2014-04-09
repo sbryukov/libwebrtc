@@ -11,16 +11,16 @@
 #ifndef WEBRTC_VOICE_ENGINE_TRANSMIT_MIXER_H
 #define WEBRTC_VOICE_ENGINE_TRANSMIT_MIXER_H
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_processing/typing_detection.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/interface/file_player.h"
-#include "webrtc/modules/utility/interface/file_recorder.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/level_indicator.h"
-#include "webrtc/voice_engine/monitor_module.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "common_types.h"
+#include "modules/audio_processing/typing_detection.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/utility/interface/file_player.h"
+#include "modules/utility/interface/file_recorder.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/level_indicator.h"
+#include "voice_engine/monitor_module.h"
+#include "voice_engine/voice_engine_defines.h"
 
 namespace webrtc {
 

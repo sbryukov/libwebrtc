@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_EXTERNAL_VIDEO_RENDER_EXTERNAL_IMPL_H_
 #define WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_EXTERNAL_VIDEO_RENDER_EXTERNAL_IMPL_H_
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_render/i_video_render.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_render/i_video_render.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 

@@ -14,8 +14,8 @@
 #include <stddef.h>  // size_t
 #include <stdio.h>  // FILE
 
-#include "webrtc/common.h"
-#include "webrtc/typedefs.h"
+#include "common.h"
+#include "typedefs.h"
 
 struct AecCore;
 

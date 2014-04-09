@@ -12,8 +12,8 @@
 #define WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURER_MOCK_OBJECTS_H_
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/modules/desktop_capture/mouse_cursor_shape.h"
-#include "webrtc/modules/desktop_capture/screen_capturer.h"
+#include "modules/desktop_capture/mouse_cursor_shape.h"
+#include "modules/desktop_capture/screen_capturer.h"
 
 namespace webrtc {
 

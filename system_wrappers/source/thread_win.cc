@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/source/thread_win.h"
+#include "thread_win.h"
 
 #include <assert.h>
 #include <process.h>
 #include <stdio.h>
 #include <windows.h>
 
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/source/set_thread_name_win.h"
+#include "../interface/trace.h"
+#include "set_thread_name_win.h"
 
 namespace webrtc {
 

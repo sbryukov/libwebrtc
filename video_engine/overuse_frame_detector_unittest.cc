@@ -11,10 +11,10 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/video_engine/overuse_frame_detector.h"
+#include "../system_wrappers/interface/clock.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "include/vie_base.h"
+#include "overuse_frame_detector.h"
 
 namespace webrtc {
 namespace {

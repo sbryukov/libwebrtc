@@ -13,8 +13,8 @@
 
 #include <string>
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 using ::std::string;
 using ::std::tr1::tuple;

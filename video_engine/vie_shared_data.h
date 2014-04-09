@@ -16,7 +16,7 @@
 
 #include <map>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -20,8 +20,8 @@
  *
  */
 
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
+#include "modules/interface/module.h"
+#include "modules/video_render/include/video_render_defines.h"
 
 namespace webrtc {
 

@@ -12,14 +12,14 @@
 // vie_autotest_windows.cc
 //
 
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_windows.h"
+#include "test/auto_test/interface/vie_autotest_windows.h"
 
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_main.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/auto_test/interface/vie_autotest_main.h"
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/thread_wrapper.h"
 
 #include <windows.h>
 

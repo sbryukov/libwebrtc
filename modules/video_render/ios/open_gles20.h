@@ -13,7 +13,7 @@
 
 #include <OpenGLES/ES2/glext.h>
 
-#include "webrtc/modules/video_render/include/video_render_defines.h"
+#include "modules/video_render/include/video_render_defines.h"
 
 /*
  * This OpenGles20 is the class of renderer for I420VideoFrame into a GLES 2.0

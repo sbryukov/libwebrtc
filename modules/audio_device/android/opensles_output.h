@@ -15,12 +15,12 @@
 #include <SLES/OpenSLES_Android.h>
 #include <SLES/OpenSLES_AndroidConfiguration.h>
 
-#include "webrtc/modules/audio_device/android/audio_manager_jni.h"
-#include "webrtc/modules/audio_device/android/low_latency_event.h"
-#include "webrtc/modules/audio_device/android/audio_common.h"
-#include "webrtc/modules/audio_device/include/audio_device_defines.h"
-#include "webrtc/modules/audio_device/include/audio_device.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/audio_device/android/audio_manager_jni.h"
+#include "modules/audio_device/android/low_latency_event.h"
+#include "modules/audio_device/android/audio_common.h"
+#include "modules/audio_device/include/audio_device_defines.h"
+#include "modules/audio_device/include/audio_device.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -11,11 +11,11 @@
 #ifndef WEBRTC_MODULES_INTERFACE_VIDEO_CODING_H_
 #define WEBRTC_MODULES_INTERFACE_VIDEO_CODING_H_
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/modules/interface/module.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding_defines.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "modules/interface/module.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/interface/video_coding_defines.h"
+#include "system_wrappers/interface/event_wrapper.h"
 
 namespace webrtc
 {

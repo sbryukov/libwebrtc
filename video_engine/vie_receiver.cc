@@ -8,22 +8,22 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_receiver.h"
+#include "vie_receiver.h"
 
 #include <vector>
 
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/modules/rtp_rtcp/interface/fec_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/receive_statistics.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/rtp_dump.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "../modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "../modules/rtp_rtcp/interface/fec_receiver.h"
+#include "../modules/rtp_rtcp/interface/receive_statistics.h"
+#include "../modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "../modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "../modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/utility/interface/rtp_dump.h"
+#include "../modules/video_coding/main/interface/video_coding.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/tick_util.h"
+#include "../system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

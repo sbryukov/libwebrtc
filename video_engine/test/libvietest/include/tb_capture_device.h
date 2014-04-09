@@ -13,7 +13,7 @@
 
 #include <string>
 
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
+#include "../modules/video_capture/include/video_capture_factory.h"
 
 class TbInterfaces;
 

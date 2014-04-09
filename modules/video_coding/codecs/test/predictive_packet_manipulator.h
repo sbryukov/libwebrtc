@@ -13,8 +13,8 @@
 
 #include <queue>
 
-#include "webrtc/modules/video_coding/codecs/test/packet_manipulator.h"
-#include "webrtc/test/testsupport/packet_reader.h"
+#include "modules/video_coding/codecs/test/packet_manipulator.h"
+#include "test/testsupport/packet_reader.h"
 
 namespace webrtc {
 namespace test {

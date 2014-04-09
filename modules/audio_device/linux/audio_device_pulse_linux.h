@@ -11,9 +11,9 @@
 #ifndef WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_PULSE_LINUX_H
 #define WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_PULSE_LINUX_H
 
-#include "webrtc/modules/audio_device/audio_device_generic.h"
-#include "webrtc/modules/audio_device/linux/audio_mixer_manager_pulse_linux.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "modules/audio_device/audio_device_generic.h"
+#include "modules/audio_device/linux/audio_mixer_manager_pulse_linux.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 #include <X11/Xlib.h>
 #include <pulse/pulseaudio.h>

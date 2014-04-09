@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_VIDEO_CODING_UTILITY_INCLUDE_FRAME_DROPPER_H_
 #define WEBRTC_MODULES_VIDEO_CODING_UTILITY_INCLUDE_FRAME_DROPPER_H_
 
-#include "webrtc/modules/video_coding/utility/include/exp_filter.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_coding/utility/include/exp_filter.h"
+#include "typedefs.h"
 
 namespace webrtc
 {

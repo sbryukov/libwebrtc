@@ -11,10 +11,10 @@
 #ifndef WEBRTC_VIDEO_ENGINE_VIE_RTP_RTCP_IMPL_H_
 #define WEBRTC_VIDEO_ENGINE_VIE_RTP_RTCP_IMPL_H_
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_engine/vie_ref_count.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "../typedefs.h"
+#include "include/vie_rtp_rtcp.h"
+#include "vie_ref_count.h"
 
 namespace webrtc {
 

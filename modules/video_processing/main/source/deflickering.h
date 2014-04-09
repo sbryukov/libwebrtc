@@ -13,8 +13,8 @@
 
 #include <string.h>  // NULL
 
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_processing/main/interface/video_processing.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

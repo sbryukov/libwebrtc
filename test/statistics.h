@@ -10,7 +10,7 @@
 #ifndef WEBRTC_VIDEO_ENGINE_TEST_COMMON_STATISTICS_H_
 #define WEBRTC_VIDEO_ENGINE_TEST_COMMON_STATISTICS_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

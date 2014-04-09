@@ -13,12 +13,12 @@
 
 #include <vector>
 
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_receiver.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_resampler.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/acm2/acm_codec_database.h"
+#include "modules/audio_coding/main/acm2/acm_receiver.h"
+#include "modules/audio_coding/main/acm2/acm_resampler.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

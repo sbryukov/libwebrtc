@@ -11,8 +11,8 @@
 #ifndef WEBRTC_TEST_CHANNEL_TRANSPORT_UDP_SOCKET_MANAGER_WRAPPER_H_
 #define WEBRTC_TEST_CHANNEL_TRANSPORT_UDP_SOCKET_MANAGER_WRAPPER_H_
 
-#include "webrtc/system_wrappers/interface/static_instance.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/static_instance.h"
+#include "typedefs.h"
 
 namespace webrtc {
 namespace test {

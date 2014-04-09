@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_ACM_G7221C_H_
 #define WEBRTC_MODULES_AUDIO_CODING_MAIN_ACM2_ACM_G7221C_H_
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_generic_codec.h"
+#include "modules/audio_coding/main/acm2/acm_generic_codec.h"
 
 // forward declaration
 struct G722_1C_24_encinst_t_;

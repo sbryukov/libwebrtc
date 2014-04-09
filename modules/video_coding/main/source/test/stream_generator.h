@@ -14,8 +14,8 @@
 
 #include <list>
 
-#include "webrtc/modules/video_coding/main/source/packet.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
+#include "modules/video_coding/main/source/packet.h"
+#include "modules/video_coding/main/test/test_util.h"
 
 namespace webrtc {
 

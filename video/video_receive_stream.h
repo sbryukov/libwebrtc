@@ -13,15 +13,15 @@
 
 #include <vector>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/video/encoded_frame_callback_adapter.h"
-#include "webrtc/video/receive_statistics_proxy.h"
-#include "webrtc/video/transport_adapter.h"
-#include "webrtc/video_engine/include/vie_render.h"
-#include "webrtc/video_receive_stream.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_render/include/video_render_defines.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "video/encoded_frame_callback_adapter.h"
+#include "video/receive_statistics_proxy.h"
+#include "video/transport_adapter.h"
+#include "video_engine/include/vie_render.h"
+#include "video_receive_stream.h"
 
 namespace webrtc {
 

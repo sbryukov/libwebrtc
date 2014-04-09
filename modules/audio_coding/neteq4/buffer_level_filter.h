@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CODING_NETEQ4_BUFFER_LEVEL_FILTER_H_
 #define WEBRTC_MODULES_AUDIO_CODING_NETEQ4_BUFFER_LEVEL_FILTER_H_
 
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 

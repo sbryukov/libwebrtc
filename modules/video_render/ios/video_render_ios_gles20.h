@@ -14,9 +14,9 @@
 #include <list>
 #include <map>
 
-#include "webrtc/modules/video_render/ios/video_render_ios_channel.h"
-#include "webrtc/modules/video_render/ios/video_render_ios_view.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/video_render/ios/video_render_ios_channel.h"
+#include "modules/video_render/ios/video_render_ios_view.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

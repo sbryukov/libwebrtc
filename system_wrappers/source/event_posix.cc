@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/source/event_posix.h"
+#include "event_posix.h"
 
 #include <errno.h>
 #include <pthread.h>

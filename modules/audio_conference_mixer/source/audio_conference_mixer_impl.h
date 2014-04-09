@@ -14,13 +14,13 @@
 #include <list>
 #include <map>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_conference_mixer/interface/audio_conference_mixer.h"
-#include "webrtc/modules/audio_conference_mixer/source/level_indicator.h"
-#include "webrtc/modules/audio_conference_mixer/source/memory_pool.h"
-#include "webrtc/modules/audio_conference_mixer/source/time_scheduler.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "engine_configurations.h"
+#include "modules/audio_conference_mixer/interface/audio_conference_mixer.h"
+#include "modules/audio_conference_mixer/source/level_indicator.h"
+#include "modules/audio_conference_mixer/source/memory_pool.h"
+#include "modules/audio_conference_mixer/source/time_scheduler.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 class AudioProcessing;

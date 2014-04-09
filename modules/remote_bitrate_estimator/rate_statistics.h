@@ -11,8 +11,8 @@
 #ifndef WEBRTC_MODULES_REMOTE_BITRATE_ESTIMATOR_RATE_STATISTICS_H_
 #define WEBRTC_MODULES_REMOTE_BITRATE_ESTIMATOR_RATE_STATISTICS_H_
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

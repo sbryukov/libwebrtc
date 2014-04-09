@@ -13,13 +13,13 @@
 
 #include <list>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/rtp_rtcp/interface/receive_statistics.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/video_engine/include/vie_network.h"
-#include "webrtc/video_engine/vie_defines.h"
+#include "../engine_configurations.h"
+#include "../modules/rtp_rtcp/interface/receive_statistics.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../typedefs.h"
+#include "include/vie_network.h"
+#include "vie_defines.h"
 
 namespace webrtc {
 

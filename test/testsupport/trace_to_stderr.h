@@ -11,7 +11,7 @@
 #ifndef WEBRTC_TEST_TEST_SUPPORT_TRACE_TO_STDERR_H_
 #define WEBRTC_TEST_TEST_SUPPORT_TRACE_TO_STDERR_H_
 
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 namespace test {

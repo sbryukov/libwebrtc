@@ -16,9 +16,9 @@
 
 #include <algorithm>
 
-#include "webrtc/common_types.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "typedefs.h"
 
 #ifdef _WIN32
 // Remove warning "new behavior: elements of array will be default initialized".

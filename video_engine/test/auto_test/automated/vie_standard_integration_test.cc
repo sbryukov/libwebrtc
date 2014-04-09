@@ -17,13 +17,13 @@
 
 #include "gflags/gflags.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
-#include "webrtc/video_engine/test/auto_test/automated/legacy_fixture.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_window_manager_interface.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_window_creator.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
+#include "../test/testsupport/metrics/video_metrics.h"
+#include "../test/testsupport/metrics/video_metrics.h"
+#include "test/auto_test/automated/legacy_fixture.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_window_manager_interface.h"
+#include "test/auto_test/interface/vie_window_creator.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
 
 namespace {
 
@@ -34,7 +34,7 @@ TEST_F(ViEStandardIntegrationTest, RunsBaseTestWithoutErrors)  {
   tests_->ViEBaseStandardTest();
 }
 
-// Flaky: https://code.google.com/p/webrtc/issues/detail?id=1734
+// Flaky: https://code.google.com/p/../issues/detail?id=1734
 TEST_F(ViEStandardIntegrationTest, DISABLED_RunsCodecTestWithoutErrors)  {
   tests_->ViECodecStandardTest();
 }
@@ -51,7 +51,7 @@ TEST_F(ViEStandardIntegrationTest, RunsRenderTestWithoutErrors)  {
   tests_->ViERenderStandardTest();
 }
 
-// Fails on Mac, see https://code.google.com/p/webrtc/issues/detail?id=1790
+// Fails on Mac, see https://code.google.com/p/../issues/detail?id=1790
 #if defined(WEBRTC_MAC)
 #define MAYBE_RunsRtpRtcpTestWithoutErrors DISABLED_RunsRtpRtcpTestWithoutErrors
 #else

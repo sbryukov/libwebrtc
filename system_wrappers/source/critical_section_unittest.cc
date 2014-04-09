@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "../interface/critical_section_wrapper.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/source/unittest_utilities.h"
+#include "../interface/sleep.h"
+#include "../interface/thread_wrapper.h"
+#include "../interface/trace.h"
+#include "unittest_utilities.h"
 
 namespace webrtc {
 

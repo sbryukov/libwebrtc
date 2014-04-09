@@ -9,14 +9,14 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
-#include "webrtc/video_engine/test/auto_test/automated/legacy_fixture.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
+#include "../test/testsupport/gtest_disable.h"
+#include "test/auto_test/automated/legacy_fixture.h"
+#include "test/auto_test/interface/vie_autotest.h"
 
 namespace {
 
 // TODO(phoglund): These tests are generally broken on mac.
-// http://code.google.com/p/webrtc/issues/detail?id=1268
+// http://code.google.com/p/../issues/detail?id=1268
 class DISABLED_ON_MAC(ViEApiIntegrationTest) : public LegacyFixture {
 };
 
@@ -43,7 +43,7 @@ TEST_F(DISABLED_ON_MAC(ViEApiIntegrationTest), RunsRenderTestWithoutErrors) {
   tests_->ViERenderAPITest();
 }
 
-// See: https://code.google.com/p/webrtc/issues/detail?id=2415
+// See: https://code.google.com/p/../issues/detail?id=2415
 TEST_F(DISABLED_ON_MAC(ViEApiIntegrationTest),
        DISABLED_RunsRtpRtcpTestWithoutErrors) {
   tests_->ViERtpRtcpAPITest();

@@ -20,9 +20,9 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_logging.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_logging.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 namespace testing {

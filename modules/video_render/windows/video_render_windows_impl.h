@@ -14,8 +14,8 @@
 #include <Winerror.h>
 #include <dxdiag.h>
 
-#include "webrtc/modules/video_render/i_video_render.h"
-#include "webrtc/modules/video_render/windows/i_video_render_win.h"
+#include "modules/video_render/i_video_render.h"
+#include "modules/video_render/windows/i_video_render_win.h"
 
 namespace webrtc {
 class CriticalSectionWrapper;

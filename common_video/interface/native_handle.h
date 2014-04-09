@@ -11,7 +11,7 @@
 #ifndef COMMON_VIDEO_INTERFACE_NATIVEHANDLE_H_
 #define COMMON_VIDEO_INTERFACE_NATIVEHANDLE_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

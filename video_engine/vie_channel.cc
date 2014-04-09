@@ -8,31 +8,31 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video_engine/vie_channel.h"
+#include "vie_channel.h"
 
 #include <algorithm>
 #include <vector>
 
-#include "webrtc/common.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/experiments.h"
-#include "webrtc/modules/pacing/include/paced_sender.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/video_engine/call_stats.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_errors.h"
-#include "webrtc/video_engine/include/vie_image_process.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/frame_callback.h"
-#include "webrtc/video_engine/vie_defines.h"
+#include "../common.h"
+#include "../common_video/libyuv/include/webrtc_libyuv.h"
+#include "../experiments.h"
+#include "../modules/pacing/include/paced_sender.h"
+#include "../modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "../modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "../modules/utility/interface/process_thread.h"
+#include "../modules/video_coding/main/interface/video_coding.h"
+#include "../modules/video_processing/main/interface/video_processing.h"
+#include "../modules/video_render/include/video_render_defines.h"
+#include "../system_wrappers/interface/critical_section_wrapper.h"
+#include "../system_wrappers/interface/thread_wrapper.h"
+#include "../system_wrappers/interface/trace.h"
+#include "call_stats.h"
+#include "include/vie_codec.h"
+#include "include/vie_errors.h"
+#include "include/vie_image_process.h"
+#include "include/vie_rtp_rtcp.h"
+#include "../frame_callback.h"
+#include "vie_defines.h"
 
 namespace webrtc {
 

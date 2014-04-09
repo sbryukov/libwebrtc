@@ -13,9 +13,9 @@
 
 #include <windows.h>
 
-#include "webrtc/modules/desktop_capture/desktop_frame.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "modules/desktop_capture/desktop_frame.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

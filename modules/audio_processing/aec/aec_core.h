@@ -15,7 +15,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_PROCESSING_AEC_AEC_CORE_H_
 #define WEBRTC_MODULES_AUDIO_PROCESSING_AEC_AEC_CORE_H_
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 #define FRAME_LEN 80
 #define PART_LEN 64               // Length of partition

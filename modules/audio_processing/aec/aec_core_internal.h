@@ -15,9 +15,9 @@
 #include <stdio.h>
 #endif
 
-#include "webrtc/modules/audio_processing/aec/aec_core.h"
-#include "webrtc/modules/audio_processing/utility/ring_buffer.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_processing/aec/aec_core.h"
+#include "modules/audio_processing/utility/ring_buffer.h"
+#include "typedefs.h"
 
 // Number of partitions for the extended filter mode. The first one is an enum
 // to be used in array declarations, as it represents the maximum filter length.

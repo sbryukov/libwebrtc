@@ -11,34 +11,34 @@
 #ifndef WEBRTC_VIDEO_ENGINE_VIE_IMPL_H_
 #define WEBRTC_VIDEO_ENGINE_VIE_IMPL_H_
 
-#include "webrtc/common.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/video_engine/vie_defines.h"
+#include "../common.h"
+#include "../engine_configurations.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "vie_defines.h"
 
-#include "webrtc/video_engine/vie_base_impl.h"
+#include "vie_base_impl.h"
 
 #ifdef WEBRTC_VIDEO_ENGINE_CAPTURE_API
-#include "webrtc/video_engine/vie_capture_impl.h"
+#include "vie_capture_impl.h"
 #endif
 #ifdef WEBRTC_VIDEO_ENGINE_CODEC_API
-#include "webrtc/video_engine/vie_codec_impl.h"
+#include "vie_codec_impl.h"
 #endif
 #ifdef WEBRTC_VIDEO_ENGINE_FILE_API
-#include "webrtc/video_engine/vie_file_impl.h"
+#include "vie_file_impl.h"
 #endif
 #ifdef WEBRTC_VIDEO_ENGINE_IMAGE_PROCESS_API
-#include "webrtc/video_engine/vie_image_process_impl.h"
+#include "vie_image_process_impl.h"
 #endif
-#include "webrtc/video_engine/vie_network_impl.h"
+#include "vie_network_impl.h"
 #ifdef WEBRTC_VIDEO_ENGINE_RENDER_API
-#include "webrtc/video_engine/vie_render_impl.h"
+#include "vie_render_impl.h"
 #endif
 #ifdef WEBRTC_VIDEO_ENGINE_RTP_RTCP_API
-#include "webrtc/video_engine/vie_rtp_rtcp_impl.h"
+#include "vie_rtp_rtcp_impl.h"
 #endif
 #ifdef WEBRTC_VIDEO_ENGINE_EXTERNAL_CODEC_API
-#include "webrtc/video_engine/vie_external_codec_impl.h"
+#include "vie_external_codec_impl.h"
 #endif
 
 namespace webrtc {

@@ -17,18 +17,18 @@
 
 #include <list>
 
-#include "webrtc/common_audio/resampler/include/resampler.h"
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/media_file/interface/media_file.h"
-#include "webrtc/modules/media_file/interface/media_file_defines.h"
-#include "webrtc/modules/utility/interface/file_recorder.h"
-#include "webrtc/modules/utility/source/coder.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/resampler/include/resampler.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/media_file/interface/media_file.h"
+#include "modules/media_file/interface/media_file_defines.h"
+#include "modules/utility/interface/file_recorder.h"
+#include "modules/utility/source/coder.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "typedefs.h"
 
 #ifdef WEBRTC_MODULE_UTILITY_VIDEO
     #include "frame_scaler.h"

@@ -15,15 +15,15 @@
 #include <algorithm>
 
 #include "gflags/gflags.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/channel_transport/include/channel_transport.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest.h"
-#include "webrtc/video_engine/test/auto_test/interface/vie_autotest_defines.h"
-#include "webrtc/video_engine/test/auto_test/primitives/choice_helpers.h"
-#include "webrtc/video_engine/test/auto_test/primitives/general_primitives.h"
-#include "webrtc/video_engine/test/auto_test/primitives/input_helpers.h"
-#include "webrtc/video_engine/test/libvietest/include/vie_to_file_renderer.h"
-#include "webrtc/voice_engine/include/voe_network.h"
+#include "../system_wrappers/interface/scoped_ptr.h"
+#include "../test/channel_transport/include/channel_transport.h"
+#include "test/auto_test/interface/vie_autotest.h"
+#include "test/auto_test/interface/vie_autotest_defines.h"
+#include "test/auto_test/primitives/choice_helpers.h"
+#include "test/auto_test/primitives/general_primitives.h"
+#include "test/auto_test/primitives/input_helpers.h"
+#include "test/libvietest/include/vie_to_file_renderer.h"
+#include "../voice_engine/include/voe_network.h"
 
 #define VCM_RED_PAYLOAD_TYPE                            96
 #define VCM_ULPFEC_PAYLOAD_TYPE                         97

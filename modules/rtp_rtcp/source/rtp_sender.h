@@ -16,16 +16,16 @@
 
 #include <map>
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/pacing/include/paced_sender.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/rtp_rtcp/source/bitrate.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_header_extension.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_packet_history.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_rtcp_config.h"
-#include "webrtc/modules/rtp_rtcp/source/ssrc_database.h"
-#include "webrtc/modules/rtp_rtcp/source/video_codec_information.h"
-#include "webrtc/system_wrappers/interface/thread_annotations.h"
+#include "common_types.h"
+#include "modules/pacing/include/paced_sender.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/source/bitrate.h"
+#include "modules/rtp_rtcp/source/rtp_header_extension.h"
+#include "modules/rtp_rtcp/source/rtp_packet_history.h"
+#include "modules/rtp_rtcp/source/rtp_rtcp_config.h"
+#include "modules/rtp_rtcp/source/ssrc_database.h"
+#include "modules/rtp_rtcp/source/video_codec_information.h"
+#include "system_wrappers/interface/thread_annotations.h"
 
 #define MAX_INIT_RTP_SEQ_NUMBER 32767  // 2^15 -1.
 
