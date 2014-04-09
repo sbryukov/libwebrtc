@@ -25,7 +25,7 @@ SET(CMAKE_VOE_ENGINE_PATH "${LIBWEBRTC_BINARY_DIR}/voice_engine")
 MESSAGE (STATUS "root path: ${LIBWEBRTC_BINARY_DIR} !!!")
 
 add_subdirectory("${CMAKE_VIDEO_ENGINE_PATH}")
-#add_subdirectory("${CMAKE_VOE_ENGINE_PATH}")
+add_subdirectory("${CMAKE_VOE_ENGINE_PATH}")
 
 
 
