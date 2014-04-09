@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/output_mixer.h"
+#include "voice_engine/output_mixer.h"
 
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/utility/interface/audio_frame_operations.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/include/voe_external_media.h"
-#include "webrtc/voice_engine/output_mixer_internal.h"
-#include "webrtc/voice_engine/statistics.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/utility/interface/audio_frame_operations.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/include/voe_external_media.h"
+#include "voice_engine/output_mixer_internal.h"
+#include "voice_engine/statistics.h"
 
 namespace webrtc {
 

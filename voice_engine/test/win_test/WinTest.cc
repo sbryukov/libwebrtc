@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/test/win_test/WinTest.h"
-#include "webrtc/voice_engine/test/win_test/WinTestDlg.h"
-#include "webrtc/voice_engine/test/win_test/stdafx.h"
+#include "voice_engine/test/win_test/WinTest.h"
+#include "voice_engine/test/win_test/WinTestDlg.h"
+#include "voice_engine/test/win_test/stdafx.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

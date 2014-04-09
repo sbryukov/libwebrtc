@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/voe_call_report_impl.h"
+#include "voice_engine/voe_call_report_impl.h"
 
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/channel.h"
-#include "webrtc/voice_engine/include/voe_errors.h"
-#include "webrtc/voice_engine/voice_engine_impl.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/channel.h"
+#include "voice_engine/include/voe_errors.h"
+#include "voice_engine/voice_engine_impl.h"
 
 namespace webrtc
 {

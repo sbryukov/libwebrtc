@@ -11,8 +11,8 @@
 #include <math.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/voice_engine/output_mixer.h"
-#include "webrtc/voice_engine/output_mixer_internal.h"
+#include "voice_engine/output_mixer.h"
+#include "voice_engine/output_mixer_internal.h"
 
 namespace webrtc {
 namespace voe {

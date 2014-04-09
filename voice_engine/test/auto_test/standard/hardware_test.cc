@@ -8,8 +8,8 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/include/audio_device.h"
-#include "webrtc/voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
+#include "modules/audio_device/include/audio_device.h"
+#include "voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
 
 class HardwareTest : public AfterStreamingFixture {
 };
@@ -68,7 +68,7 @@ TEST_F(HardwareTest, GetCpuLoadReturnsErrorOnNonWindowsPlatform) {
 }
 #endif
 
-// Flakily hangs on Windows: code.google.com/p/webrtc/issues/detail?id=2179.
+// Flakily hangs on Windows: code.google.com/p/issues/detail?id=2179.
 TEST_F(HardwareTest,
        DISABLED_ON_WIN(BuiltInWasapiAECWorksForAudioWindowsCoreAudioLayer)) {
 #ifdef WEBRTC_IOS

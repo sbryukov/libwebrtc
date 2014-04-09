@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/test/auto_test/fixtures/before_initialization_fixture.h"
+#include "voice_engine/test/auto_test/fixtures/before_initialization_fixture.h"
 
 #include "gflags/gflags.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "system_wrappers/interface/sleep.h"
 
 DECLARE_bool(use_acm_version_2);
 

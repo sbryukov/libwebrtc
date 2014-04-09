@@ -9,10 +9,10 @@
  */
 
 #include <math.h>
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/voice_engine/test/win_test/WinTest.h"
-#include "webrtc/voice_engine/test/win_test/WinTestDlg.h"
-#include "webrtc/voice_engine/test/win_test/stdafx.h"
+#include "test/testsupport/fileutils.h"
+#include "voice_engine/test/win_test/WinTest.h"
+#include "voice_engine/test/win_test/WinTestDlg.h"
+#include "voice_engine/test/win_test/stdafx.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

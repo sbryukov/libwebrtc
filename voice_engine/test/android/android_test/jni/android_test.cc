@@ -13,20 +13,20 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "webrtc/voice_engine/test/android/android_test/jni/org_webrtc_voiceengine_test_AndroidTest.h"
+#include "voice_engine/test/android/android_test/jni/org_webrtc_voiceengine_test_AndroidTest.h"
 
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
 
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_codec.h"
-#include "webrtc/voice_engine/include/voe_file.h"
-#include "webrtc/voice_engine/include/voe_hardware.h"
-#include "webrtc/voice_engine/include/voe_network.h"
-#include "webrtc/voice_engine/include/voe_rtp_rtcp.h"
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_codec.h"
+#include "voice_engine/include/voe_file.h"
+#include "voice_engine/include/voe_hardware.h"
+#include "voice_engine/include/voe_network.h"
+#include "voice_engine/include/voe_rtp_rtcp.h"
+#include "voice_engine/include/voe_volume_control.h"
 
-#include "webrtc/voice_engine/test/auto_test/voe_test_interface.h"
+#include "voice_engine/test/auto_test/voe_test_interface.h"
 
 //#define INIT_FROM_THREAD
 //#define START_CALL_FROM_THREAD
@@ -339,7 +339,7 @@ jint JNI_OnLoad(JavaVM* vm, void* /*reserved*/)
     }
 
     // Get class to register the native functions with
-    // jclass regClass = env->FindClass("webrtc/android/AndroidTest");
+    // jclass regClass = env->FindClass("android/AndroidTest");
     // if (!regClass) {
     // return -1; // Exception thrown
     // }

@@ -13,7 +13,7 @@
 #include <numeric>
 #include <vector>
 
-#include "webrtc/voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
+#include "voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
 
 #ifdef WEBRTC_IOS
   const int kMinimumReasonableDelayEstimateMs = 30;
@@ -96,7 +96,7 @@ TEST_F(VideoSyncTest, CanSetInitSequenceNumberWhileStopped) {
 }
 
 // TODO(phoglund): pending investigation in
-// http://code.google.com/p/webrtc/issues/detail?id=438
+// http://code.google.com/p/issues/detail?id=438
 TEST_F(VideoSyncTest,
        DISABLED_DelayEstimatesStabilizeDuring15sAndAreNotTooLow) {
   EXPECT_EQ(0, voe_base_->StopSend(channel_));
@@ -108,7 +108,7 @@ TEST_F(VideoSyncTest,
 }
 
 // TODO(phoglund): pending investigation in
-// http://code.google.com/p/webrtc/issues/detail?id=438
+// http://code.google.com/p/issues/detail?id=438
 TEST_F(VideoSyncTest,
        DISABLED_DelayEstimatesStabilizeAfterNetEqMinDelayChanges45s) {
   EXPECT_EQ(0, voe_base_->StopSend(channel_));

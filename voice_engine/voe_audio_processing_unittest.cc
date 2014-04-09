@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_audio_processing.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_base.h"
 
 namespace webrtc {
 namespace voe {
@@ -44,7 +44,7 @@ TEST_F(VoEAudioProcessingTest, FailureIfNotInitialized) {
 }
 
 // TODO(andrew): Investigate race conditions triggered by this test:
-// https://code.google.com/p/webrtc/issues/detail?id=788
+// https://code.google.com/p/issues/detail?id=788
 TEST_F(VoEAudioProcessingTest, DISABLED_DriftCompensationIsEnabledIfSupported) {
   ASSERT_EQ(0, base_->Init());
   // TODO(andrew): Ideally, DriftCompensationSupported() would be mocked.

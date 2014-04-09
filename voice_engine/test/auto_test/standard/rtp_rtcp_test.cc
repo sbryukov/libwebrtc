@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
-#include "webrtc/voice_engine/test/auto_test/voe_standard_test.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "test/testsupport/fileutils.h"
+#include "voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
+#include "voice_engine/test/auto_test/voe_standard_test.h"
 
 class TestRtpObserver : public webrtc::VoERTPObserver {
  public:
@@ -136,7 +136,7 @@ TEST_F(RtpRtcpTest, RemoteRtcpCnameHasPropagatedToRemoteSide) {
   EXPECT_STREQ(RTCP_CNAME, char_buffer);
 }
 
-// Flakily hangs on Linux. code.google.com/p/webrtc/issues/detail?id=2178.
+// Flakily hangs on Linux. code.google.com/p/issues/detail?id=2178.
 TEST_F(RtpRtcpTest, DISABLED_ON_LINUX(SSRCPropagatesCorrectly)) {
   unsigned int local_ssrc = 1234;
   EXPECT_EQ(0, voe_base_->StopSend(channel_));
