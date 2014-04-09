@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/screen_capturer.h"
+#include "modules/desktop_capture/screen_capturer.h"
 
 namespace webrtc {
 

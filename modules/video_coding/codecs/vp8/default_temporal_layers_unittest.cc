@@ -10,8 +10,8 @@
 
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
-#include "webrtc/modules/video_coding/codecs/vp8/default_temporal_layers.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/video_coding/codecs/vp8/default_temporal_layers.h"
 
 #include "vpx/vpx_encoder.h"
 #include "vpx/vp8cx.h"

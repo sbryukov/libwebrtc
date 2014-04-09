@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/rtp_rtcp/source/receive_statistics_impl.h"
+#include "modules/rtp_rtcp/source/receive_statistics_impl.h"
 
 #include <math.h>
 
-#include "webrtc/modules/rtp_rtcp/source/bitrate.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/rtp_rtcp/source/bitrate.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

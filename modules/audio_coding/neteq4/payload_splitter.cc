@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/payload_splitter.h"
+#include "modules/audio_coding/neteq4/payload_splitter.h"
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
 
 namespace webrtc {
 

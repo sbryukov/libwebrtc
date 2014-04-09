@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/pcap_file_reader.h"
+#include "modules/video_coding/main/test/pcap_file_reader.h"
 
 #ifdef WIN32
 #include <windows.h>
@@ -23,9 +23,9 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/modules/video_coding/main/test/rtp_player.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "modules/video_coding/main/test/rtp_player.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 namespace rtpplayer {

@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/fake_network_pipe.h"
+#include "test/fake_network_pipe.h"
 
 #include <assert.h>
 #include <math.h>
 #include <string.h>
 #include <algorithm>
 
-#include "webrtc/call.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
+#include "call.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
 
 namespace webrtc {
 

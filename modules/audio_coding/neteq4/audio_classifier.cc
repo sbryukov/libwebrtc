@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/audio_classifier.h"
+#include "modules/audio_coding/neteq4/audio_classifier.h"
 
 #include <assert.h>
 #include <string.h>

@@ -7,15 +7,15 @@
 *  be found in the AUTHORS file in the root of the source tree.
 */
 
-#include "webrtc/modules/video_coding/codecs/vp8/default_temporal_layers.h"
+#include "modules/video_coding/codecs/vp8/default_temporal_layers.h"
 
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8_common_types.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/video_coding/codecs/vp8/include/vp8_common_types.h"
 
 #include "vpx/vpx_encoder.h"
 #include "vpx/vp8cx.h"

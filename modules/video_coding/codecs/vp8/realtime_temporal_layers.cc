@@ -12,9 +12,9 @@
 
 #include "vpx/vpx_encoder.h"
 #include "vpx/vp8cx.h"
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8_common_types.h"
-#include "webrtc/modules/video_coding/codecs/vp8/temporal_layers.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/video_coding/codecs/vp8/include/vp8_common_types.h"
+#include "modules/video_coding/codecs/vp8/temporal_layers.h"
 
 // This file implements logic to adapt the number of temporal layers based on
 // input frame rate in order to avoid having the base layer being relaying at

@@ -16,17 +16,17 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/remote_bitrate_estimator/include/mock/mock_remote_bitrate_observer.h"
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/source/rtcp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/source/rtcp_sender.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_receiver_video.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_rtcp_impl.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
+#include "common_types.h"
+#include "modules/remote_bitrate_estimator/include/mock/mock_remote_bitrate_observer.h"
+#include "modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/source/rtcp_receiver.h"
+#include "modules/rtp_rtcp/source/rtcp_sender.h"
+#include "modules/rtp_rtcp/source/rtp_receiver_video.h"
+#include "modules/rtp_rtcp/source/rtp_rtcp_impl.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
 
 namespace webrtc {
 
@@ -468,7 +468,7 @@ TEST_F(RtcpSenderTest, TestSendTimeOfXrRrReport) {
 // to make much sense to send an empty TMMBN, since there is no place
 // to put an actual limit here. It's just information that no limit
 // is set, which is kind of the starting assumption.
-// See http://code.google.com/p/webrtc/issues/detail?id=468 for one
+// See http://code.google.com/p/issues/detail?id=468 for one
 // situation where this caused confusion.
 TEST_F(RtcpSenderTest, SendsTmmbnIfSetAndEmpty) {
   EXPECT_EQ(0, rtcp_sender_->SetRTCPStatus(kRtcpCompound));

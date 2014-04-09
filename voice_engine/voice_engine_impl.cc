@@ -9,16 +9,16 @@
  */
 
 #if defined(WEBRTC_ANDROID)
-#include "webrtc/modules/audio_device/android/audio_device_template.h"
-#include "webrtc/modules/audio_device/android/audio_record_jni.h"
-#include "webrtc/modules/audio_device/android/audio_track_jni.h"
-#include "webrtc/modules/audio_device/android/opensles_input.h"
-#include "webrtc/modules/audio_device/android/opensles_output.h"
+#include "modules/audio_device/android/audio_device_template.h"
+#include "modules/audio_device/android/audio_record_jni.h"
+#include "modules/audio_device/android/audio_track_jni.h"
+#include "modules/audio_device/android/opensles_input.h"
+#include "modules/audio_device/android/opensles_output.h"
 #endif
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/voice_engine_impl.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/voice_engine_impl.h"
 
 namespace webrtc
 {

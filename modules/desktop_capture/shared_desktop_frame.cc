@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/shared_desktop_frame.h"
+#include "modules/desktop_capture/shared_desktop_frame.h"
 
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

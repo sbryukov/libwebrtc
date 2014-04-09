@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/mouse_cursor_monitor.h"
+#include "modules/desktop_capture/mouse_cursor_monitor.h"
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/desktop_capture/desktop_capture_options.h"
-#include "webrtc/modules/desktop_capture/desktop_frame.h"
-#include "webrtc/modules/desktop_capture/mouse_cursor.h"
-#include "webrtc/modules/desktop_capture/window_capturer.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_capture_options.h"
+#include "modules/desktop_capture/desktop_frame.h"
+#include "modules/desktop_capture/mouse_cursor.h"
+#include "modules/desktop_capture/window_capturer.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 
@@ -49,7 +49,7 @@ class MouseCursorMonitorTest : public testing::Test,
 // TODO(sergeyu): On Mac we need to initialize NSApplication before running the
 // tests. Figure out how to do that without breaking other tests in
 // modules_unittests and enable these tests on Mac.
-// https://code.google.com/p/webrtc/issues/detail?id=2532
+// https://code.google.com/p/issues/detail?id=2532
 #if !defined(WEBRTC_MAC)
 #define MAYBE(x) x
 #else

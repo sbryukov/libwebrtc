@@ -9,7 +9,7 @@
  */
 
 // This file includes unit tests for SendStatisticsProxy.
-#include "webrtc/video/send_statistics_proxy.h"
+#include "video/send_statistics_proxy.h"
 
 #include <map>
 #include <string>

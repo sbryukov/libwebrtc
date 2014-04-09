@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_render/video_render_frames.h"
+#include "modules/video_render/video_render_frames.h"
 
 #include <assert.h>
 
-#include "webrtc/common_video/interface/texture_video_frame.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_video/interface/texture_video_frame.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

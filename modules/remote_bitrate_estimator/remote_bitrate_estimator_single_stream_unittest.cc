@@ -10,8 +10,8 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/remote_bitrate_estimator/remote_bitrate_estimator_unittest_helper.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
+#include "modules/remote_bitrate_estimator/remote_bitrate_estimator_unittest_helper.h"
+#include "system_wrappers/interface/constructor_magic.h"
 
 namespace webrtc {
 

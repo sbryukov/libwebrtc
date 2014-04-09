@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/screen_capturer_helper.h"
+#include "modules/desktop_capture/screen_capturer_helper.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

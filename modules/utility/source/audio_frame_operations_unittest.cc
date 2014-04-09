@@ -10,8 +10,8 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/interface/audio_frame_operations.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/utility/interface/audio_frame_operations.h"
 
 namespace webrtc {
 namespace {

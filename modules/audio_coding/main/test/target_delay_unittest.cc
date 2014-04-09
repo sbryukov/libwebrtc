@@ -9,16 +9,16 @@
  */
 
 #include "gtest/gtest.h"
-#include "webrtc/common.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_coding/main/test/utility.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "common.h"
+#include "common_types.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/test/utility.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/sleep.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 namespace webrtc {
 

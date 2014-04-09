@@ -9,13 +9,13 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/video_coding/codecs/test_framework/unit_test.h"
-#include "webrtc/modules/video_coding/codecs/test_framework/video_source.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "modules/video_coding/codecs/test_framework/unit_test.h"
+#include "modules/video_coding/codecs/test_framework/video_source.h"
+#include "modules/video_coding/codecs/vp8/include/vp8.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 namespace webrtc {
 

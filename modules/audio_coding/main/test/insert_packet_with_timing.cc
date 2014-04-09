@@ -12,14 +12,14 @@
 
 #include "gflags/gflags.h"
 #include "gtest/gtest.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_coding/main/test/Channel.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/test/Channel.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
 
 // Codec.
 DEFINE_string(codec, "opus", "Codec Name");

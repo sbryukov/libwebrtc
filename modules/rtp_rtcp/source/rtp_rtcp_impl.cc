@@ -8,17 +8,17 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/rtp_rtcp/source/rtp_rtcp_impl.h"
+#include "modules/rtp_rtcp/source/rtp_rtcp_impl.h"
 
 #include <assert.h>
 #include <string.h>
 
-#include "webrtc/common_types.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_types.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/trace.h"
 
 #ifdef MATLAB
-#include "webrtc/modules/rtp_rtcp/test/BWEStandAlone/MatlabPlot.h"
+#include "modules/rtp_rtcp/test/BWEStandAlone/MatlabPlot.h"
 extern MatlabEngine eng;  // Global variable defined elsewhere.
 #endif
 

@@ -13,8 +13,8 @@
 #include <algorithm>
 #include <vector>
 
-#include "webrtc/modules/bitrate_controller/include/bitrate_controller.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/bitrate_controller/include/bitrate_controller.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
 
 using webrtc::RtcpBandwidthObserver;
 using webrtc::BitrateObserver;

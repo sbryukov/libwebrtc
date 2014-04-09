@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/voice_engine/include/voe_network.h"
-#include "webrtc/voice_engine/test/auto_test/fakes/fake_external_transport.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/sleep.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "voice_engine/include/voe_network.h"
+#include "voice_engine/test/auto_test/fakes/fake_external_transport.h"
+#include "voice_engine/voice_engine_defines.h"
 
 FakeExternalTransport::FakeExternalTransport(webrtc::VoENetwork* ptr)
     : my_network_(ptr),

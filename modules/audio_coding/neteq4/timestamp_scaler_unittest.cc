@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/timestamp_scaler.h"
+#include "modules/audio_coding/neteq4/timestamp_scaler.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/packet.h"
+#include "modules/audio_coding/neteq4/mock/mock_decoder_database.h"
+#include "modules/audio_coding/neteq4/packet.h"
 
 using ::testing::Return;
 using ::testing::ReturnNull;

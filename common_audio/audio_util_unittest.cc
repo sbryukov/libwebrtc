@@ -9,8 +9,8 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/include/audio_util.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/include/audio_util.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

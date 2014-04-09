@@ -10,8 +10,8 @@
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/audio_coding/codecs/opus/interface/opus_interface.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/audio_coding/codecs/opus/interface/opus_interface.h"
+#include "test/testsupport/fileutils.h"
 
 struct WebRtcOpusEncInst;
 struct WebRtcOpusDecInst;

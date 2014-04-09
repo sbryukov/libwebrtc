@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/android/audio_manager_jni.h"
+#include "modules/audio_device/android/audio_manager_jni.h"
 
 #include <assert.h>
 
-#include "webrtc/modules/utility/interface/helpers_android.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/utility/interface/helpers_android.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 
@@ -58,7 +58,7 @@ void AudioManagerJni::SetAndroidAudioDeviceObjects(void* jvm, void* env,
   // as to why this is necessary.
   // Get the AudioManagerAndroid class object.
   jclass javaAmClassLocal = g_jni_env_->FindClass(
-      "org/webrtc/voiceengine/AudioManagerAndroid");
+      "org/voiceengine/AudioManagerAndroid");
   assert(javaAmClassLocal);
 
   // Create a global reference such that the class object is not recycled by

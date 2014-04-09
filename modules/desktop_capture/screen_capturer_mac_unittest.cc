@@ -8,19 +8,19 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/screen_capturer.h"
+#include "modules/desktop_capture/screen_capturer.h"
 
 #include <ApplicationServices/ApplicationServices.h>
 
 #include <ostream>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/desktop_capture/desktop_frame.h"
-#include "webrtc/modules/desktop_capture/desktop_geometry.h"
-#include "webrtc/modules/desktop_capture/desktop_region.h"
-#include "webrtc/modules/desktop_capture/mac/desktop_configuration.h"
-#include "webrtc/modules/desktop_capture/screen_capturer_mock_objects.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/desktop_frame.h"
+#include "modules/desktop_capture/desktop_geometry.h"
+#include "modules/desktop_capture/desktop_region.h"
+#include "modules/desktop_capture/mac/desktop_configuration.h"
+#include "modules/desktop_capture/screen_capturer_mock_objects.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using ::testing::_;
 using ::testing::AnyNumber;

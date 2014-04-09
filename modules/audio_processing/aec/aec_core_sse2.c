@@ -12,14 +12,14 @@
  * The core AEC algorithm, SSE2 version of speed-critical functions.
  */
 
-#include "webrtc/modules/audio_processing/aec/aec_core.h"
+#include "modules/audio_processing/aec/aec_core.h"
 
 #include <emmintrin.h>
 #include <math.h>
 #include <string.h>  // memset
 
-#include "webrtc/modules/audio_processing/aec/aec_core_internal.h"
-#include "webrtc/modules/audio_processing/aec/aec_rdft.h"
+#include "modules/audio_processing/aec/aec_core_internal.h"
+#include "modules/audio_processing/aec/aec_rdft.h"
 
 __inline static float MulRe(float aRe, float aIm, float bRe, float bIm) {
   return aRe * bRe - aIm * bIm;

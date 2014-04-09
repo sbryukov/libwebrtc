@@ -12,11 +12,11 @@
 
 #include <stdio.h>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/channel_transport/include/channel_transport.h"
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/channel_transport/include/channel_transport.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_volume_control.h"
 
 int main(int argc, char** argv) {
   webrtc::VoiceEngine* voe = webrtc::VoiceEngine::Create();

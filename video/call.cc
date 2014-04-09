@@ -14,19 +14,19 @@
 #include <map>
 #include <vector>
 
-#include "webrtc/call.h"
-#include "webrtc/common.h"
-#include "webrtc/config.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/video/video_receive_stream.h"
-#include "webrtc/video/video_send_stream.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
+#include "call.h"
+#include "common.h"
+#include "config.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/trace.h"
+#include "video/video_receive_stream.h"
+#include "video/video_send_stream.h"
+#include "video_engine/include/vie_base.h"
+#include "video_engine/include/vie_codec.h"
+#include "video_engine/include/vie_rtp_rtcp.h"
 
 namespace webrtc {
 const char* RtpExtension::kTOffset = "urn:ietf:params:rtp-hdrext:toffset";

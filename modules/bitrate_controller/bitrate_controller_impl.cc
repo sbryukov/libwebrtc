@@ -9,12 +9,12 @@
  *
  */
 
-#include "webrtc/modules/bitrate_controller/bitrate_controller_impl.h"
+#include "modules/bitrate_controller/bitrate_controller_impl.h"
 
 #include <algorithm>
 #include <utility>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
 
 namespace webrtc {
 

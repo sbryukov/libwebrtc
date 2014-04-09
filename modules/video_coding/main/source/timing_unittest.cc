@@ -14,13 +14,13 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/modules/video_coding/main/source/timing.h"
-#include "webrtc/modules/video_coding/main/test/receiver_tests.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "modules/video_coding/main/source/timing.h"
+#include "modules/video_coding/main/test/receiver_tests.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

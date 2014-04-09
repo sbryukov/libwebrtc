@@ -12,22 +12,22 @@
 #include <algorithm>
 #include <queue>
 
-#include "webrtc/common_audio/include/audio_util.h"
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/audio_processing/test/test_utils.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "common_audio/include/audio_util.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/audio_processing/test/test_utils.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 #ifdef WEBRTC_ANDROID_PLATFORM_BUILD
 #include "gtest/gtest.h"
-#include "external/webrtc/webrtc/modules/audio_processing/test/unittest.pb.h"
+#include "external/modules/audio_processing/test/unittest.pb.h"
 #else
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/audio_processing/unittest.pb.h"
+#include "audio_processing/unittest.pb.h"
 #endif
 
 #if (defined(WEBRTC_AUDIOPROC_FIXED_PROFILE)) || \
@@ -1883,7 +1883,7 @@ TEST_F(ApmTest, DISABLED_ON_ANDROID(Process)) {
 
 // TODO(henrike): re-implement functionality lost when removing the old main
 //                function. See
-//                https://code.google.com/p/webrtc/issues/detail?id=1981
+//                https://code.google.com/p/issues/detail?id=1981
 
 }  // namespace
 }  // namespace webrtc

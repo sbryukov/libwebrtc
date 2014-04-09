@@ -15,13 +15,13 @@
 #include <list>
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/input_audio_file.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/rtp_generator.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/tools/input_audio_file.h"
+#include "modules/audio_coding/neteq4/tools/rtp_generator.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 namespace webrtc {
 

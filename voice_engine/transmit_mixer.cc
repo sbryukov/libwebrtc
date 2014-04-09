@@ -8,19 +8,19 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/transmit_mixer.h"
+#include "voice_engine/transmit_mixer.h"
 
-#include "webrtc/modules/utility/interface/audio_frame_operations.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/channel.h"
-#include "webrtc/voice_engine/channel_manager.h"
-#include "webrtc/voice_engine/include/voe_external_media.h"
-#include "webrtc/voice_engine/statistics.h"
-#include "webrtc/voice_engine/utility.h"
-#include "webrtc/voice_engine/voe_base_impl.h"
+#include "modules/utility/interface/audio_frame_operations.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/channel.h"
+#include "voice_engine/channel_manager.h"
+#include "voice_engine/include/voe_external_media.h"
+#include "voice_engine/statistics.h"
+#include "voice_engine/utility.h"
+#include "voice_engine/voe_base_impl.h"
 
 #define WEBRTC_ABS(a) (((a) < 0) ? -(a) : (a))
 

@@ -8,26 +8,26 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_receiver.h"
+#include "modules/audio_coding/main/acm2/acm_receiver.h"
 
 #include <stdlib.h>  // malloc
 
 #include <algorithm>  // sort
 #include <vector>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_resampler.h"
-#include "webrtc/modules/audio_coding/main/acm2/call_statistics.h"
-#include "webrtc/modules/audio_coding/main/acm2/nack.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/audio_decoder.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "modules/audio_coding/main/acm2/acm_resampler.h"
+#include "modules/audio_coding/main/acm2/call_statistics.h"
+#include "modules/audio_coding/main/acm2/nack.h"
+#include "modules/audio_coding/neteq4/interface/audio_decoder.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

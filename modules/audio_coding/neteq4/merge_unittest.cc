@@ -10,15 +10,15 @@
 
 // Unit tests for Merge class.
 
-#include "webrtc/modules/audio_coding/neteq4/merge.h"
+#include "modules/audio_coding/neteq4/merge.h"
 
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/random_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/random_vector.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
 
 namespace webrtc {
 

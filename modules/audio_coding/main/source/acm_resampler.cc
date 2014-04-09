@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/source/acm_resampler.h"
+#include "modules/audio_coding/main/source/acm_resampler.h"
 
 #include <string.h>
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "system_wrappers/interface/logging.h"
 
 namespace webrtc {
 

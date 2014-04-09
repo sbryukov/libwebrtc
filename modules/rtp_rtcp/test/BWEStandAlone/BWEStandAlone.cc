@@ -14,15 +14,15 @@
 #include <stdio.h>
 #include <string>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/channel_transport/udp_transport.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/channel_transport/udp_transport.h"
 
-#include "webrtc/modules/rtp_rtcp/test/BWEStandAlone/TestLoadGenerator.h"
-#include "webrtc/modules/rtp_rtcp/test/BWEStandAlone/TestSenderReceiver.h"
+#include "modules/rtp_rtcp/test/BWEStandAlone/TestLoadGenerator.h"
+#include "modules/rtp_rtcp/test/BWEStandAlone/TestSenderReceiver.h"
 
-#include "webrtc/modules/rtp_rtcp/test/BWEStandAlone/MatlabPlot.h"
+#include "modules/rtp_rtcp/test/BWEStandAlone/MatlabPlot.h"
 
 //#include "vld.h"
 

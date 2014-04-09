@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/window_capturer.h"
+#include "modules/desktop_capture/window_capturer.h"
 
 #include <assert.h>
 #include <string.h>
@@ -19,14 +19,14 @@
 
 #include <algorithm>
 
-#include "webrtc/modules/desktop_capture/desktop_capture_options.h"
-#include "webrtc/modules/desktop_capture/desktop_frame.h"
-#include "webrtc/modules/desktop_capture/x11/shared_x_display.h"
-#include "webrtc/modules/desktop_capture/x11/x_error_trap.h"
-#include "webrtc/modules/desktop_capture/x11/x_server_pixel_buffer.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
+#include "modules/desktop_capture/desktop_capture_options.h"
+#include "modules/desktop_capture/desktop_frame.h"
+#include "modules/desktop_capture/x11/shared_x_display.h"
+#include "modules/desktop_capture/x11/x_error_trap.h"
+#include "modules/desktop_capture/x11/x_server_pixel_buffer.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_refptr.h"
 
 namespace webrtc {
 

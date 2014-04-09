@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/source/receiver.h"
+#include "modules/video_coding/main/source/receiver.h"
 
 #include <assert.h>
 
 #include <cstdlib>
 
-#include "webrtc/modules/video_coding/main/source/encoded_frame.h"
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/modules/video_coding/main/source/media_opt_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
+#include "modules/video_coding/main/source/encoded_frame.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "modules/video_coding/main/source/media_opt_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace_event.h"
 
 namespace webrtc {
 

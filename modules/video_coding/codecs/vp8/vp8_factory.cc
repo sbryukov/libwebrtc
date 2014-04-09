@@ -9,7 +9,7 @@
  *
  */
 
-#include "webrtc/modules/video_coding/codecs/vp8/vp8_impl.h"
+#include "modules/video_coding/codecs/vp8/vp8_impl.h"
 
 namespace webrtc {
 

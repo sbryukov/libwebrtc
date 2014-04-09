@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/source/timing.h"
+#include "modules/video_coding/main/source/timing.h"
 
 
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/modules/video_coding/main/source/jitter_buffer_common.h"
-#include "webrtc/modules/video_coding/main/source/timestamp_extrapolator.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "modules/video_coding/main/source/jitter_buffer_common.h"
+#include "modules/video_coding/main/source/timestamp_extrapolator.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/trace.h"
 
 
 

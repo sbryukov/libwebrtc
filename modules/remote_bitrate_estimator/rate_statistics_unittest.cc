@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/remote_bitrate_estimator/rate_statistics.h"
+#include "modules/remote_bitrate_estimator/rate_statistics.h"
 
 namespace {
 

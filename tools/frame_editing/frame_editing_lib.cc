@@ -13,9 +13,9 @@
 
 #include <string>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/typedefs.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
 
 using std::string;
 

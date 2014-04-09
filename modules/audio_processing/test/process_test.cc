@@ -17,21 +17,21 @@
 
 #include <algorithm>
 
-#include "webrtc/common.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/audio_processing/test/test_utils.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/perf_test.h"
+#include "common.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/audio_processing/test/test_utils.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/perf_test.h"
 #ifdef WEBRTC_ANDROID_PLATFORM_BUILD
 #include "gtest/gtest.h"
-#include "external/webrtc/webrtc/modules/audio_processing/debug.pb.h"
+#include "external/modules/audio_processing/debug.pb.h"
 #else
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/audio_processing/debug.pb.h"
+#include "audio_processing/debug.pb.h"
 #endif
 
 namespace webrtc {

@@ -8,8 +8,8 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/audio_device_generic.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_device/audio_device_generic.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

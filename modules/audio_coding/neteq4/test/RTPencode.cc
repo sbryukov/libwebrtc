@@ -23,10 +23,10 @@
 
 #include <assert.h>
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 // needed for NetEqDecoder
-#include "webrtc/modules/audio_coding/neteq4/interface/audio_decoder.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/interface/audio_decoder.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
 
 /************************/
 /* Define payload types */

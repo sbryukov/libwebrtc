@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/vcm_payload_sink_factory.h"
+#include "modules/video_coding/main/test/vcm_payload_sink_factory.h"
 
 #include <assert.h>
 
 #include <algorithm>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 namespace rtpplayer {

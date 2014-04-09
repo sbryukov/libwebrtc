@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/time_stretch.h"
+#include "modules/audio_coding/neteq4/time_stretch.h"
 
 #include <algorithm>  // min, max
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/dsp_helper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/dsp_helper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

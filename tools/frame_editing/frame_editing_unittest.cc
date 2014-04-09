@@ -14,10 +14,10 @@
 #include <fstream>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/tools/frame_editing/frame_editing_lib.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
+#include "tools/frame_editing/frame_editing_lib.h"
 
 namespace webrtc {
 namespace test {

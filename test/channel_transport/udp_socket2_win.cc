@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/channel_transport/udp_socket2_win.h"
+#include "test/channel_transport/udp_socket2_win.h"
 
 #include <assert.h>
 #include <stdlib.h>
 #include <winsock2.h>
 
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/test/channel_transport/traffic_control_win.h"
-#include "webrtc/test/channel_transport/udp_socket2_manager_win.h"
+#include "system_wrappers/interface/sleep.h"
+#include "test/channel_transport/traffic_control_win.h"
+#include "test/channel_transport/udp_socket2_manager_win.h"
 
 #pragma warning(disable : 4311)
 

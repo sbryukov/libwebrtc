@@ -12,7 +12,7 @@
 
 #include <algorithm>  // Access to min.
 
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
 
 namespace webrtc {
 

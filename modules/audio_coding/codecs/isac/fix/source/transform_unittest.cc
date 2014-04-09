@@ -8,8 +8,8 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/codecs/isac/fix/source/codec.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
+#include "modules/audio_coding/codecs/isac/fix/source/codec.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
 
 static const int kSamples = FRAMESAMPLES/2;
 static int32_t spec2time_out_expected_1[kSamples] = {-3366470, -2285227,

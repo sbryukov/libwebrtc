@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
+#include "common_audio/resampler/include/push_resampler.h"
 
 // Quality testing of PushResampler is handled through output_mixer_unittest.cc.
 

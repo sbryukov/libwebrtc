@@ -12,7 +12,7 @@
  * This file includes unit tests for NetEQ.
  */
 
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq.h"
 
 #include <stdlib.h>
 #include <string.h>  // memset
@@ -24,14 +24,14 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq_help_macros.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq_internal.h"
-#include "webrtc/modules/audio_coding/neteq/test/NETEQTEST_CodecClass.h"
-#include "webrtc/modules/audio_coding/neteq/test/NETEQTEST_NetEQClass.h"
-#include "webrtc/modules/audio_coding/neteq/test/NETEQTEST_RTPpacket.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/input_audio_file.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq_help_macros.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq_internal.h"
+#include "modules/audio_coding/neteq/test/NETEQTEST_CodecClass.h"
+#include "modules/audio_coding/neteq/test/NETEQTEST_NetEQClass.h"
+#include "modules/audio_coding/neteq/test/NETEQTEST_RTPpacket.h"
+#include "modules/audio_coding/neteq4/tools/input_audio_file.h"
+#include "test/testsupport/fileutils.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

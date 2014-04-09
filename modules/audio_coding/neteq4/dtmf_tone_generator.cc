@@ -28,7 +28,7 @@
 // 852 Hz      7        8        9       14
 // 941 Hz     10        0       11       15
 
-#include "webrtc/modules/audio_coding/neteq4/dtmf_tone_generator.h"
+#include "modules/audio_coding/neteq4/dtmf_tone_generator.h"
 
 #include <assert.h>
 

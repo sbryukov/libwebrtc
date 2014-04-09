@@ -10,7 +10,7 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/common_audio/resampler/include/resampler.h"
+#include "common_audio/resampler/include/resampler.h"
 
 // TODO(andrew): this is a work-in-progress. Many more tests are needed.
 

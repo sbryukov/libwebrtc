@@ -11,19 +11,19 @@
 #include <vector>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common.h"
-#include "webrtc/modules/video_coding/codecs/interface/mock/mock_video_codec_interface.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8_common_types.h"
-#include "webrtc/modules/video_coding/codecs/vp8/temporal_layers.h"
-#include "webrtc/modules/video_coding/main/interface/mock/mock_vcm_callbacks.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/source/video_coding_impl.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/frame_generator.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "common.h"
+#include "modules/video_coding/codecs/interface/mock/mock_video_codec_interface.h"
+#include "modules/video_coding/codecs/vp8/include/vp8_common_types.h"
+#include "modules/video_coding/codecs/vp8/temporal_layers.h"
+#include "modules/video_coding/main/interface/mock/mock_vcm_callbacks.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/source/video_coding_impl.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/frame_generator.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 using ::testing::_;
 using ::testing::AllOf;

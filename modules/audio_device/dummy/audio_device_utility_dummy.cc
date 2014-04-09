@@ -7,7 +7,7 @@
  *  in the file PATENTS.  All contributing project authors may
  *  be found in the AUTHORS file in the root of the source tree.
  */
-#include "webrtc/modules/audio_device/dummy/audio_device_utility_dummy.h"
+#include "modules/audio_device/dummy/audio_device_utility_dummy.h"
 
 namespace webrtc {
   int32_t AudioDeviceUtilityDummy::Init() { return 0; }

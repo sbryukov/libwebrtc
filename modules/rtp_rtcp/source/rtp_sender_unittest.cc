@@ -14,15 +14,15 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/pacing/include/mock/mock_paced_sender.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_format_video_generic.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_header_extension.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_sender.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/mock_transport.h"
-#include "webrtc/typedefs.h"
+#include "modules/pacing/include/mock/mock_paced_sender.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/source/rtp_format_video_generic.h"
+#include "modules/rtp_rtcp/source/rtp_header_extension.h"
+#include "modules/rtp_rtcp/source/rtp_sender.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/mock_transport.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

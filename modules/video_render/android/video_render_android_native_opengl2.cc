@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_render/android/video_render_android_native_opengl2.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
+#include "modules/video_render/android/video_render_android_native_opengl2.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
 
 #ifdef ANDROID_LOG
 #include <android/log.h>
@@ -19,7 +19,7 @@
 #undef WEBRTC_TRACE
 #define WEBRTC_TRACE(a,b,c,...)  __android_log_print(ANDROID_LOG_DEBUG, "*WEBRTC*", __VA_ARGS__)
 #else
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {
@@ -62,7 +62,7 @@ bool AndroidNativeOpenGl2Renderer::UseOpenGL2(void* window) {
 
   // get the renderer class
   jclass javaRenderClassLocal =
-      env->FindClass("org/webrtc/videoengine/ViEAndroidGLES20");
+      env->FindClass("org/videoengine/ViEAndroidGLES20");
   if (!javaRenderClassLocal) {
     WEBRTC_TRACE(kTraceError, kTraceVideoRenderer, -1,
                  "%s: could not find ViEAndroidRenderer class",
@@ -162,7 +162,7 @@ int32_t AndroidNativeOpenGl2Renderer::Init() {
 
   // get the ViEAndroidGLES20 class
   jclass javaRenderClassLocal =
-      env->FindClass("org/webrtc/videoengine/ViEAndroidGLES20");
+      env->FindClass("org/videoengine/ViEAndroidGLES20");
   if (!javaRenderClassLocal) {
     WEBRTC_TRACE(kTraceError, kTraceVideoRenderer, _id,
                  "%s: could not find ViEAndroidGLES20", __FUNCTION__);
@@ -312,7 +312,7 @@ int32_t AndroidNativeOpenGl2Channel::Init(int32_t zOrder,
   }
 
   jclass javaRenderClass =
-      env->FindClass("org/webrtc/videoengine/ViEAndroidGLES20");
+      env->FindClass("org/videoengine/ViEAndroidGLES20");
   if (!javaRenderClass) {
     WEBRTC_TRACE(kTraceError, kTraceVideoRenderer, _id,
                  "%s: could not find ViESurfaceRenderer", __FUNCTION__);

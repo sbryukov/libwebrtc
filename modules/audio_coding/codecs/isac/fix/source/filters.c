@@ -10,7 +10,7 @@
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_coding/codecs/isac/fix/source/codec.h"
+#include "modules/audio_coding/codecs/isac/fix/source/codec.h"
 
 // Autocorrelation function in fixed point.
 // NOTE! Different from SPLIB-version in how it scales the signal.

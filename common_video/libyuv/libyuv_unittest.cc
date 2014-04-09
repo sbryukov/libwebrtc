@@ -12,11 +12,11 @@
 #include <string.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

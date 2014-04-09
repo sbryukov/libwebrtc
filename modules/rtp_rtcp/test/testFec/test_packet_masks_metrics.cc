@@ -46,10 +46,10 @@
 #include <math.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/rtp_rtcp/source/forward_error_correction_internal.h"
-#include "webrtc/modules/rtp_rtcp/test/testFec/average_residual_loss_xor_codes.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/rtp_rtcp/source/forward_error_correction_internal.h"
+#include "modules/rtp_rtcp/test/testFec/average_residual_loss_xor_codes.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

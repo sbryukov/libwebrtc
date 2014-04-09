@@ -13,8 +13,8 @@
 #include <iostream>
 
 #include "gflags/gflags.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/neteq_performance_test.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/tools/neteq_performance_test.h"
+#include "typedefs.h"
 
 // Flag validators.
 static bool ValidateRuntime(const char* flagname, int value) {

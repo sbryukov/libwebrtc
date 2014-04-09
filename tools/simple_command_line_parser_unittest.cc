@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/tools/simple_command_line_parser.h"
+#include "tools/simple_command_line_parser.h"
 
 namespace webrtc {
 namespace test {

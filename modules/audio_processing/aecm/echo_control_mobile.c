@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_processing/aecm/include/echo_control_mobile.h"
+#include "modules/audio_processing/aecm/include/echo_control_mobile.h"
 
 #ifdef AEC_DEBUG
 #include <stdio.h>
 #endif
 #include <stdlib.h>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_processing/aecm/aecm_core.h"
-#include "webrtc/modules/audio_processing/utility/ring_buffer.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_processing/aecm/aecm_core.h"
+#include "modules/audio_processing/utility/ring_buffer.h"
 
 #define BUF_SIZE_FRAMES 50 // buffer size (frames)
 // Maximum length of resampled signal. Must be an integer multiple of frames

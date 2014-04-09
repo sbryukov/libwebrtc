@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
+#include "voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
 
 namespace {
 
@@ -29,7 +29,7 @@ class VolumeTest : public AfterStreamingFixture {
 
 // TODO(phoglund): a number of tests are disabled here on Linux, all pending
 // investigation in
-// http://code.google.com/p/webrtc/issues/detail?id=367
+// http://code.google.com/p/issues/detail?id=367
 
 TEST_F(VolumeTest, DefaultSpeakerVolumeIsAtMost255) {
   unsigned int volume = 1000;

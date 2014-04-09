@@ -8,8 +8,8 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/dtmf_inband_queue.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/dtmf_inband_queue.h"
 
 namespace webrtc {
 

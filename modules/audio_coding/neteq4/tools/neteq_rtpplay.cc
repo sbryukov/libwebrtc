@@ -19,16 +19,16 @@
 #include <string>
 
 #include "google/gflags.h"
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_DummyRTPpacket.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/input_audio_file.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_DummyRTPpacket.h"
+#include "modules/audio_coding/neteq4/tools/input_audio_file.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
+#include "typedefs.h"
 
 using webrtc::NetEq;
 using webrtc::WebRtcRTPHeader;

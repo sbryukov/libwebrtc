@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/codecs/test_framework/benchmark.h"
+#include "modules/video_coding/codecs/test_framework/benchmark.h"
 
 #include <assert.h>
 
@@ -19,11 +19,11 @@
     #include <windows.h>
 #endif
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_coding/codecs/test_framework/video_source.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_coding/codecs/test_framework/video_source.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/metrics/video_metrics.h"
 
 #define SSIM_CALC 0 // by default, don't compute SSIM
 

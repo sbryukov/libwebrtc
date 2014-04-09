@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video/encoded_frame_callback_adapter.h"
+#include "video/encoded_frame_callback_adapter.h"
 
-#include "webrtc/modules/video_coding/main/source/encoded_frame.h"
+#include "modules/video_coding/main/source/encoded_frame.h"
 
 namespace webrtc {
 namespace internal {

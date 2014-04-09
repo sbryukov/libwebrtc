@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/examples/android/media_demo/jni/media_codec_video_decoder.h"
+#include "examples/android/media_demo/jni/media_codec_video_decoder.h"
 
 #include <android/log.h>
 
-#include "webrtc/examples/android/media_demo/jni/jni_helpers.h"
-#include "webrtc/modules/utility/interface/helpers_android.h"
+#include "examples/android/media_demo/jni/jni_helpers.h"
+#include "modules/utility/interface/helpers_android.h"
 
 namespace webrtc {
 

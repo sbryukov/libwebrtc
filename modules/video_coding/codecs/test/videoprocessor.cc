@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/codecs/test/videoprocessor.h"
+#include "modules/video_coding/codecs/test/videoprocessor.h"
 
 #include <assert.h>
 #include <string.h>
@@ -16,7 +16,7 @@
 #include <limits>
 #include <vector>
 
-#include "webrtc/system_wrappers/interface/cpu_info.h"
+#include "system_wrappers/interface/cpu_info.h"
 
 namespace webrtc {
 namespace test {

@@ -9,10 +9,10 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/media_file/interface/media_file.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "modules/media_file/interface/media_file.h"
+#include "system_wrappers/interface/sleep.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 class MediaFileTest : public testing::Test {
  protected:

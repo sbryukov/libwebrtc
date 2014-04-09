@@ -8,33 +8,33 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/audio_decoder_impl.h"
+#include "modules/audio_coding/neteq4/audio_decoder_impl.h"
 
 #include <assert.h>
 #include <string.h>  // memmove
 
 #ifdef WEBRTC_CODEC_CELT
-#include "webrtc/modules/audio_coding/codecs/celt/include/celt_interface.h"
+#include "modules/audio_coding/codecs/celt/include/celt_interface.h"
 #endif
-#include "webrtc/modules/audio_coding/codecs/cng/include/webrtc_cng.h"
-#include "webrtc/modules/audio_coding/codecs/g711/include/g711_interface.h"
+#include "modules/audio_coding/codecs/cng/include/webrtc_cng.h"
+#include "modules/audio_coding/codecs/g711/include/g711_interface.h"
 #ifdef WEBRTC_CODEC_G722
-#include "webrtc/modules/audio_coding/codecs/g722/include/g722_interface.h"
+#include "modules/audio_coding/codecs/g722/include/g722_interface.h"
 #endif
 #ifdef WEBRTC_CODEC_ILBC
-#include "webrtc/modules/audio_coding/codecs/ilbc/interface/ilbc.h"
+#include "modules/audio_coding/codecs/ilbc/interface/ilbc.h"
 #endif
 #ifdef WEBRTC_CODEC_ISACFX
-#include "webrtc/modules/audio_coding/codecs/isac/fix/interface/isacfix.h"
+#include "modules/audio_coding/codecs/isac/fix/interface/isacfix.h"
 #endif
 #ifdef WEBRTC_CODEC_ISAC
-#include "webrtc/modules/audio_coding/codecs/isac/main/interface/isac.h"
+#include "modules/audio_coding/codecs/isac/main/interface/isac.h"
 #endif
 #ifdef WEBRTC_CODEC_OPUS
-#include "webrtc/modules/audio_coding/codecs/opus/interface/opus_interface.h"
+#include "modules/audio_coding/codecs/opus/interface/opus_interface.h"
 #endif
 #ifdef WEBRTC_CODEC_PCM16
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
 #endif
 
 namespace webrtc {

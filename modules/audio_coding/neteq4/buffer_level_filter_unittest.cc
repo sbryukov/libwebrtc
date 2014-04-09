@@ -10,7 +10,7 @@
 
 // Unit tests for BufferLevelFilter class.
 
-#include "webrtc/modules/audio_coding/neteq4/buffer_level_filter.h"
+#include "modules/audio_coding/neteq4/buffer_level_filter.h"
 
 #include <math.h>  // Access to pow function.
 

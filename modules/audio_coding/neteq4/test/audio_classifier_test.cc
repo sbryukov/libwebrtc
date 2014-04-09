@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/audio_classifier.h"
+#include "modules/audio_coding/neteq4/audio_classifier.h"
 
 #include <math.h>
 #include <stdio.h>
@@ -18,7 +18,7 @@
 #include <string>
 #include <iostream>
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 int main(int argc, char* argv[]) {
   if (argc != 5) {

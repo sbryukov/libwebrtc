@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_processing/main/interface/video_processing.h"
-#include "webrtc/modules/video_processing/main/test/unit_test/video_processing_unittest.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_processing/main/interface/video_processing.h"
+#include "modules/video_processing/main/test/unit_test/video_processing_unittest.h"
 
 using namespace webrtc;
 

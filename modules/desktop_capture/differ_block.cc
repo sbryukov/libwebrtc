@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/differ_block.h"
+#include "modules/desktop_capture/differ_block.h"
 
 #include <string.h>
 
 #include "build/build_config.h"
-#include "webrtc/modules/desktop_capture/differ_block_sse2.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
+#include "modules/desktop_capture/differ_block_sse2.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
 
 namespace webrtc {
 

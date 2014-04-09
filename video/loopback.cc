@@ -14,19 +14,19 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/call.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/direct_transport.h"
-#include "webrtc/test/encoder_settings.h"
-#include "webrtc/test/fake_encoder.h"
-#include "webrtc/test/flags.h"
-#include "webrtc/test/run_loop.h"
-#include "webrtc/test/run_tests.h"
-#include "webrtc/test/video_capturer.h"
-#include "webrtc/test/video_renderer.h"
-#include "webrtc/typedefs.h"
+#include "call.h"
+#include "modules/video_coding/codecs/vp8/include/vp8.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/direct_transport.h"
+#include "test/encoder_settings.h"
+#include "test/fake_encoder.h"
+#include "test/flags.h"
+#include "test/run_loop.h"
+#include "test/run_tests.h"
+#include "test/video_capturer.h"
+#include "test/video_renderer.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

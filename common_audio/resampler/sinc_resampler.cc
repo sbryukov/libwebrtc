@@ -85,10 +85,10 @@
 // MSVC++ requires this to be set before any other includes to get M_PI.
 #define _USE_MATH_DEFINES
 
-#include "webrtc/common_audio/resampler/sinc_resampler.h"
-#include "webrtc/system_wrappers/interface/compile_assert.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/resampler/sinc_resampler.h"
+#include "system_wrappers/interface/compile_assert.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
+#include "typedefs.h"
 
 #include <math.h>
 #include <string.h>

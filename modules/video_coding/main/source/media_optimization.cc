@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/source/media_optimization.h"
+#include "modules/video_coding/main/source/media_optimization.h"
 
-#include "webrtc/modules/video_coding/main/source/content_metrics_processing.h"
-#include "webrtc/modules/video_coding/main/source/qm_select.h"
-#include "webrtc/modules/video_coding/utility/include/frame_dropper.h"
-#include "webrtc/system_wrappers/interface/clock.h"
+#include "modules/video_coding/main/source/content_metrics_processing.h"
+#include "modules/video_coding/main/source/qm_select.h"
+#include "modules/video_coding/utility/include/frame_dropper.h"
+#include "system_wrappers/interface/clock.h"
 
 namespace webrtc {
 namespace media_optimization {

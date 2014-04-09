@@ -11,9 +11,9 @@
 #include <string.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/source/packet.h"
-#include "webrtc/modules/video_coding/main/source/session_info.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/source/packet.h"
+#include "modules/video_coding/main/source/session_info.h"
 
 namespace webrtc {
 

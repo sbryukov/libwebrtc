@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/acm2/audio_coding_module_impl.h"
-#include "webrtc/modules/audio_coding/main/source/audio_coding_module_impl.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/acm2/acm_codec_database.h"
+#include "modules/audio_coding/main/acm2/audio_coding_module_impl.h"
+#include "modules/audio_coding/main/source/audio_coding_module_impl.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

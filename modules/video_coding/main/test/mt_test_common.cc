@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/mt_test_common.h"
+#include "modules/video_coding/main/test/mt_test_common.h"
 
 #include <math.h>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/utility/interface/rtp_dump.h"
-#include "webrtc/system_wrappers/interface/clock.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/utility/interface/rtp_dump.h"
+#include "system_wrappers/interface/clock.h"
 
 namespace webrtc {
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/channel_transport/udp_socket_manager_posix.h"
+#include "test/channel_transport/udp_socket_manager_posix.h"
 
 #include <stdio.h>
 #include <strings.h>
@@ -17,9 +17,9 @@
 #include <time.h>
 #include <unistd.h>
 
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/channel_transport/udp_socket_posix.h"
+#include "system_wrappers/interface/sleep.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/channel_transport/udp_socket_posix.h"
 
 namespace webrtc {
 namespace test {

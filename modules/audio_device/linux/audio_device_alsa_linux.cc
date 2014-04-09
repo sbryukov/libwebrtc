@@ -10,14 +10,14 @@
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_device/audio_device_config.h"
-#include "webrtc/modules/audio_device/audio_device_utility.h"
-#include "webrtc/modules/audio_device/linux/audio_device_alsa_linux.h"
+#include "modules/audio_device/audio_device_config.h"
+#include "modules/audio_device/audio_device_utility.h"
+#include "modules/audio_device/linux/audio_device_alsa_linux.h"
 
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/sleep.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 webrtc_adm_linux_alsa::AlsaSymbolTable AlsaSymbolTable;
 

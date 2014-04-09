@@ -9,9 +9,9 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/neteq_performance_test.h"
-#include "webrtc/test/testsupport/perf_test.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/tools/neteq_performance_test.h"
+#include "test/testsupport/perf_test.h"
+#include "typedefs.h"
 
 // Runs a test with 10% packet losses and 10% clock drift, to exercise
 // both loss concealment and time-stretching code.

@@ -11,7 +11,7 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/pacing/include/paced_sender.h"
+#include "modules/pacing/include/paced_sender.h"
 
 using testing::_;
 using testing::Return;

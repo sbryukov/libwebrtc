@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_capture/android/video_capture_android.h"
+#include "modules/video_capture/android/video_capture_android.h"
 
-#include "webrtc/modules/utility/interface/helpers_android.h"
-#include "webrtc/modules/video_capture/android/device_info_android.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/logcat_trace_context.h"
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/utility/interface/helpers_android.h"
+#include "modules/video_capture/android/device_info_android.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/logcat_trace_context.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/trace.h"
 
 static JavaVM* g_jvm = NULL;
 static jclass g_java_capturer_class = NULL;  // VideoCaptureAndroid.class.
@@ -45,7 +45,7 @@ int32_t SetCaptureAndroidVM(JavaVM* javaVM) {
   videocapturemodule::DeviceInfoAndroid::Initialize(ats.env());
 
   jclass j_capture_class =
-      ats.env()->FindClass("org/webrtc/videoengine/VideoCaptureAndroid");
+      ats.env()->FindClass("org/videoengine/VideoCaptureAndroid");
   assert(j_capture_class);
   g_java_capturer_class =
       reinterpret_cast<jclass>(ats.env()->NewGlobalRef(j_capture_class));

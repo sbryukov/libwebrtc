@@ -9,9 +9,9 @@
  */
 
 #include <gflags/gflags.h>
-#include "webrtc/modules/audio_coding/codecs/opus/interface/opus_interface.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/neteq_quality_test.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/audio_coding/codecs/opus/interface/opus_interface.h"
+#include "modules/audio_coding/neteq4/tools/neteq_quality_test.h"
+#include "test/testsupport/fileutils.h"
 
 using google::RegisterFlagValidator;
 using google::ParseCommandLineFlags;

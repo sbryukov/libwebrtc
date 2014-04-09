@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
 
 #include <assert.h>
 #include <utility>  // pair
 
-#include "webrtc/modules/audio_coding/neteq4/interface/audio_decoder.h"
+#include "modules/audio_coding/neteq4/interface/audio_decoder.h"
 
 namespace webrtc {
 

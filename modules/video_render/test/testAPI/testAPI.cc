@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_render/test/testAPI/testAPI.h"
+#include "modules/video_render/test/testAPI/testAPI.h"
 
 #include <stdio.h>
 
@@ -31,14 +31,14 @@
 
 #endif
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/modules/video_render/include/video_render.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_types.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/utility/interface/process_thread.h"
+#include "modules/video_render/include/video_render.h"
+#include "modules/video_render/include/video_render_defines.h"
+#include "system_wrappers/interface/sleep.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "system_wrappers/interface/trace.h"
 
 using namespace webrtc;
 

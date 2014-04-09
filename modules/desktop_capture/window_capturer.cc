@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/window_capturer.h"
+#include "modules/desktop_capture/window_capturer.h"
 
-#include "webrtc/modules/desktop_capture/desktop_capture_options.h"
+#include "modules/desktop_capture/desktop_capture_options.h"
 
 namespace webrtc {
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/initial_delay_manager.h"
+#include "modules/audio_coding/main/acm2/initial_delay_manager.h"
 
 namespace webrtc {
 

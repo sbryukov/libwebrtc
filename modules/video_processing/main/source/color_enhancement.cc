@@ -10,9 +10,9 @@
 
 #include <stdlib.h>  // NULL
 
-#include "webrtc/modules/video_processing/main/source/color_enhancement.h"
-#include "webrtc/modules/video_processing/main/source/color_enhancement_private.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_processing/main/source/color_enhancement.h"
+#include "modules/video_processing/main/source/color_enhancement_private.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 namespace VideoProcessing {

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/testsupport/frame_writer.h"
+#include "test/testsupport/frame_writer.h"
 
 #include <assert.h>
 

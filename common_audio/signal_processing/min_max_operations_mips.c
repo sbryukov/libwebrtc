@@ -16,7 +16,7 @@
  *
  */
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
 
 // Maximum absolute value of word16 vector.
 int16_t WebRtcSpl_MaxAbsValueW16_mips(const int16_t* vector, int length) {

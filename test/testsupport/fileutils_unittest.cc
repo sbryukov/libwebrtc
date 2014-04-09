@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/testsupport/fileutils.h"
+#include "test/testsupport/fileutils.h"
 
 #include <stdio.h>
 
@@ -16,7 +16,7 @@
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "test/testsupport/gtest_disable.h"
 
 #ifdef WIN32
 #define chdir _chdir

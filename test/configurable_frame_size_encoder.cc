@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/configurable_frame_size_encoder.h"
+#include "test/configurable_frame_size_encoder.h"
 
 #include <string.h>
 
-#include "webrtc/common_video/interface/video_image.h"
+#include "common_video/interface/video_image.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace webrtc {

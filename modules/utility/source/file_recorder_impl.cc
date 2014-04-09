@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/media_file/interface/media_file.h"
-#include "webrtc/modules/utility/source/file_recorder_impl.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "engine_configurations.h"
+#include "modules/media_file/interface/media_file.h"
+#include "modules/utility/source/file_recorder_impl.h"
+#include "system_wrappers/interface/trace.h"
 
 #ifdef WEBRTC_MODULE_UTILITY_VIDEO
     #include "critical_section_wrapper.h"

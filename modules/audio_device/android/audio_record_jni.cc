@@ -15,18 +15,18 @@
 // TODO(xians): Break out attach and detach current thread to JVM to
 // separate functions.
 
-#include "webrtc/modules/audio_device/android/audio_record_jni.h"
+#include "modules/audio_device/android/audio_record_jni.h"
 
 #include <android/log.h>
 #include <stdlib.h>
 
-#include "webrtc/modules/audio_device/android/audio_common.h"
-#include "webrtc/modules/audio_device/audio_device_config.h"
-#include "webrtc/modules/audio_device/audio_device_utility.h"
+#include "modules/audio_device/android/audio_common.h"
+#include "modules/audio_device/audio_device_config.h"
+#include "modules/audio_device/audio_device_utility.h"
 
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 
@@ -42,7 +42,7 @@ int32_t AudioRecordJni::SetAndroidAudioDeviceObjects(void* javaVM, void* env,
   globalJNIEnv = reinterpret_cast<JNIEnv*>(env);
   // Get java class type (note path to class packet).
   jclass javaScClassLocal = globalJNIEnv->FindClass(
-      "org/webrtc/voiceengine/WebRtcAudioRecord");
+      "org/voiceengine/WebRtcAudioRecord");
   if (!javaScClassLocal) {
     WEBRTC_TRACE(kTraceError, kTraceAudioDevice, -1,
                  "%s: could not find java class", __FUNCTION__);

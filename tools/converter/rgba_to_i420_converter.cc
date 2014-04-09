@@ -15,8 +15,8 @@
 #include <string>
 #include <vector>
 
-#include "webrtc/tools/converter/converter.h"
-#include "webrtc/tools/simple_command_line_parser.h"
+#include "tools/converter/converter.h"
+#include "tools/simple_command_line_parser.h"
 
 /*
  * A command-line tool based on libyuv to convert a set of RGBA files to a YUV

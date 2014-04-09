@@ -12,13 +12,13 @@
 #include <list>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/video_coding/main/source/packet.h"
-#include "webrtc/modules/video_coding/main/source/receiver.h"
-#include "webrtc/modules/video_coding/main/source/test/stream_generator.h"
-#include "webrtc/modules/video_coding/main/source/timing.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "modules/video_coding/main/source/packet.h"
+#include "modules/video_coding/main/source/receiver.h"
+#include "modules/video_coding/main/source/test/stream_generator.h"
+#include "modules/video_coding/main/source/timing.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 

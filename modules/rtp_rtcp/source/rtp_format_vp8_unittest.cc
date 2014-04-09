@@ -13,10 +13,10 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_format_vp8.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_format_vp8_test_helper.h"
-#include "webrtc/system_wrappers/interface/compile_assert.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/source/rtp_format_vp8.h"
+#include "modules/rtp_rtcp/source/rtp_format_vp8_test_helper.h"
+#include "system_wrappers/interface/compile_assert.h"
+#include "typedefs.h"
 
 #define CHECK_ARRAY_SIZE(expected_size, array)                       \
   COMPILE_ASSERT(expected_size == sizeof(array) / sizeof(array[0]),  \

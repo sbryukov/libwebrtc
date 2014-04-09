@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/timestamp_scaler.h"
+#include "modules/audio_coding/neteq4/timestamp_scaler.h"
 
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/defines.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/defines.h"
+#include "system_wrappers/interface/logging.h"
 
 namespace webrtc {
 

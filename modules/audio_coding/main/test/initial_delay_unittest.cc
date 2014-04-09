@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
 
 #include <assert.h>
 #include <math.h>
@@ -16,17 +16,17 @@
 #include <iostream>
 
 #include "gtest/gtest.h"
-#include "webrtc/common.h"
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/audio_coding/main/test/Channel.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
-#include "webrtc/modules/audio_coding/main/test/utility.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "common.h"
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/audio_coding/main/test/Channel.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
+#include "modules/audio_coding/main/test/utility.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
 
 namespace webrtc {
 

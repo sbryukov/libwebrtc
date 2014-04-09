@@ -10,13 +10,13 @@
 
 #include <stdio.h>
 
-#include "webrtc/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
-#include "webrtc/modules/remote_bitrate_estimator/tools/bwe_rtp.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/video_coding/main/test/rtp_file_reader.h"
-#include "webrtc/modules/video_coding/main/test/rtp_player.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h"
+#include "modules/remote_bitrate_estimator/tools/bwe_rtp.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/video_coding/main/test/rtp_file_reader.h"
+#include "modules/video_coding/main/test/rtp_player.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using webrtc::rtpplayer::RtpPacketSourceInterface;
 

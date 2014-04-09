@@ -8,21 +8,21 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/source/acm_neteq.h"
+#include "modules/audio_coding/main/source/acm_neteq.h"
 
 #include <stdlib.h>  // malloc
 
 #include <algorithm>  // sort
 #include <vector>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq_internal.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "common_types.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq_internal.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace_event.h"
 
 namespace webrtc {
 

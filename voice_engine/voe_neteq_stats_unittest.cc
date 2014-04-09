@@ -8,20 +8,20 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/include/voe_neteq_stats.h"
+#include "voice_engine/include/voe_neteq_stats.h"
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/audio_coding/main/acm2/audio_coding_module_impl.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/audio_coding/main/source/audio_coding_module_impl.h"
-#include "webrtc/modules/audio_device/include/fake_audio_device.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_hardware.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "modules/audio_coding/main/acm2/audio_coding_module_impl.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/audio_coding/main/source/audio_coding_module_impl.h"
+#include "modules/audio_device/include/fake_audio_device.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/gtest_disable.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_hardware.h"
+#include "voice_engine/voice_engine_defines.h"
 
 namespace webrtc {
 namespace voe {

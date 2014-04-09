@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
 
 static const int kVector16Size = 9;
 static const int16_t vector16[kVector16Size] = {1, -15511, 4323, 1963,

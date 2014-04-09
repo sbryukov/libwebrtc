@@ -19,13 +19,13 @@
 #endif
 
 #include "gtest/gtest.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/common.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/audio_coding/main/test/PCMFile.h"
-#include "webrtc/modules/audio_coding/main/test/utility.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "engine_configurations.h"
+#include "common.h"
+#include "common_types.h"
+#include "modules/audio_coding/main/test/PCMFile.h"
+#include "modules/audio_coding/main/test/utility.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

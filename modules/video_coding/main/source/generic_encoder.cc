@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/video_coding/main/source/encoded_frame.h"
-#include "webrtc/modules/video_coding/main/source/generic_encoder.h"
-#include "webrtc/modules/video_coding/main/source/media_optimization.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
+#include "engine_configurations.h"
+#include "modules/video_coding/main/source/encoded_frame.h"
+#include "modules/video_coding/main/source/generic_encoder.h"
+#include "modules/video_coding/main/source/media_optimization.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
 
 namespace webrtc {
 namespace {

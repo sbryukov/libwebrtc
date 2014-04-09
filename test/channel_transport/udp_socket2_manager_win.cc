@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/channel_transport/udp_socket2_manager_win.h"
+#include "test/channel_transport/udp_socket2_manager_win.h"
 
 #include <assert.h>
 #include <stdio.h>
 
-#include "webrtc/system_wrappers/interface/aligned_malloc.h"
-#include "webrtc/test/channel_transport/udp_socket2_win.h"
+#include "system_wrappers/interface/aligned_malloc.h"
+#include "test/channel_transport/udp_socket2_win.h"
 
 namespace webrtc {
 namespace test {

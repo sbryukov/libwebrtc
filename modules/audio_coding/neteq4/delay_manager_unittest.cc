@@ -10,13 +10,13 @@
 
 // Unit tests for DelayManager class.
 
-#include "webrtc/modules/audio_coding/neteq4/delay_manager.h"
+#include "modules/audio_coding/neteq4/delay_manager.h"
 
 #include <math.h>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_delay_peak_detector.h"
+#include "modules/audio_coding/neteq4/mock/mock_delay_peak_detector.h"
 
 namespace webrtc {
 

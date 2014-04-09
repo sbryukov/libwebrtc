@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/receiver_tests.h"
-#include "webrtc/modules/video_coding/main/test/vcm_payload_sink_factory.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/video_coding/main/test/receiver_tests.h"
+#include "modules/video_coding/main/test/vcm_payload_sink_factory.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
 
 namespace {
 

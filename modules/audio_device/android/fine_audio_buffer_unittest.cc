@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/android/fine_audio_buffer.h"
+#include "modules/audio_device/android/fine_audio_buffer.h"
 
 #include <limits.h>
 #include <memory>
 
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/audio_device/mock_audio_device_buffer.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/audio_device/mock_audio_device_buffer.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using ::testing::_;
 using ::testing::InSequence;

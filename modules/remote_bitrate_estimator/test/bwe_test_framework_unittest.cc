@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_framework.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_framework.h"
 
 #include <numeric>
 
 #include "gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "test/testsupport/fileutils.h"
 
 using std::vector;
 

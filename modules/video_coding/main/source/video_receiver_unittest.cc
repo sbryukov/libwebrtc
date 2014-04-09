@@ -11,13 +11,13 @@
 #include <vector>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/video_coding/codecs/interface/mock/mock_video_codec_interface.h"
-#include "webrtc/modules/video_coding/main/interface/mock/mock_vcm_callbacks.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/source/video_coding_impl.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/video_coding/codecs/interface/mock/mock_video_codec_interface.h"
+#include "modules/video_coding/main/interface/mock/mock_vcm_callbacks.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/source/video_coding_impl.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using ::testing::_;
 using ::testing::NiceMock;

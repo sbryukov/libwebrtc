@@ -10,7 +10,7 @@
 
 // Unit tests for DelayPeakDetector class.
 
-#include "webrtc/modules/audio_coding/neteq4/delay_peak_detector.h"
+#include "modules/audio_coding/neteq4/delay_peak_detector.h"
 
 #include "gtest/gtest.h"
 

@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/nack.h"
+#include "modules/audio_coding/main/acm2/nack.h"
 
 #include <assert.h>  // For assert.
 
 #include <algorithm>  // For std::max.
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/logging.h"
 
 namespace webrtc {
 

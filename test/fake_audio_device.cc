@@ -8,17 +8,17 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/fake_audio_device.h"
+#include "test/fake_audio_device.h"
 
 #include <algorithm>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/media_file/source/media_file_utility.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
+#include "modules/media_file/source/media_file_utility.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
 
 namespace webrtc {
 namespace test {

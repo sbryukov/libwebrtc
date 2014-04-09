@@ -20,17 +20,17 @@
 #endif
 
 #include "gflags/gflags.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/video_coding/codecs/test/packet_manipulator.h"
-#include "webrtc/modules/video_coding/codecs/test/stats.h"
-#include "webrtc/modules/video_coding/codecs/test/videoprocessor.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/frame_reader.h"
-#include "webrtc/test/testsupport/frame_writer.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
-#include "webrtc/test/testsupport/packet_reader.h"
+#include "common_types.h"
+#include "modules/video_coding/codecs/test/packet_manipulator.h"
+#include "modules/video_coding/codecs/test/stats.h"
+#include "modules/video_coding/codecs/test/videoprocessor.h"
+#include "modules/video_coding/codecs/vp8/include/vp8.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/frame_reader.h"
+#include "test/testsupport/frame_writer.h"
+#include "test/testsupport/metrics/video_metrics.h"
+#include "test/testsupport/packet_reader.h"
 
 DEFINE_string(test_name, "Quality test", "The name of the test to run. ");
 DEFINE_string(test_description, "", "A more detailed description about what "

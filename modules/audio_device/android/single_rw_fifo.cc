@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/android/single_rw_fifo.h"
+#include "modules/audio_device/android/single_rw_fifo.h"
 
 static int UpdatePos(int pos, int capacity) {
   return (pos + 1) % capacity;

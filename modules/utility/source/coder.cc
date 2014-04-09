@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/common_types.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/source/coder.h"
+#include "common_types.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/utility/source/coder.h"
 
 namespace webrtc {
 AudioCoder::AudioCoder(uint32_t instanceID)

@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/system_wrappers/interface/atomic32.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "system_wrappers/interface/atomic32.h"
+#include "system_wrappers/interface/sleep.h"
+#include "voice_engine/test/auto_test/fixtures/after_streaming_fixture.h"
 
 class ExtensionVerifyTransport : public webrtc::Transport {
  public:

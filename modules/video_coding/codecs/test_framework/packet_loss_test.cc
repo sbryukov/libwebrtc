@@ -13,8 +13,8 @@
 
 #include <sstream>
 
-#include "webrtc/modules/video_coding/codecs/test_framework/packet_loss_test.h"
-#include "webrtc/modules/video_coding/codecs/test_framework/video_source.h"
+#include "modules/video_coding/codecs/test_framework/packet_loss_test.h"
+#include "modules/video_coding/codecs/test_framework/video_source.h"
 
 using namespace webrtc;
 

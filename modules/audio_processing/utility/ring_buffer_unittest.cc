@@ -11,14 +11,14 @@
 // TODO(ajm): Make this a comprehensive test.
 
 extern "C" {
-#include "webrtc/modules/audio_processing/utility/ring_buffer.h"
+#include "modules/audio_processing/utility/ring_buffer.h"
 }
 
 #include <stdlib.h>
 #include <time.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

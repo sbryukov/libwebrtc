@@ -26,7 +26,7 @@
 #include <assert.h>
 
 #include "gtest/gtest.h"
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 /*********************/
 /* Misc. definitions */

@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/test_suite.h"
+#include "test/test_suite.h"
 
 #include "gflags/gflags.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/trace_to_stderr.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/trace_to_stderr.h"
 
 DEFINE_bool(logs, false, "print logs to stderr");
 

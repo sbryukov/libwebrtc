@@ -7,12 +7,12 @@
  *  in the file PATENTS.  All contributing project authors may
  *  be found in the AUTHORS file in the root of the source tree.
  */
-#include "webrtc/test/encoder_settings.h"
+#include "test/encoder_settings.h"
 
 #include <assert.h>
 #include <string.h>
 
-#include "webrtc/video_engine/vie_defines.h"
+#include "video_engine/vie_defines.h"
 
 namespace webrtc {
 namespace test {

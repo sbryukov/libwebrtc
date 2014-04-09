@@ -8,21 +8,21 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/video/video_send_stream.h"
+#include "video/video_send_stream.h"
 
 #include <string>
 #include <vector>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/video_engine/include/vie_capture.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_external_codec.h"
-#include "webrtc/video_engine/include/vie_image_process.h"
-#include "webrtc/video_engine/include/vie_network.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
-#include "webrtc/video_engine/vie_defines.h"
-#include "webrtc/video_send_stream.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "video_engine/include/vie_base.h"
+#include "video_engine/include/vie_capture.h"
+#include "video_engine/include/vie_codec.h"
+#include "video_engine/include/vie_external_codec.h"
+#include "video_engine/include/vie_image_process.h"
+#include "video_engine/include/vie_network.h"
+#include "video_engine/include/vie_rtp_rtcp.h"
+#include "video_engine/vie_defines.h"
+#include "video_send_stream.h"
 
 namespace webrtc {
 namespace internal {

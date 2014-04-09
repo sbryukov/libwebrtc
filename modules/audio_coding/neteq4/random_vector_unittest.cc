@@ -10,7 +10,7 @@
 
 // Unit tests for RandomVector class.
 
-#include "webrtc/modules/audio_coding/neteq4/random_vector.h"
+#include "modules/audio_coding/neteq4/random_vector.h"
 
 #include "gtest/gtest.h"
 

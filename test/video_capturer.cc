@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/video_capturer.h"
+#include "test/video_capturer.h"
 
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/frame_generator_capturer.h"
-#include "webrtc/test/vcm_capturer.h"
+#include "test/testsupport/fileutils.h"
+#include "test/frame_generator_capturer.h"
+#include "test/vcm_capturer.h"
 
 namespace webrtc {
 namespace test {

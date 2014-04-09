@@ -12,12 +12,12 @@
 
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/include/audio_util.h"
-#include "webrtc/common_audio/resampler/push_sinc_resampler.h"
-#include "webrtc/common_audio/resampler/sinusoidal_linear_chirp_source.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/include/audio_util.h"
+#include "common_audio/resampler/push_sinc_resampler.h"
+#include "common_audio/resampler/sinusoidal_linear_chirp_source.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

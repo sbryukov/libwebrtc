@@ -11,7 +11,7 @@
  *
  */
 
-#include "webrtc/modules/video_coding/codecs/vp8/vp8_impl.h"
+#include "modules/video_coding/codecs/vp8/vp8_impl.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -23,13 +23,13 @@
 #include "vpx/vp8cx.h"
 #include "vpx/vp8dx.h"
 
-#include "webrtc/common.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/codecs/vp8/temporal_layers.h"
-#include "webrtc/modules/video_coding/codecs/vp8/reference_picture_selection.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
+#include "common.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/codecs/vp8/temporal_layers.h"
+#include "modules/video_coding/codecs/vp8/reference_picture_selection.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "system_wrappers/interface/trace_event.h"
 
 enum { kVp8ErrorPropagationTh = 30 };
 

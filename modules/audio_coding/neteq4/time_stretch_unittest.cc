@@ -10,11 +10,11 @@
 
 // Unit tests for Accelerate and PreemptiveExpand classes.
 
-#include "webrtc/modules/audio_coding/neteq4/accelerate.h"
-#include "webrtc/modules/audio_coding/neteq4/preemptive_expand.h"
+#include "modules/audio_coding/neteq4/accelerate.h"
+#include "modules/audio_coding/neteq4/preemptive_expand.h"
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
 
 namespace webrtc {
 

@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/audio_vector.h"
+#include "modules/audio_coding/neteq4/audio_vector.h"
 
 #include <assert.h>
 
 #include <algorithm>
 
-#include "webrtc/typedefs.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_capture/android/device_info_android.h"
+#include "modules/video_capture/android/device_info_android.h"
 
 #include <algorithm>
 #include <sstream>
@@ -16,10 +16,10 @@
 
 #include "json/json.h"
 #include "third_party/icu/source/common/unicode/unistr.h"
-#include "webrtc/modules/video_capture/android/video_capture_android.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_capture/android/video_capture_android.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc
 {
@@ -93,7 +93,7 @@ void DeviceInfoAndroid::Initialize(JNIEnv* jni) {
 
   g_camera_info = new std::vector<AndroidCameraInfo>();
   jclass j_info_class =
-      jni->FindClass("org/webrtc/videoengine/VideoCaptureDeviceInfoAndroid");
+      jni->FindClass("org/videoengine/VideoCaptureDeviceInfoAndroid");
   assert(j_info_class);
   jmethodID j_initialize = jni->GetStaticMethodID(
       j_info_class, "getDeviceInfo", "()Ljava/lang/String;");

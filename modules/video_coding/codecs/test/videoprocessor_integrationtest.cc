@@ -12,19 +12,19 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/video_coding/codecs/interface/video_codec_interface.h"
-#include "webrtc/modules/video_coding/codecs/test/packet_manipulator.h"
-#include "webrtc/modules/video_coding/codecs/test/videoprocessor.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8.h"
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8_common_types.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/frame_reader.h"
-#include "webrtc/test/testsupport/frame_writer.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
-#include "webrtc/test/testsupport/packet_reader.h"
-#include "webrtc/typedefs.h"
+#include "modules/video_coding/codecs/interface/video_codec_interface.h"
+#include "modules/video_coding/codecs/test/packet_manipulator.h"
+#include "modules/video_coding/codecs/test/videoprocessor.h"
+#include "modules/video_coding/codecs/vp8/include/vp8.h"
+#include "modules/video_coding/codecs/vp8/include/vp8_common_types.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/frame_reader.h"
+#include "test/testsupport/frame_writer.h"
+#include "test/testsupport/gtest_disable.h"
+#include "test/testsupport/metrics/video_metrics.h"
+#include "test/testsupport/packet_reader.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

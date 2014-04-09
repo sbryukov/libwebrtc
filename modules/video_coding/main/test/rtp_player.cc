@@ -8,23 +8,23 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/rtp_player.h"
+#include "modules/video_coding/main/test/rtp_player.h"
 
 #include <stdio.h>
 
 #include <map>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/modules/video_coding/main/test/pcap_file_reader.h"
-#include "webrtc/modules/video_coding/main/test/rtp_file_reader.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "modules/video_coding/main/test/pcap_file_reader.h"
+#include "modules/video_coding/main/test/rtp_file_reader.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 #if 1
 # define DEBUG_LOG1(text, arg)

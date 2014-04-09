@@ -21,11 +21,11 @@
 #include <iostream>
 #include <new>
 
-#include "webrtc/modules/video_capture/linux/video_capture_linux.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_capture/linux/video_capture_linux.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc
 {

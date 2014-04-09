@@ -8,20 +8,20 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/test/auto_test/voe_standard_test.h"
+#include "voice_engine/test/auto_test/voe_standard_test.h"
 
 #include <stdio.h>
 #include <string.h>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/voice_engine/include/voe_neteq_stats.h"
-#include "webrtc/voice_engine/test/auto_test/automated_mode.h"
-#include "webrtc/voice_engine/test/auto_test/voe_cpu_test.h"
-#include "webrtc/voice_engine/test/auto_test/voe_stress_test.h"
-#include "webrtc/voice_engine/test/auto_test/voe_test_defines.h"
-#include "webrtc/voice_engine/voice_engine_defines.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "voice_engine/include/voe_neteq_stats.h"
+#include "voice_engine/test/auto_test/automated_mode.h"
+#include "voice_engine/test/auto_test/voe_cpu_test.h"
+#include "voice_engine/test/auto_test/voe_stress_test.h"
+#include "voice_engine/test/auto_test/voe_test_defines.h"
+#include "voice_engine/voice_engine_defines.h"
 
 DEFINE_bool(include_timing_dependent_tests, true,
             "If true, we will include tests / parts of tests that are known "

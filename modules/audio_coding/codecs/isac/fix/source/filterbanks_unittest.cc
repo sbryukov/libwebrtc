@@ -9,12 +9,12 @@
  */
 
 #include "gtest/gtest.h"
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/codecs/isac/fix/source/filterbank_internal.h"
-#include "webrtc/modules/audio_coding/codecs/isac/fix/source/filterbank_tables.h"
-#include "webrtc/modules/audio_coding/codecs/isac/fix/source/settings.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/codecs/isac/fix/source/filterbank_internal.h"
+#include "modules/audio_coding/codecs/isac/fix/source/filterbank_tables.h"
+#include "modules/audio_coding/codecs/isac/fix/source/settings.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
+#include "typedefs.h"
 
 class FilterBanksTest : public testing::Test {
  protected:

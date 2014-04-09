@@ -9,7 +9,7 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "test/testsupport/fileutils.h"
 
 void InitializeGoogleTest(int* argc, char** argv) {
   // Initialize WebRTC testing framework so paths to resources can be resolved.

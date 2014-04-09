@@ -12,7 +12,7 @@
 // is detected by asserts in many places. Also a refactoring of this class would
 // be beneficial.
 
-#include "webrtc/modules/media_file/source/avi_file.h"
+#include "modules/media_file/source/avi_file.h"
 
 #include <assert.h>
 #include <string.h>
@@ -21,9 +21,9 @@
 #include <windows.h>
 #endif
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 // http://msdn2.microsoft.com/en-us/library/ms779636.aspx
 // A chunk has the following form:

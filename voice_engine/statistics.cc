@@ -11,10 +11,10 @@
 #include <assert.h>
 #include <stdio.h>
 
-#include "webrtc/voice_engine/statistics.h"
+#include "voice_engine/statistics.h"
 
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

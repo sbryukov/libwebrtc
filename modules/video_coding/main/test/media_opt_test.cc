@@ -11,19 +11,19 @@
 // Implementation of Media Optimization Test
 // testing is done via the VCM module, no specific Media opt functionality.
 
-#include "webrtc/modules/video_coding/main/test/media_opt_test.h"
+#include "modules/video_coding/main/test/media_opt_test.h"
 
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
 #include <vector>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/test/test_macros.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/test/test_macros.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/metrics/video_metrics.h"
 
 using namespace webrtc;
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/audio_decoder_impl.h"
+#include "modules/audio_coding/neteq4/audio_decoder_impl.h"
 
 #include <assert.h>
 #include <stdlib.h>
@@ -16,19 +16,19 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "webrtc/common_audio/resampler/include/resampler.h"
+#include "common_audio/resampler/include/resampler.h"
 #ifdef WEBRTC_CODEC_CELT
-#include "webrtc/modules/audio_coding/codecs/celt/include/celt_interface.h"
+#include "modules/audio_coding/codecs/celt/include/celt_interface.h"
 #endif
-#include "webrtc/modules/audio_coding/codecs/g711/include/g711_interface.h"
-#include "webrtc/modules/audio_coding/codecs/g722/include/g722_interface.h"
-#include "webrtc/modules/audio_coding/codecs/ilbc/interface/ilbc.h"
-#include "webrtc/modules/audio_coding/codecs/isac/fix/interface/isacfix.h"
-#include "webrtc/modules/audio_coding/codecs/isac/main/interface/isac.h"
-#include "webrtc/modules/audio_coding/codecs/opus/interface/opus_interface.h"
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/system_wrappers/interface/data_log.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/audio_coding/codecs/g711/include/g711_interface.h"
+#include "modules/audio_coding/codecs/g722/include/g722_interface.h"
+#include "modules/audio_coding/codecs/ilbc/interface/ilbc.h"
+#include "modules/audio_coding/codecs/isac/fix/interface/isacfix.h"
+#include "modules/audio_coding/codecs/isac/main/interface/isac.h"
+#include "modules/audio_coding/codecs/opus/interface/opus_interface.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "system_wrappers/interface/data_log.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 
@@ -180,7 +180,7 @@ class AudioDecoderTest : public ::testing::Test {
     size_t enc_len = EncodeFrame(input_, frame_size_, encoded);
     size_t dec_len;
     // Copy payload since iSAC fix destroys it during decode.
-    // Issue: http://code.google.com/p/webrtc/issues/detail?id=845.
+    // Issue: http://code.google.com/p/issues/detail?id=845.
     // TODO(hlundin): Remove if the iSAC bug gets fixed.
     memcpy(encoded_copy, encoded, enc_len);
     AudioDecoder::SpeechType speech_type1, speech_type2;

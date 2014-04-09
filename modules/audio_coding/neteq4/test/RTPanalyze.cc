@@ -12,8 +12,8 @@
 #include <stdio.h>
 #include <vector>
 
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_DummyRTPpacket.h"
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_DummyRTPpacket.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
 
 //#define WEBRTC_DUMMY_RTP
 

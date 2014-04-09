@@ -13,15 +13,15 @@
 #include <string.h>
 
 #include "gflags/gflags.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/test/codec_database_test.h"
-#include "webrtc/modules/video_coding/main/test/generic_codec_test.h"
-#include "webrtc/modules/video_coding/main/test/media_opt_test.h"
-#include "webrtc/modules/video_coding/main/test/normal_test.h"
-#include "webrtc/modules/video_coding/main/test/quality_modes_test.h"
-#include "webrtc/modules/video_coding/main/test/receiver_tests.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/test/codec_database_test.h"
+#include "modules/video_coding/main/test/generic_codec_test.h"
+#include "modules/video_coding/main/test/media_opt_test.h"
+#include "modules/video_coding/main/test/normal_test.h"
+#include "modules/video_coding/main/test/quality_modes_test.h"
+#include "modules/video_coding/main/test/receiver_tests.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "test/testsupport/fileutils.h"
 
 DEFINE_string(codec, "VP8", "Codec to use (VP8 or I420).");
 DEFINE_int32(width, 352, "Width in pixels of the frames in the input file.");

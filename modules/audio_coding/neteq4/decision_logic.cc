@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/decision_logic.h"
+#include "modules/audio_coding/neteq4/decision_logic.h"
 
 #include <algorithm>
 
-#include "webrtc/modules/audio_coding/neteq4/buffer_level_filter.h"
-#include "webrtc/modules/audio_coding/neteq4/decision_logic_fax.h"
-#include "webrtc/modules/audio_coding/neteq4/decision_logic_normal.h"
-#include "webrtc/modules/audio_coding/neteq4/delay_manager.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/packet_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "modules/audio_coding/neteq4/buffer_level_filter.h"
+#include "modules/audio_coding/neteq4/decision_logic_fax.h"
+#include "modules/audio_coding/neteq4/decision_logic_normal.h"
+#include "modules/audio_coding/neteq4/delay_manager.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/packet_buffer.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
+#include "system_wrappers/interface/logging.h"
 
 namespace webrtc {
 

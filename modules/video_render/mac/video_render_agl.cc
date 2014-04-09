@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/engine_configurations.h"
+#include "engine_configurations.h"
 
 #if defined(CARBON_RENDERING)
 
-#include "webrtc/modules/video_render/mac/video_render_agl.h"
+#include "modules/video_render/mac/video_render_agl.h"
 
 //  includes
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/event_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/event_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

@@ -8,22 +8,22 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/voe_base_impl.h"
+#include "voice_engine/voe_base_impl.h"
 
-#include "webrtc/common.h"
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module.h"
-#include "webrtc/modules/audio_device/audio_device_impl.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/file_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/channel.h"
-#include "webrtc/voice_engine/include/voe_errors.h"
-#include "webrtc/voice_engine/output_mixer.h"
-#include "webrtc/voice_engine/transmit_mixer.h"
-#include "webrtc/voice_engine/utility.h"
-#include "webrtc/voice_engine/voice_engine_impl.h"
+#include "common.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/main/interface/audio_coding_module.h"
+#include "modules/audio_device/audio_device_impl.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/file_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/channel.h"
+#include "voice_engine/include/voe_errors.h"
+#include "voice_engine/output_mixer.h"
+#include "voice_engine/transmit_mixer.h"
+#include "voice_engine/utility.h"
+#include "voice_engine/voice_engine_impl.h"
 
 #if (defined(_WIN32) && defined(_DLL) && (_MSC_VER == 1400))
 // Fix for VS 2005 MD/MDd link problem
@@ -451,7 +451,7 @@ int VoEBaseImpl::Init(AudioDeviceModule* external_adm,
     // determine the actual number of channels anyway.
     //
     // These functions may be changed; tracked here:
-    // http://code.google.com/p/webrtc/issues/detail?id=204
+    // http://code.google.com/p/issues/detail?id=204
     _shared->audio_device()->StereoRecordingIsAvailable(&available);
     if (_shared->audio_device()->SetStereoRecording(available) != 0)
     {
@@ -512,7 +512,7 @@ int VoEBaseImpl::Init(AudioDeviceModule* external_adm,
       LOG_FERR1(LS_ERROR, audio_device()->SetAGC, agc_enabled);
       _shared->SetLastError(VE_AUDIO_DEVICE_MODULE_ERROR);
       // TODO(ajm): No error return here due to
-      // https://code.google.com/p/webrtc/issues/detail?id=1464
+      // https://code.google.com/p/issues/detail?id=1464
     }
 #endif
 

@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/rtcp.h"
+#include "modules/audio_coding/neteq4/rtcp.h"
 
 #include <string.h>
 
 #include <algorithm>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/interface/module_common_types.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/interface/module_common_types.h"
 
 namespace webrtc {
 

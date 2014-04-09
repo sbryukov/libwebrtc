@@ -8,17 +8,17 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/generic_codec_test.h"
+#include "modules/video_coding/main/test/generic_codec_test.h"
 
 #include <math.h>
 #include <stdio.h>
 
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/test/test_macros.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/test/test_macros.h"
+#include "system_wrappers/interface/clock.h"
+#include "test/testsupport/fileutils.h"
 
 using namespace webrtc;
 

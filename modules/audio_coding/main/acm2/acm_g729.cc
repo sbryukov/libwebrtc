@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_g729.h"
+#include "modules/audio_coding/main/acm2/acm_g729.h"
 
 #ifdef WEBRTC_CODEC_G729
 // NOTE! G.729 is not included in the open-source package. Modify this file
 // or your codec API to match the function calls and names of used G.729 API
 // file.
-#include "webrtc/modules/audio_coding/main/codecs/g729/interface/g729_interface.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_receiver.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_coding/main/codecs/g729/interface/g729_interface.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "modules/audio_coding/main/acm2/acm_receiver.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {

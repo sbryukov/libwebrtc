@@ -15,8 +15,8 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/video_coding/main/source/qm_select.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/video_coding/main/source/qm_select.h"
 
 namespace webrtc {
 

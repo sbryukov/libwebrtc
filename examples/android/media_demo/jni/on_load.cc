@@ -12,11 +12,11 @@
 
 #include <assert.h>
 
-#include "webrtc/examples/android/media_demo/jni/jni_helpers.h"
-#include "webrtc/examples/android/media_demo/jni/video_engine_jni.h"
-#include "webrtc/examples/android/media_demo/jni/voice_engine_jni.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/voice_engine/include/voe_base.h"
+#include "examples/android/media_demo/jni/jni_helpers.h"
+#include "examples/android/media_demo/jni/video_engine_jni.h"
+#include "examples/android/media_demo/jni/voice_engine_jni.h"
+#include "video_engine/include/vie_base.h"
+#include "voice_engine/include/voe_base.h"
 
 // Macro for native functions that can be found by way of jni-auto discovery.
 // Note extern "C" is needed for "discovery" of native methods to work.

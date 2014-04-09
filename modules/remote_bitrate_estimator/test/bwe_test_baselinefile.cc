@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_baselinefile.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_baselinefile.h"
 
 #include <stdio.h>
 
 #include <algorithm>
 #include <vector>
 
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_fileutils.h"
-#include "webrtc/modules/remote_bitrate_estimator/test/bwe_test_logging.h"
-#include "webrtc/system_wrappers/interface/constructor_magic.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_fileutils.h"
+#include "modules/remote_bitrate_estimator/test/bwe_test_logging.h"
+#include "system_wrappers/interface/constructor_magic.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 namespace testing {

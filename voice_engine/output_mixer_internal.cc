@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/output_mixer_internal.h"
+#include "voice_engine/output_mixer_internal.h"
 
-#include "webrtc/common_audio/resampler/include/push_resampler.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/utility/interface/audio_frame_operations.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_audio/resampler/include/push_resampler.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/utility/interface/audio_frame_operations.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 namespace voe {

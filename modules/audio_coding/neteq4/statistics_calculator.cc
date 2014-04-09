@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/statistics_calculator.h"
+#include "modules/audio_coding/neteq4/statistics_calculator.h"
 
 #include <assert.h>
 #include <string.h>  // memset
 
-#include "webrtc/modules/audio_coding/neteq4/decision_logic.h"
-#include "webrtc/modules/audio_coding/neteq4/delay_manager.h"
+#include "modules/audio_coding/neteq4/decision_logic.h"
+#include "modules/audio_coding/neteq4/delay_manager.h"
 
 namespace webrtc {
 

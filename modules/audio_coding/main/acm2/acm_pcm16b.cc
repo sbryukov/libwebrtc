@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_pcm16b.h"
+#include "modules/audio_coding/main/acm2/acm_pcm16b.h"
 
 #ifdef WEBRTC_CODEC_PCM16
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/main/acm2/acm_codec_database.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {

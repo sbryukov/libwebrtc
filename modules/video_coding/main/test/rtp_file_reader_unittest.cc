@@ -9,11 +9,11 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_utility.h"
-#include "webrtc/modules/video_coding/main/test/rtp_file_reader.h"
-#include "webrtc/modules/video_coding/main/test/rtp_player.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/rtp_rtcp/source/rtp_utility.h"
+#include "modules/video_coding/main/test/rtp_file_reader.h"
+#include "modules/video_coding/main/test/rtp_player.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 namespace rtpplayer {

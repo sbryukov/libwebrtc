@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/test/channel_transport/udp_transport_impl.h"
+#include "test/channel_transport/udp_transport_impl.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,12 +44,12 @@
 #include <linux/rtnetlink.h>
 #endif
 
-#include "webrtc/common_types.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/channel_transport/udp_socket_manager_wrapper.h"
-#include "webrtc/typedefs.h"
+#include "common_types.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/channel_transport/udp_socket_manager_wrapper.h"
+#include "typedefs.h"
 
 #if defined(WEBRTC_LINUX) || defined(WEBRTC_MAC)
 #define GetLastError() errno

@@ -8,24 +8,24 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/neteq_impl.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/neteq_impl.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/accelerate.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_audio_decoder.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_buffer_level_filter.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_delay_manager.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_delay_peak_detector.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_dtmf_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_dtmf_tone_generator.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_packet_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_payload_splitter.h"
-#include "webrtc/modules/audio_coding/neteq4/preemptive_expand.h"
-#include "webrtc/modules/audio_coding/neteq4/timestamp_scaler.h"
+#include "modules/audio_coding/neteq4/accelerate.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/mock/mock_audio_decoder.h"
+#include "modules/audio_coding/neteq4/mock/mock_buffer_level_filter.h"
+#include "modules/audio_coding/neteq4/mock/mock_decoder_database.h"
+#include "modules/audio_coding/neteq4/mock/mock_delay_manager.h"
+#include "modules/audio_coding/neteq4/mock/mock_delay_peak_detector.h"
+#include "modules/audio_coding/neteq4/mock/mock_dtmf_buffer.h"
+#include "modules/audio_coding/neteq4/mock/mock_dtmf_tone_generator.h"
+#include "modules/audio_coding/neteq4/mock/mock_packet_buffer.h"
+#include "modules/audio_coding/neteq4/mock/mock_payload_splitter.h"
+#include "modules/audio_coding/neteq4/preemptive_expand.h"
+#include "modules/audio_coding/neteq4/timestamp_scaler.h"
 
 using ::testing::Return;
 using ::testing::ReturnNull;

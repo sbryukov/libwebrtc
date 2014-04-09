@@ -12,11 +12,11 @@
 #include <string.h>
 //#include <stdio.h>
 #include <stdlib.h>
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_processing/ns/include/noise_suppression.h"
-#include "webrtc/modules/audio_processing/ns/ns_core.h"
-#include "webrtc/modules/audio_processing/ns/windows_private.h"
-#include "webrtc/modules/audio_processing/utility/fft4g.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_processing/ns/include/noise_suppression.h"
+#include "modules/audio_processing/ns/ns_core.h"
+#include "modules/audio_processing/ns/windows_private.h"
+#include "modules/audio_processing/utility/fft4g.h"
 
 // Set Feature Extraction Parameters
 void WebRtcNs_set_feature_extraction_parameters(NSinst_t* inst) {

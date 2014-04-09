@@ -9,7 +9,7 @@
  */
 
 #include <stdio.h>
-#include "webrtc/modules/audio_coding/neteq4/tools/neteq_quality_test.h"
+#include "modules/audio_coding/neteq4/tools/neteq_quality_test.h"
 
 namespace webrtc {
 namespace test {

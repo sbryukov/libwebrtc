@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_capture/linux/device_info_linux.h"
+#include "modules/video_capture/linux/device_info_linux.h"
 
 #include <errno.h>
 #include <fcntl.h>
@@ -20,8 +20,8 @@
 //v4l includes
 #include <linux/videodev2.h>
 
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/trace.h"
 
 
 namespace webrtc

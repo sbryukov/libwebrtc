@@ -14,14 +14,14 @@
 #include <set>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_types.h"
-#include "webrtc/modules/rtp_rtcp/interface/receive_statistics.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_header_parser.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "common_types.h"
+#include "modules/rtp_rtcp/interface/receive_statistics.h"
+#include "modules/rtp_rtcp/interface/rtp_header_parser.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using namespace webrtc;
 

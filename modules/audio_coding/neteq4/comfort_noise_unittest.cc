@@ -10,11 +10,11 @@
 
 // Unit tests for ComfortNoise class.
 
-#include "webrtc/modules/audio_coding/neteq4/comfort_noise.h"
+#include "modules/audio_coding/neteq4/comfort_noise.h"
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
+#include "modules/audio_coding/neteq4/mock/mock_decoder_database.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
 
 namespace webrtc {
 

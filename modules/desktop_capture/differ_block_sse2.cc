@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/differ_block_sse2.h"
+#include "modules/desktop_capture/differ_block_sse2.h"
 
 #if defined(_MSC_VER)
 #include <intrin.h>
@@ -17,7 +17,7 @@
 #include <emmintrin.h>
 #endif
 
-#include "webrtc/modules/desktop_capture/differ_block.h"
+#include "modules/desktop_capture/differ_block.h"
 
 namespace webrtc {
 

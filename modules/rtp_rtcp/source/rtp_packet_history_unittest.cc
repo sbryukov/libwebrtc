@@ -12,10 +12,10 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_packet_history.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/typedefs.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp_defines.h"
+#include "modules/rtp_rtcp/source/rtp_packet_history.h"
+#include "system_wrappers/interface/clock.h"
+#include "typedefs.h"
 
 namespace webrtc {
 

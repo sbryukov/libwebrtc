@@ -11,16 +11,16 @@
 #include <stdio.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/modules/video_capture/include/video_capture.h"
-#include "webrtc/modules/video_capture/include/video_capture_factory.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
-#include "webrtc/system_wrappers/interface/sleep.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/utility/interface/process_thread.h"
+#include "modules/video_capture/include/video_capture.h"
+#include "modules/video_capture/include/video_capture_factory.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_refptr.h"
+#include "system_wrappers/interface/sleep.h"
+#include "system_wrappers/interface/tick_util.h"
 
 using webrtc::CriticalSectionWrapper;
 using webrtc::CriticalSectionScoped;
@@ -337,7 +337,7 @@ TEST_F(VideoCaptureTest, Capabilities) {
 }
 
 // NOTE: flaky, crashes sometimes.
-// http://code.google.com/p/webrtc/issues/detail?id=777
+// http://code.google.com/p/issues/detail?id=777
 TEST_F(VideoCaptureTest, DISABLED_TestTwoCameras) {
   if (number_of_devices_ < 2) {
     printf("There are not two cameras available. Aborting test. \n");
@@ -441,7 +441,7 @@ TEST_F(VideoCaptureExternalTest, TestExternalCapture) {
 
 // Test input of planar I420 frames.
 // NOTE: flaky, sometimes fails on the last CompareLastFrame.
-// http://code.google.com/p/webrtc/issues/detail?id=777
+// http://code.google.com/p/issues/detail?id=777
 TEST_F(VideoCaptureExternalTest, DISABLED_TestExternalCaptureI420) {
   webrtc::I420VideoFrame frame_i420;
   frame_i420.CopyFrame(test_frame_);

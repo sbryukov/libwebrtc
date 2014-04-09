@@ -9,11 +9,11 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/vad/vad_unittest.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/vad/vad_unittest.h"
+#include "typedefs.h"
 
 extern "C" {
-#include "webrtc/common_audio/vad/vad_gmm.h"
+#include "common_audio/vad/vad_gmm.h"
 }
 
 namespace {

@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/engine_configurations.h"
+#include "engine_configurations.h"
 #if defined(CARBON_RENDERING)
 
 #include <AGL/agl.h>
-#include "webrtc/modules/video_render/mac/video_render_agl.h"
-#include "webrtc/modules/video_render/mac/video_render_mac_carbon_impl.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_render/mac/video_render_agl.h"
+#include "modules/video_render/mac/video_render_mac_carbon_impl.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

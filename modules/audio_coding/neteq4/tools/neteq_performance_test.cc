@@ -8,15 +8,15 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/tools/neteq_performance_test.h"
+#include "modules/audio_coding/neteq4/tools/neteq_performance_test.h"
 
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/audio_loop.h"
-#include "webrtc/modules/audio_coding/neteq4/tools/rtp_generator.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/tools/audio_loop.h"
+#include "modules/audio_coding/neteq4/tools/rtp_generator.h"
+#include "system_wrappers/interface/clock.h"
+#include "test/testsupport/fileutils.h"
+#include "typedefs.h"
 
 using webrtc::NetEq;
 using webrtc::test::AudioLoop;

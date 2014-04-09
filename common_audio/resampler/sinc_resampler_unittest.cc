@@ -18,13 +18,13 @@
 
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/resampler/sinc_resampler.h"
-#include "webrtc/common_audio/resampler/sinusoidal_linear_chirp_source.h"
-#include "webrtc/system_wrappers/interface/cpu_features_wrapper.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/stringize_macros.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/test/test_suite.h"
+#include "common_audio/resampler/sinc_resampler.h"
+#include "common_audio/resampler/sinusoidal_linear_chirp_source.h"
+#include "system_wrappers/interface/cpu_features_wrapper.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/stringize_macros.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "test/test_suite.h"
 
 using testing::_;
 

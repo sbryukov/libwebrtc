@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/examples/android/opensl_loopback/fake_audio_device_buffer.h"
+#include "examples/android/opensl_loopback/fake_audio_device_buffer.h"
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_device/android/opensles_common.h"
-#include "webrtc/modules/audio_device/android/audio_common.h"
+#include "modules/audio_device/android/opensles_common.h"
+#include "modules/audio_device/android/audio_common.h"
 
 namespace webrtc {
 

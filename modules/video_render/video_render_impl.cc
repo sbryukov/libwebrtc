@@ -10,18 +10,18 @@
 
 #include <assert.h>
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/video_render/i_video_render.h"
-#include "webrtc/modules/video_render/include/video_render_defines.h"
-#include "webrtc/modules/video_render/incoming_video_stream.h"
-#include "webrtc/modules/video_render/video_render_impl.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "engine_configurations.h"
+#include "modules/video_render/i_video_render.h"
+#include "modules/video_render/include/video_render_defines.h"
+#include "modules/video_render/incoming_video_stream.h"
+#include "modules/video_render/video_render_impl.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 #ifdef WEBRTC_INCLUDE_INTERNAL_VIDEO_RENDER
 
 #if defined (_WIN32)
-#include "webrtc/modules/video_render/windows/video_render_windows_impl.h"
+#include "modules/video_render/windows/video_render_windows_impl.h"
 #define STANDARD_RENDERING kRenderWindows
 
 // WEBRTC_IOS should go before WEBRTC_MAC because WEBRTC_MAC
@@ -32,20 +32,20 @@
 #elif defined(WEBRTC_MAC)
 #if defined(COCOA_RENDERING)
 #define STANDARD_RENDERING kRenderCocoa
-#include "webrtc/modules/video_render/mac/video_render_mac_cocoa_impl.h"
+#include "modules/video_render/mac/video_render_mac_cocoa_impl.h"
 #elif defined(CARBON_RENDERING)
 #define STANDARD_RENDERING kRenderCarbon
-#include "webrtc/modules/video_render/mac/video_render_mac_carbon_impl.h"
+#include "modules/video_render/mac/video_render_mac_carbon_impl.h"
 #endif
 
 #elif defined(WEBRTC_ANDROID)
-#include "webrtc/modules/video_render/android/video_render_android_impl.h"
-#include "webrtc/modules/video_render/android/video_render_android_native_opengl2.h"
-#include "webrtc/modules/video_render/android/video_render_android_surface_view.h"
+#include "modules/video_render/android/video_render_android_impl.h"
+#include "modules/video_render/android/video_render_android_native_opengl2.h"
+#include "modules/video_render/android/video_render_android_surface_view.h"
 #define STANDARD_RENDERING kRenderAndroid
 
 #elif defined(WEBRTC_LINUX)
-#include "webrtc/modules/video_render/linux/video_render_linux_impl.h"
+#include "modules/video_render/linux/video_render_linux_impl.h"
 #define STANDARD_RENDERING kRenderX11
 
 #else
@@ -55,7 +55,7 @@
 #endif  // WEBRTC_INCLUDE_INTERNAL_VIDEO_RENDER
 
 // For external rendering
-#include "webrtc/modules/video_render/external/video_render_external_impl.h"
+#include "modules/video_render/external/video_render_external_impl.h"
 #ifndef STANDARD_RENDERING
 #define STANDARD_RENDERING kRenderExternal
 #endif  // STANDARD_RENDERING

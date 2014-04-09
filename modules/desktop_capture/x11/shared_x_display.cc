@@ -8,11 +8,11 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/desktop_capture/x11/shared_x_display.h"
+#include "modules/desktop_capture/x11/shared_x_display.h"
 
 #include <algorithm>
 
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/logging.h"
 
 namespace webrtc {
 

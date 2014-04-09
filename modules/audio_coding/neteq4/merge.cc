@@ -8,18 +8,18 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/merge.h"
+#include "modules/audio_coding/neteq4/merge.h"
 
 #include <assert.h>
 #include <string.h>  // memmove, memcpy, memset, size_t
 
 #include <algorithm>  // min, max
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/neteq4/audio_multi_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/dsp_helper.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/neteq4/audio_multi_vector.h"
+#include "modules/audio_coding/neteq4/dsp_helper.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
 
 namespace webrtc {
 

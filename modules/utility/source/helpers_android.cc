@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/utility/interface/helpers_android.h"
+#include "modules/utility/interface/helpers_android.h"
 
 #include <assert.h>
 #include <stddef.h>

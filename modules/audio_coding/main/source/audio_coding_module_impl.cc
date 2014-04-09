@@ -8,28 +8,28 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/source/audio_coding_module_impl.h"
+#include "modules/audio_coding/main/source/audio_coding_module_impl.h"
 
 #include <assert.h>
 #include <stdlib.h>
 
 #include <algorithm>  // For std::max.
 
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/main/source/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/modules/audio_coding/main/acm2/call_statistics.h"
-#include "webrtc/modules/audio_coding/main/source/acm_dtmf_detection.h"
-#include "webrtc/modules/audio_coding/main/source/acm_generic_codec.h"
-#include "webrtc/modules/audio_coding/main/source/acm_resampler.h"
-#include "webrtc/modules/audio_coding/main/acm2/nack.h"
-#include "webrtc/system_wrappers/interface/clock.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/rw_lock_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/main/source/acm_codec_database.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "modules/audio_coding/main/acm2/call_statistics.h"
+#include "modules/audio_coding/main/source/acm_dtmf_detection.h"
+#include "modules/audio_coding/main/source/acm_generic_codec.h"
+#include "modules/audio_coding/main/source/acm_resampler.h"
+#include "modules/audio_coding/main/acm2/nack.h"
+#include "system_wrappers/interface/clock.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/rw_lock_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
+#include "system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace_event.h"
 
 namespace webrtc {
 
@@ -1734,7 +1734,7 @@ int32_t AudioCodingModuleImpl::RegisterReceiveCodec(
   // TODO(andrew): Refactor how the slave is initialized. Can we instead
   // always start up a slave and pre-register CN and RED? We should be able
   // to get rid of stereo_receive_registered_.
-  // http://code.google.com/p/webrtc/issues/detail?id=453
+  // http://code.google.com/p/issues/detail?id=453
 
   // Register stereo codecs with the slave, or, if we've had already seen a
   // stereo codec, register CN or RED as a special case.

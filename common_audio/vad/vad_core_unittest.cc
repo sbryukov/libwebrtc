@@ -11,11 +11,11 @@
 #include <stdlib.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_audio/vad/vad_unittest.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/vad/vad_unittest.h"
+#include "typedefs.h"
 
 extern "C" {
-#include "webrtc/common_audio/vad/vad_core.h"
+#include "common_audio/vad/vad_core.h"
 }
 
 namespace {

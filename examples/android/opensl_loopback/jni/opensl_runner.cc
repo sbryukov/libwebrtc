@@ -11,13 +11,13 @@
 #include <assert.h>
 #include <jni.h>
 
-#include "webrtc/examples/android/opensl_loopback/fake_audio_device_buffer.h"
-#include "webrtc/modules/audio_device/android/audio_device_template.h"
-#include "webrtc/modules/audio_device/android/audio_record_jni.h"
-#include "webrtc/modules/audio_device/android/audio_track_jni.h"
-#include "webrtc/modules/audio_device/android/opensles_input.h"
-#include "webrtc/modules/audio_device/android/opensles_output.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "examples/android/opensl_loopback/fake_audio_device_buffer.h"
+#include "modules/audio_device/android/audio_device_template.h"
+#include "modules/audio_device/android/audio_record_jni.h"
+#include "modules/audio_device/android/audio_track_jni.h"
+#include "modules/audio_device/android/opensles_input.h"
+#include "modules/audio_device/android/opensles_output.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 // Java globals
 static JavaVM* g_vm = NULL;
@@ -110,7 +110,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
     return -1;
   }
 
-  jclass local_osr = env->FindClass("org/webrtc/app/OpenSlRunner");
+  jclass local_osr = env->FindClass("org/app/OpenSlRunner");
   assert(local_osr != NULL);
   g_osr = static_cast<jclass>(env->NewGlobalRef(local_osr));
   JNINativeMethod nativeFunctions[] = {

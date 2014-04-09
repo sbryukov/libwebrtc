@@ -15,13 +15,13 @@
 #include "gflags/gflags.h"
 #include "gtest/gtest.h"
 
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/test/channel_transport/include/channel_transport.h"
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_codec.h"
-#include "webrtc/voice_engine/include/voe_hardware.h"
-#include "webrtc/voice_engine/include/voe_network.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "test/channel_transport/include/channel_transport.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_codec.h"
+#include "voice_engine/include/voe_hardware.h"
+#include "voice_engine/include/voe_network.h"
 
 DEFINE_string(render, "render", "render device name");
 DEFINE_string(codec, "ISAC", "codec name");

@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/codecs/test_framework/test.h"
+#include "modules/video_coding/codecs/test_framework/test.h"
 
 #include <string.h>
 
 #include <iostream>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/test/testsupport/metrics/video_metrics.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "test/testsupport/metrics/video_metrics.h"
 
 using namespace webrtc;
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/expand.h"
 
 #include <assert.h>
 #include <string.h>  // memset
@@ -16,11 +16,11 @@
 #include <algorithm>  // min, max
 #include <limits>  // numeric_limits<T>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/dsp_helper.h"
-#include "webrtc/modules/audio_coding/neteq4/random_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/dsp_helper.h"
+#include "modules/audio_coding/neteq4/random_vector.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
 
 namespace webrtc {
 

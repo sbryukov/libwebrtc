@@ -10,10 +10,10 @@
 
 #include <AudioToolbox/AudioServices.h>  // AudioSession
 
-#include "webrtc/modules/audio_device/ios/audio_device_ios.h"
+#include "modules/audio_device/ios/audio_device_ios.h"
 
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 AudioDeviceIPhone::AudioDeviceIPhone(const int32_t id)

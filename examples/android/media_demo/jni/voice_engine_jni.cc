@@ -11,22 +11,22 @@
 // This file contains JNI for the voice engine interfaces.
 // The native functions are found using jni's auto discovery.
 
-#include "webrtc/examples/android/media_demo/jni/voice_engine_jni.h"
+#include "examples/android/media_demo/jni/voice_engine_jni.h"
 
 #include <map>
 #include <string>
 
-#include "webrtc/examples/android/media_demo/jni/jni_helpers.h"
-#include "webrtc/modules/utility/interface/helpers_android.h"
-#include "webrtc/test/channel_transport/include/channel_transport.h"
-#include "webrtc/voice_engine/include/voe_audio_processing.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_codec.h"
-#include "webrtc/voice_engine/include/voe_file.h"
-#include "webrtc/voice_engine/include/voe_hardware.h"
-#include "webrtc/voice_engine/include/voe_network.h"
-#include "webrtc/voice_engine/include/voe_rtp_rtcp.h"
-#include "webrtc/voice_engine/include/voe_volume_control.h"
+#include "examples/android/media_demo/jni/jni_helpers.h"
+#include "modules/utility/interface/helpers_android.h"
+#include "test/channel_transport/include/channel_transport.h"
+#include "voice_engine/include/voe_audio_processing.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_codec.h"
+#include "voice_engine/include/voe_file.h"
+#include "voice_engine/include/voe_hardware.h"
+#include "voice_engine/include/voe_network.h"
+#include "voice_engine/include/voe_rtp_rtcp.h"
+#include "voice_engine/include/voe_volume_control.h"
 
 // Macro for native functions that can be found by way of jni-auto discovery.
 // Note extern "C" is needed for "discovery" of native methods to work.
@@ -43,7 +43,7 @@ jclass GetClass(JNIEnv* jni, const char* name) {
   return g_class_reference_holder->GetClass(name);
 }
 
-static const char* g_classes[] = {"org/webrtc/webrtcdemo/CodecInst"};
+static const char* g_classes[] = {"org/webrtcdemo/CodecInst"};
 
 template<typename T>
 void ReleaseSubApi(T instance) {
@@ -322,7 +322,7 @@ JOWW(jobject, VoiceEngine_getCodec)(JNIEnv* jni, jobject j_voe, jint index) {
   webrtc::CodecInst* codec = new webrtc::CodecInst();
   CHECK(voe_data->codec->GetCodec(index, *codec) == 0,
         "getCodec must be called with valid index");
-  jclass j_codec_class = GetClass(jni, "org/webrtc/webrtcdemo/CodecInst");
+  jclass j_codec_class = GetClass(jni, "org/webrtcdemo/CodecInst");
   jmethodID j_codec_ctor = GetMethodID(jni, j_codec_class, "<init>", "(J)V");
   jobject j_codec =
       jni->NewObject(j_codec_class, j_codec_ctor, jlongFromPointer(codec));

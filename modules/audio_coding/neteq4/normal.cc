@@ -8,19 +8,19 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/normal.h"
+#include "modules/audio_coding/neteq4/normal.h"
 
 #include <string.h>  // memset, memcpy
 
 #include <algorithm>  // min
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/codecs/cng/include/webrtc_cng.h"
-#include "webrtc/modules/audio_coding/neteq4/audio_multi_vector.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/audio_decoder.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/codecs/cng/include/webrtc_cng.h"
+#include "modules/audio_coding/neteq4/audio_multi_vector.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/interface/audio_decoder.h"
 
 namespace webrtc {
 

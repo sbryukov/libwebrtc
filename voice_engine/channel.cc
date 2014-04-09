@@ -8,29 +8,29 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/voice_engine/channel.h"
+#include "voice_engine/channel.h"
 
-#include "webrtc/common.h"
-#include "webrtc/modules/audio_device/include/audio_device.h"
-#include "webrtc/modules/audio_processing/include/audio_processing.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/modules/rtp_rtcp/interface/receive_statistics.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/source/rtp_receiver_strategy.h"
-#include "webrtc/modules/utility/interface/audio_frame_operations.h"
-#include "webrtc/modules/utility/interface/process_thread.h"
-#include "webrtc/modules/utility/interface/rtp_dump.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/logging.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/voice_engine/include/voe_base.h"
-#include "webrtc/voice_engine/include/voe_external_media.h"
-#include "webrtc/voice_engine/include/voe_rtp_rtcp.h"
-#include "webrtc/voice_engine/output_mixer.h"
-#include "webrtc/voice_engine/statistics.h"
-#include "webrtc/voice_engine/transmit_mixer.h"
-#include "webrtc/voice_engine/utility.h"
+#include "common.h"
+#include "modules/audio_device/include/audio_device.h"
+#include "modules/audio_processing/include/audio_processing.h"
+#include "modules/interface/module_common_types.h"
+#include "modules/rtp_rtcp/interface/receive_statistics.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/source/rtp_receiver_strategy.h"
+#include "modules/utility/interface/audio_frame_operations.h"
+#include "modules/utility/interface/process_thread.h"
+#include "modules/utility/interface/rtp_dump.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/logging.h"
+#include "system_wrappers/interface/trace.h"
+#include "voice_engine/include/voe_base.h"
+#include "voice_engine/include/voe_external_media.h"
+#include "voice_engine/include/voe_rtp_rtcp.h"
+#include "voice_engine/output_mixer.h"
+#include "voice_engine/statistics.h"
+#include "voice_engine/transmit_mixer.h"
+#include "voice_engine/utility.h"
 
 #if defined(_WIN32)
 #include <Qos.h>
@@ -1319,7 +1319,7 @@ Channel::StopSend()
     // it might cause libSRTP to complain about packets being replayed.
     // TODO(xians): Remove this workaround after RtpRtcpModule's refactoring
     // CL is landed. See issue
-    // https://code.google.com/p/webrtc/issues/detail?id=2111 .
+    // https://code.google.com/p/issues/detail?id=2111 .
     send_sequence_number_ = _rtpRtcpModule->SequenceNumber();
 
     // Reset sending SSRC and sequence number and triggers direct transmission

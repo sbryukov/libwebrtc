@@ -11,24 +11,24 @@
 // This file contains JNI for the video engine interfaces.
 // The native functions are found using jni's auto discovery.
 
-#include "webrtc/examples/android/media_demo/jni/video_engine_jni.h"
+#include "examples/android/media_demo/jni/video_engine_jni.h"
 
 #include <map>
 #include <string>
 
-#include "webrtc/common_types.h"
-#include "webrtc/examples/android/media_demo/jni/jni_helpers.h"
-#include "webrtc/examples/android/media_demo/jni/media_codec_video_decoder.h"
-#include "webrtc/examples/android/media_demo/jni/voice_engine_jni.h"
-#include "webrtc/modules/utility/interface/helpers_android.h"
-#include "webrtc/test/channel_transport/include/channel_transport.h"
-#include "webrtc/video_engine/include/vie_base.h"
-#include "webrtc/video_engine/include/vie_capture.h"
-#include "webrtc/video_engine/include/vie_codec.h"
-#include "webrtc/video_engine/include/vie_external_codec.h"
-#include "webrtc/video_engine/include/vie_network.h"
-#include "webrtc/video_engine/include/vie_render.h"
-#include "webrtc/video_engine/include/vie_rtp_rtcp.h"
+#include "common_types.h"
+#include "examples/android/media_demo/jni/jni_helpers.h"
+#include "examples/android/media_demo/jni/media_codec_video_decoder.h"
+#include "examples/android/media_demo/jni/voice_engine_jni.h"
+#include "modules/utility/interface/helpers_android.h"
+#include "test/channel_transport/include/channel_transport.h"
+#include "video_engine/include/vie_base.h"
+#include "video_engine/include/vie_capture.h"
+#include "video_engine/include/vie_codec.h"
+#include "video_engine/include/vie_external_codec.h"
+#include "video_engine/include/vie_network.h"
+#include "video_engine/include/vie_render.h"
+#include "video_engine/include/vie_rtp_rtcp.h"
 
 // Macro for native functions that can be found by way of jni-auto discovery.
 // Note extern "C" is needed for "discovery" of native methods to work.
@@ -74,7 +74,7 @@ class VideoDecodeEncodeObserver : public webrtc::ViEDecoderObserver,
         GetMethodID(jni, j_observer_class, "incomingRate", "(III)V");
     incoming_codec_changed_ =
         GetMethodID(jni, j_observer_class, "incomingCodecChanged",
-                    "(ILorg/webrtc/webrtcdemo/VideoCodecInst;)V");
+                    "(ILorg/webrtcdemo/VideoCodecInst;)V");
     request_new_keyframe_ =
         GetMethodID(jni, j_observer_class, "requestNewKeyFrame", "(I)V");
     outgoing_rate_ =
@@ -110,7 +110,7 @@ class VideoDecodeEncodeObserver : public webrtc::ViEDecoderObserver,
     JNIEnv* jni = ats.env();
     webrtc::VideoCodec* codec = new webrtc::VideoCodec(video_codec);
     jclass j_codec_class =
-        GetClass("org/webrtc/webrtcdemo/VideoCodecInst");
+        GetClass("org/webrtcdemo/VideoCodecInst");
     jmethodID j_codec_ctor = GetMethodID(jni, j_codec_class, "<init>", "(J)V");
     jobject j_codec =
         jni->NewObject(j_codec_class, j_codec_ctor, jlongFromPointer(codec));
@@ -317,11 +317,11 @@ VideoEngineData* GetVideoEngineData(JNIEnv* jni, jobject j_vie) {
 namespace webrtc_examples {
 
 static const char* g_classes[] = {
-  "org/webrtc/webrtcdemo/CameraDesc",
-  "org/webrtc/webrtcdemo/RtcpStatistics",
-  "org/webrtc/webrtcdemo/VideoCodecInst",
-  "org/webrtc/webrtcdemo/VideoDecodeEncodeObserver",
-  "org/webrtc/webrtcdemo/MediaCodecVideoDecoder"};
+  "org/webrtcdemo/CameraDesc",
+  "org/webrtcdemo/RtcpStatistics",
+  "org/webrtcdemo/VideoCodecInst",
+  "org/webrtcdemo/VideoDecodeEncodeObserver",
+  "org/webrtcdemo/MediaCodecVideoDecoder"};
 
 void SetVieDeviceObjects(JavaVM* vm) {
   CHECK(vm, "Trying to register NULL vm");
@@ -451,7 +451,7 @@ JOWW(jobject, VideoEngine_getCodec)(JNIEnv* jni, jobject j_vie, jint index) {
   webrtc::VideoCodec* codec = new webrtc::VideoCodec();
   CHECK(vie_data->codec->GetCodec(index, *codec) == 0,
         "getCodec must be called with valid index");
-  jclass j_codec_class = GetClass("org/webrtc/webrtcdemo/VideoCodecInst");
+  jclass j_codec_class = GetClass("org/webrtcdemo/VideoCodecInst");
   jmethodID j_codec_ctor = GetMethodID(jni, j_codec_class, "<init>", "(J)V");
   jobject j_codec =
       jni->NewObject(j_codec_class, j_codec_ctor, jlongFromPointer(codec));
@@ -510,7 +510,7 @@ JOWW(jobject,
     delete camera_info;
     return NULL;
   }
-  jclass j_camera_class = GetClass("org/webrtc/webrtcdemo/CameraDesc");
+  jclass j_camera_class = GetClass("org/webrtcdemo/CameraDesc");
   jmethodID j_camera_ctor = GetMethodID(jni, j_camera_class, "<init>", "(J)V");
   jobject j_camera = jni->NewObject(j_camera_class, j_camera_ctor,
                                     jlongFromPointer(camera_info));
@@ -602,7 +602,7 @@ JOWW(jobject, VideoEngine_getReceivedRtcpStatistics)(JNIEnv* jni, jobject j_vie,
     return NULL;
   }
   jclass j_rtcp_statistics_class =
-      GetClass("org/webrtc/webrtcdemo/RtcpStatistics");
+      GetClass("org/webrtcdemo/RtcpStatistics");
   jmethodID j_rtcp_statistics_ctor =
       GetMethodID(jni, j_rtcp_statistics_class, "<init>", "(IIIII)V");
   jobject j_rtcp_statistics =

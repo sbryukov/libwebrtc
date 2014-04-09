@@ -8,14 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_processing/main/source/deflickering.h"
+#include "modules/video_processing/main/source/deflickering.h"
 
 #include <math.h>
 #include <stdlib.h>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/system_wrappers/interface/sort.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "system_wrappers/interface/sort.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

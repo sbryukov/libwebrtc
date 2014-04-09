@@ -8,24 +8,24 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/test/opus_test.h"
+#include "modules/audio_coding/main/test/opus_test.h"
 
 #include <assert.h>
 
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common.h"  // Config.
-#include "webrtc/common_types.h"
-#include "webrtc/engine_configurations.h"
-#include "webrtc/modules/audio_coding/codecs/opus/interface/opus_interface.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/modules/audio_coding/main/source/acm_codec_database.h"
-#include "webrtc/modules/audio_coding/main/source/acm_opus.h"
-#include "webrtc/modules/audio_coding/main/test/TestStereo.h"
-#include "webrtc/modules/audio_coding/main/test/utility.h"
-#include "webrtc/system_wrappers/interface/trace.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "common.h"  // Config.
+#include "common_types.h"
+#include "engine_configurations.h"
+#include "modules/audio_coding/codecs/opus/interface/opus_interface.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "modules/audio_coding/main/source/acm_codec_database.h"
+#include "modules/audio_coding/main/source/acm_opus.h"
+#include "modules/audio_coding/main/test/TestStereo.h"
+#include "modules/audio_coding/main/test/utility.h"
+#include "system_wrappers/interface/trace.h"
+#include "test/testsupport/fileutils.h"
 
 namespace webrtc {
 

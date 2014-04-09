@@ -12,7 +12,7 @@
  * This file includes unit tests for NetEQ.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/interface/neteq.h"
+#include "modules/audio_coding/neteq4/interface/neteq.h"
 
 #include <math.h>
 #include <stdlib.h>
@@ -24,11 +24,11 @@
 
 #include "gflags/gflags.h"
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
-#include "webrtc/modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
-#include "webrtc/typedefs.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
+#include "modules/audio_coding/codecs/pcm16b/include/pcm16b.h"
+#include "test/testsupport/fileutils.h"
+#include "test/testsupport/gtest_disable.h"
+#include "typedefs.h"
 
 DEFINE_bool(gen_ref, false, "Generate reference files.");
 

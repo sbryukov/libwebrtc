@@ -8,39 +8,39 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/neteq_impl.h"
+#include "modules/audio_coding/neteq4/neteq_impl.h"
 
 #include <assert.h>
 #include <memory.h>  // memset
 
 #include <algorithm>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_coding/neteq4/accelerate.h"
-#include "webrtc/modules/audio_coding/neteq4/background_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/buffer_level_filter.h"
-#include "webrtc/modules/audio_coding/neteq4/comfort_noise.h"
-#include "webrtc/modules/audio_coding/neteq4/decision_logic.h"
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/defines.h"
-#include "webrtc/modules/audio_coding/neteq4/delay_manager.h"
-#include "webrtc/modules/audio_coding/neteq4/delay_peak_detector.h"
-#include "webrtc/modules/audio_coding/neteq4/dtmf_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/dtmf_tone_generator.h"
-#include "webrtc/modules/audio_coding/neteq4/expand.h"
-#include "webrtc/modules/audio_coding/neteq4/interface/audio_decoder.h"
-#include "webrtc/modules/audio_coding/neteq4/merge.h"
-#include "webrtc/modules/audio_coding/neteq4/normal.h"
-#include "webrtc/modules/audio_coding/neteq4/packet_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/packet.h"
-#include "webrtc/modules/audio_coding/neteq4/payload_splitter.h"
-#include "webrtc/modules/audio_coding/neteq4/post_decode_vad.h"
-#include "webrtc/modules/audio_coding/neteq4/preemptive_expand.h"
-#include "webrtc/modules/audio_coding/neteq4/sync_buffer.h"
-#include "webrtc/modules/audio_coding/neteq4/timestamp_scaler.h"
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/logging.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_coding/neteq4/accelerate.h"
+#include "modules/audio_coding/neteq4/background_noise.h"
+#include "modules/audio_coding/neteq4/buffer_level_filter.h"
+#include "modules/audio_coding/neteq4/comfort_noise.h"
+#include "modules/audio_coding/neteq4/decision_logic.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/defines.h"
+#include "modules/audio_coding/neteq4/delay_manager.h"
+#include "modules/audio_coding/neteq4/delay_peak_detector.h"
+#include "modules/audio_coding/neteq4/dtmf_buffer.h"
+#include "modules/audio_coding/neteq4/dtmf_tone_generator.h"
+#include "modules/audio_coding/neteq4/expand.h"
+#include "modules/audio_coding/neteq4/interface/audio_decoder.h"
+#include "modules/audio_coding/neteq4/merge.h"
+#include "modules/audio_coding/neteq4/normal.h"
+#include "modules/audio_coding/neteq4/packet_buffer.h"
+#include "modules/audio_coding/neteq4/packet.h"
+#include "modules/audio_coding/neteq4/payload_splitter.h"
+#include "modules/audio_coding/neteq4/post_decode_vad.h"
+#include "modules/audio_coding/neteq4/preemptive_expand.h"
+#include "modules/audio_coding/neteq4/sync_buffer.h"
+#include "modules/audio_coding/neteq4/timestamp_scaler.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/logging.h"
 
 // Modify the code to obtain backwards bit-exactness. Once bit-exactness is no
 // longer required, this #define should be removed (and the code that it

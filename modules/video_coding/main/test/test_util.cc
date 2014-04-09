@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/test/test_util.h"
+#include "modules/video_coding/main/test/test_util.h"
 
 #include <assert.h>
 #include <math.h>
@@ -16,9 +16,9 @@
 #include <iomanip>
 #include <sstream>
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "test/testsupport/fileutils.h"
 
 CmdArgs::CmdArgs()
     : codecName("VP8"),

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/neteq4/decoder_database.h"
+#include "modules/audio_coding/neteq4/decoder_database.h"
 
 #include <assert.h>
 #include <stdlib.h>
@@ -18,8 +18,8 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_audio_decoder.h"
-#include "webrtc/test/testsupport/gtest_disable.h"
+#include "modules/audio_coding/neteq4/mock/mock_audio_decoder.h"
+#include "test/testsupport/gtest_disable.h"
 
 namespace webrtc {
 

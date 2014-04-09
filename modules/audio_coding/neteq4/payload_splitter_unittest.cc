@@ -10,16 +10,16 @@
 
 // Unit tests for PayloadSplitter class.
 
-#include "webrtc/modules/audio_coding/neteq4/payload_splitter.h"
+#include "modules/audio_coding/neteq4/payload_splitter.h"
 
 #include <assert.h>
 
 #include <utility>  // pair
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/mock/mock_decoder_database.h"
-#include "webrtc/modules/audio_coding/neteq4/packet.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/audio_coding/neteq4/mock/mock_decoder_database.h"
+#include "modules/audio_coding/neteq4/packet.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 using ::testing::Return;
 using ::testing::ReturnNull;

@@ -8,12 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_dtmf_playout.h"
+#include "modules/audio_coding/main/acm2/acm_dtmf_playout.h"
 
 #ifdef WEBRTC_CODEC_AVT
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/modules/audio_coding/main/acm2/acm_receiver.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "modules/audio_coding/main/acm2/acm_receiver.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {

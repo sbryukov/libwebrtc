@@ -8,10 +8,10 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/common_video/libyuv/include/webrtc_libyuv.h"
-#include "webrtc/modules/video_render/android/video_render_android_surface_view.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/tick_util.h"
+#include "common_video/libyuv/include/webrtc_libyuv.h"
+#include "modules/video_render/android/video_render_android_surface_view.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/tick_util.h"
 
 #ifdef ANDROID_LOG
 #include <android/log.h>
@@ -20,7 +20,7 @@
 #undef WEBRTC_TRACE
 #define WEBRTC_TRACE(a,b,c,...)  __android_log_print(ANDROID_LOG_DEBUG, "*WEBRTC*", __VA_ARGS__)
 #else
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {
@@ -120,7 +120,7 @@ int32_t AndroidSurfaceViewRenderer::Init() {
 
   // get the ViESurfaceRender class
   jclass javaRenderClassLocal =
-      env->FindClass("org/webrtc/videoengine/ViESurfaceRenderer");
+      env->FindClass("org/videoengine/ViESurfaceRenderer");
   if (!javaRenderClassLocal) {
     WEBRTC_TRACE(kTraceError,
                  kTraceVideoRenderer,
@@ -337,7 +337,7 @@ int32_t AndroidSurfaceViewChannel::Init(
   }
 
   jclass javaRenderClass =
-      env->FindClass("org/webrtc/videoengine/ViESurfaceRenderer");
+      env->FindClass("org/videoengine/ViESurfaceRenderer");
   if (!javaRenderClass) {
     WEBRTC_TRACE(kTraceError,
                  kTraceVideoRenderer,

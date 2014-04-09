@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/tools/frame_editing/frame_editing_lib.h"
+#include "tools/frame_editing/frame_editing_lib.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "webrtc/tools/simple_command_line_parser.h"
+#include "tools/simple_command_line_parser.h"
 
 // A command-line tool to edit a YUV-video (I420 sub-sampled).
 int main(int argc, char** argv) {

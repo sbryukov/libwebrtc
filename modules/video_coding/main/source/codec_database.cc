@@ -8,19 +8,19 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/video_coding/main/source/codec_database.h"
+#include "modules/video_coding/main/source/codec_database.h"
 
 #include <assert.h>
 
-#include "webrtc/engine_configurations.h"
+#include "engine_configurations.h"
 #ifdef VIDEOCODEC_I420
-#include "webrtc/modules/video_coding/codecs/i420/main/interface/i420.h"
+#include "modules/video_coding/codecs/i420/main/interface/i420.h"
 #endif
 #ifdef VIDEOCODEC_VP8
-#include "webrtc/modules/video_coding/codecs/vp8/include/vp8.h"
+#include "modules/video_coding/codecs/vp8/include/vp8.h"
 #endif
-#include "webrtc/modules/video_coding/main/source/internal_defines.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/video_coding/main/source/internal_defines.h"
+#include "system_wrappers/interface/trace.h"
 
 namespace webrtc {
 

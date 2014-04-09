@@ -12,10 +12,10 @@
 #include <string.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_video/interface/i420_video_frame.h"
-#include "webrtc/system_wrappers/interface/ref_count.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
-#include "webrtc/system_wrappers/interface/scoped_refptr.h"
+#include "common_video/interface/i420_video_frame.h"
+#include "system_wrappers/interface/ref_count.h"
+#include "system_wrappers/interface/scoped_ptr.h"
+#include "system_wrappers/interface/scoped_refptr.h"
 
 namespace webrtc {
 

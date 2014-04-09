@@ -9,9 +9,9 @@
  */
 
 #include "testing/gmock/include/gmock/gmock.h"
-#include "webrtc/modules/desktop_capture/differ.h"
-#include "webrtc/modules/desktop_capture/differ_block.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "modules/desktop_capture/differ.h"
+#include "modules/desktop_capture/differ_block.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

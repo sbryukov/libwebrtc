@@ -8,13 +8,13 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/pacing/include/paced_sender.h"
+#include "modules/pacing/include/paced_sender.h"
 
 #include <assert.h>
 
-#include "webrtc/modules/interface/module_common_types.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace_event.h"
+#include "modules/interface/module_common_types.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/trace_event.h"
 
 namespace {
 // Time limit in milliseconds between packet bursts.

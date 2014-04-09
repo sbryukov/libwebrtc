@@ -11,7 +11,7 @@
 /*
  * Contains the API functions for the AEC.
  */
-#include "webrtc/modules/audio_processing/aec/include/echo_cancellation.h"
+#include "modules/audio_processing/aec/include/echo_cancellation.h"
 
 #include <math.h>
 #ifdef WEBRTC_AEC_DEBUG_DUMP
@@ -20,12 +20,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "webrtc/common_audio/signal_processing/include/signal_processing_library.h"
-#include "webrtc/modules/audio_processing/aec/aec_core.h"
-#include "webrtc/modules/audio_processing/aec/aec_resampler.h"
-#include "webrtc/modules/audio_processing/aec/echo_cancellation_internal.h"
-#include "webrtc/modules/audio_processing/utility/ring_buffer.h"
-#include "webrtc/typedefs.h"
+#include "common_audio/signal_processing/include/signal_processing_library.h"
+#include "modules/audio_processing/aec/aec_core.h"
+#include "modules/audio_processing/aec/aec_resampler.h"
+#include "modules/audio_processing/aec/echo_cancellation_internal.h"
+#include "modules/audio_processing/utility/ring_buffer.h"
+#include "typedefs.h"
 
 // Measured delays [ms]
 // Device                Chrome  GTP

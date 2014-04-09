@@ -8,17 +8,17 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_device/android/opensles_input.h"
+#include "modules/audio_device/android/opensles_input.h"
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_device/android/audio_common.h"
-#include "webrtc/modules/audio_device/android/opensles_common.h"
-#include "webrtc/modules/audio_device/android/single_rw_fifo.h"
-#include "webrtc/modules/audio_device/audio_device_buffer.h"
-#include "webrtc/system_wrappers/interface/critical_section_wrapper.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_device/android/audio_common.h"
+#include "modules/audio_device/android/opensles_common.h"
+#include "modules/audio_device/android/single_rw_fifo.h"
+#include "modules/audio_device/audio_device_buffer.h"
+#include "system_wrappers/interface/critical_section_wrapper.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "system_wrappers/interface/trace.h"
 
 #define VOID_RETURN
 #define OPENSL_RETURN_ON_FAILURE(op, ret_val)                    \

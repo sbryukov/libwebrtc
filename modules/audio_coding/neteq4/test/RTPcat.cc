@@ -14,7 +14,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "webrtc/modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
+#include "modules/audio_coding/neteq4/test/NETEQTEST_RTPpacket.h"
 
 #define FIRSTLINELEN 40
 

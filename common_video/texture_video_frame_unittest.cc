@@ -9,8 +9,8 @@
  */
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/common_video/interface/native_handle.h"
-#include "webrtc/common_video/interface/texture_video_frame.h"
+#include "common_video/interface/native_handle.h"
+#include "common_video/interface/texture_video_frame.h"
 
 namespace webrtc {
 

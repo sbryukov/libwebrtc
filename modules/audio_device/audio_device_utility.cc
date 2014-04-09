@@ -10,7 +10,7 @@
 
 #include <assert.h>
 
-#include "webrtc/modules/audio_device/audio_device_utility.h"
+#include "modules/audio_device/audio_device_utility.h"
 
 #if defined(_WIN32)
 

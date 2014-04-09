@@ -12,12 +12,12 @@
 
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/channel_transport/udp_transport.h"
+#include "test/channel_transport/udp_transport.h"
 // We include the implementation header file to get at the dependency-injecting
 // constructor.
-#include "webrtc/test/channel_transport/udp_transport_impl.h"
+#include "test/channel_transport/udp_transport_impl.h"
 // We must mock the socket manager, for which we need its definition.
-#include "webrtc/test/channel_transport/udp_socket_manager_wrapper.h"
+#include "test/channel_transport/udp_socket_manager_wrapper.h"
 
 using ::testing::_;
 using ::testing::Return;

@@ -16,17 +16,17 @@
 
 #include <string.h>
 
-#include "webrtc/modules/rtp_rtcp/interface/rtp_payload_registry.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_receiver.h"
-#include "webrtc/modules/rtp_rtcp/interface/rtp_rtcp.h"
-#include "webrtc/modules/video_coding/main/interface/video_coding.h"
-#include "webrtc/modules/video_coding/main/test/media_opt_test.h"
-#include "webrtc/modules/video_coding/main/test/mt_test_common.h"
-#include "webrtc/modules/video_coding/main/test/receiver_tests.h"
-#include "webrtc/modules/video_coding/main/test/test_macros.h"
-#include "webrtc/modules/video_coding/main/test/test_util.h"
-#include "webrtc/system_wrappers/interface/thread_wrapper.h"
-#include "webrtc/test/testsupport/fileutils.h"
+#include "modules/rtp_rtcp/interface/rtp_payload_registry.h"
+#include "modules/rtp_rtcp/interface/rtp_receiver.h"
+#include "modules/rtp_rtcp/interface/rtp_rtcp.h"
+#include "modules/video_coding/main/interface/video_coding.h"
+#include "modules/video_coding/main/test/media_opt_test.h"
+#include "modules/video_coding/main/test/mt_test_common.h"
+#include "modules/video_coding/main/test/receiver_tests.h"
+#include "modules/video_coding/main/test/test_macros.h"
+#include "modules/video_coding/main/test/test_util.h"
+#include "system_wrappers/interface/thread_wrapper.h"
+#include "test/testsupport/fileutils.h"
 
 using namespace webrtc;
 

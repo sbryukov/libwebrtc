@@ -8,16 +8,16 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "webrtc/modules/audio_coding/main/acm2/nack.h"
+#include "modules/audio_coding/main/acm2/nack.h"
 
 #include <stdint.h>
 
 #include <algorithm>
 
 #include "gtest/gtest.h"
-#include "webrtc/typedefs.h"
-#include "webrtc/modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
-#include "webrtc/system_wrappers/interface/scoped_ptr.h"
+#include "typedefs.h"
+#include "modules/audio_coding/main/interface/audio_coding_module_typedefs.h"
+#include "system_wrappers/interface/scoped_ptr.h"
 
 namespace webrtc {
 

@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "webrtc/modules/video_render/android/video_render_opengles20.h"
+#include "modules/video_render/android/video_render_opengles20.h"
 
 //#define ANDROID_LOG
 
@@ -25,7 +25,7 @@
 #undef WEBRTC_TRACE
 #define WEBRTC_TRACE(a,b,c,...)  __android_log_print(ANDROID_LOG_DEBUG, "*WEBRTCN*", __VA_ARGS__)
 #else
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "system_wrappers/interface/trace.h"
 #endif
 
 namespace webrtc {

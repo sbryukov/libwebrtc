@@ -15,8 +15,8 @@
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/test/testsupport/fileutils.h"
-#include "webrtc/tools/frame_analyzer/video_quality_analysis.h"
+#include "test/testsupport/fileutils.h"
+#include "tools/frame_analyzer/video_quality_analysis.h"
 
 namespace webrtc {
 namespace test {

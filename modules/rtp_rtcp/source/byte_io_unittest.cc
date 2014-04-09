@@ -11,7 +11,7 @@
 #include <limits>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "webrtc/modules/rtp_rtcp/source/byte_io.h"
+#include "modules/rtp_rtcp/source/byte_io.h"
 
 namespace webrtc {
 namespace {

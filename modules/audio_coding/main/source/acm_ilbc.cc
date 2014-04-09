@@ -7,16 +7,16 @@
  *  in the file PATENTS.  All contributing project authors may
  *  be found in the AUTHORS file in the root of the source tree.
  */
-#include "webrtc/modules/audio_coding/main/source/acm_ilbc.h"
+#include "modules/audio_coding/main/source/acm_ilbc.h"
 
-#include "webrtc/modules/audio_coding/main/acm2/acm_common_defs.h"
-#include "webrtc/modules/audio_coding/main/source/acm_neteq.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq.h"
-#include "webrtc/modules/audio_coding/neteq/interface/webrtc_neteq_help_macros.h"
-#include "webrtc/system_wrappers/interface/trace.h"
+#include "modules/audio_coding/main/acm2/acm_common_defs.h"
+#include "modules/audio_coding/main/source/acm_neteq.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq.h"
+#include "modules/audio_coding/neteq/interface/webrtc_neteq_help_macros.h"
+#include "system_wrappers/interface/trace.h"
 
 #ifdef WEBRTC_CODEC_ILBC
-#include "webrtc/modules/audio_coding/codecs/ilbc/interface/ilbc.h"
+#include "modules/audio_coding/codecs/ilbc/interface/ilbc.h"
 #endif
 
 namespace webrtc {
