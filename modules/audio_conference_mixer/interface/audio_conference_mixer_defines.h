@@ -11,7 +11,7 @@
 #ifndef WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_INTERFACE_AUDIO_CONFERENCE_MIXER_DEFINES_H_
 #define WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_INTERFACE_AUDIO_CONFERENCE_MIXER_DEFINES_H_
 
-#include "modules/interface/module_common_types.h"
+#include "interface/module_common_types.h"
 #include "typedefs.h"
 
 namespace webrtc {

@@ -8,8 +8,8 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "modules/audio_conference_mixer/source/audio_frame_manipulator.h"
-#include "modules/interface/module_common_types.h"
+#include "audio_conference_mixer/source/audio_frame_manipulator.h"
+#include "interface/module_common_types.h"
 #include "typedefs.h"
 
 namespace {

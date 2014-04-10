@@ -11,9 +11,9 @@
 #ifndef WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_INTERFACE_AUDIO_CONFERENCE_MIXER_H_
 #define WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_INTERFACE_AUDIO_CONFERENCE_MIXER_H_
 
-#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
-#include "modules/interface/module.h"
-#include "modules/interface/module_common_types.h"
+#include "audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "interface/module.h"
+#include "interface/module_common_types.h"
 
 namespace webrtc {
 class AudioMixerOutputReceiver;

@@ -13,8 +13,8 @@
 
 #include "common_audio/resampler/include/push_resampler.h"
 #include "common_types.h"
-#include "modules/audio_conference_mixer/interface/audio_conference_mixer.h"
-#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "audio_conference_mixer/interface/audio_conference_mixer.h"
+#include "audio_conference_mixer/interface/audio_conference_mixer_defines.h"
 #include "modules/utility/interface/file_recorder.h"
 #include "voice_engine/dtmf_inband.h"
 #include "voice_engine/level_indicator.h"

@@ -14,7 +14,7 @@
 #include "common_audio/resampler/include/push_resampler.h"
 #include "common_types.h"
 #include "modules/audio_coding/main/interface/audio_coding_module.h"
-#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "audio_conference_mixer/interface/audio_conference_mixer_defines.h"
 #include "modules/rtp_rtcp/interface/rtp_header_parser.h"
 #include "modules/rtp_rtcp/interface/rtp_rtcp.h"
 #include "modules/utility/interface/file_player.h"

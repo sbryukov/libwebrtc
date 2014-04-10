@@ -2,7 +2,9 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 
-include_directories(../ ./source ./interface)
+include_directories(../../ 
+					 ../
+					 )
 
 set (ACONFMIX_SRC 
 	source/audio_frame_manipulator.cc

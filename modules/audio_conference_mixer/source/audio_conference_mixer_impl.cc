@@ -8,9 +8,9 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-#include "modules/audio_conference_mixer/interface/audio_conference_mixer_defines.h"
-#include "modules/audio_conference_mixer/source/audio_conference_mixer_impl.h"
-#include "modules/audio_conference_mixer/source/audio_frame_manipulator.h"
+#include "audio_conference_mixer/interface/audio_conference_mixer_defines.h"
+#include "audio_conference_mixer/source/audio_conference_mixer_impl.h"
+#include "audio_conference_mixer/source/audio_frame_manipulator.h"
 #include "modules/audio_processing/include/audio_processing.h"
 #include "modules/utility/interface/audio_frame_operations.h"
 #include "system_wrappers/interface/critical_section_wrapper.h"
