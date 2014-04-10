@@ -28,6 +28,14 @@ MESSAGE (STATUS "root path: ${LIBWEBRTC_BINARY_DIR} !!!")
 
 add_subdirectory("${CMAKE_VIDEO_ENGINE_PATH}")
 add_subdirectory("${CMAKE_COMMON_AUDIO_PATH}")
-#add_subdirectory("${CMAKE_VOE_ENGINE_PATH}")
 add_subdirectory("${CMAKE_AUDIO_CONF_MIX_PATH}")
+#add_subdirectory("${CMAKE_VOE_ENGINE_PATH}")
 
+link_directories("${CMAKE_VIDEO_ENGINE_PATH} 
+				  ${CMAKE_COMMON_AUDIO_PATH}  
+				  ${CMAKE_VOE_ENGINE_PATH} 
+				  ${CMAKE_AUDIO_CONF_MIX_PATH} ")
+
+
+add_library (webrtc_all)
+target_link_libraries (webrtc_all vie) 
