@@ -17,6 +17,7 @@ ENDIF(WIN32)
 
 
 SET(CMAKE_MODULE_PATH "${LIBWEBRTC_BINARY_DIR}/modules")
+SET(CMAKE_SYSTEM_WRAPPERS_PATH "${LIBWEBRTC_BINARY_DIR}/system_wrappers")
 SET(CMAKE_COMMON_AUDIO_PATH "${LIBWEBRTC_BINARY_DIR}/common_audio")
 SET(CMAKE_COMMON_VIDEO_PATH "${LIBWEBRTC_BINARY_DIR}/common_video")
 SET(CMAKE_VIDEO_ENGINE_PATH "${LIBWEBRTC_BINARY_DIR}/video_engine")
@@ -29,6 +30,8 @@ MESSAGE (STATUS "root path: ${LIBWEBRTC_BINARY_DIR} !!!")
 add_subdirectory("${CMAKE_VIDEO_ENGINE_PATH}")
 add_subdirectory("${CMAKE_COMMON_AUDIO_PATH}")
 add_subdirectory("${CMAKE_AUDIO_CONF_MIX_PATH}")
+add_subdirectory("${CMAKE_SYSTEM_WRAPPERS_PATH}")
+
 #add_subdirectory("${CMAKE_VOE_ENGINE_PATH}")
 
 link_directories("${CMAKE_VIDEO_ENGINE_PATH} 
@@ -38,4 +41,4 @@ link_directories("${CMAKE_VIDEO_ENGINE_PATH}
 
 
 add_library (webrtc_all)
-target_link_libraries (webrtc_all vie) 
+target_link_libraries (webrtc_all vie system_wrappers) 
